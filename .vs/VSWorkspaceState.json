@@ -1,7 +1,16 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\css",
+    "\\html",
+    "\\html\\gallery",
+    "\\img",
+    "\\img\\art",
+    "\\img\\gallery",
+    "\\img\\gallery\\Kiyoi",
+    "\\img\\gallery\\SatokiNijikawa",
+    "\\img\\gallery\\Wamo"
   ],
-  "SelectedNode": "\\D:\\~\\repo\\zoukagamiroku",
+  "SelectedNode": "\\html\\gallery\\Youko.html",
   "PreviewInSolutionExplorer": false
 }
