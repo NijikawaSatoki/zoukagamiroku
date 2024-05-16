@@ -1,0 +1,358 @@
+/* /-------------\
+ * | default.css |
+ * \-------------/
+ *
+ * For `/html/*`, with exception of `/html/menu.html`
+ *
+ */
+
+/* 　　　　〓
+ * 　　　　〓　　　〓〓〓〓〓〓〓
+ * 　　　　〓　　　　　　〓
+ * 　〓〓〓〓〓〓〓　　　〓
+ * 　〓　　〓　　〓　　　〓
+ * 　〓　　〓　　〓　　　〓
+ * 　〓　　〓　　〓　　　〓
+ * 　〓　　〓　　〓　　　〓
+ * 　〓〓〓〓〓〓〓　　　〓
+ * 　　　　〓　　　　　　〓
+ * 　　　　〓　　　　　　〓
+ * 　　　　〓　〓　　　　〓
+ * 　　　　〓　〓　　　　〓
+ * 　　　　〓〓〓〓　　　〓
+ * 　〓〓〓〓　　〓　　　〓
+ * 　　　　　　　　〓〓〓〓〓〓〓〓
+ */
+
+/* ┌─────────────────────────────────────────┐
+ * │ Import fonts from Google (sorry EU :/ ) │
+ * └─────────────────────────────────────────┘
+ *
+ * This is mainly for in the event that the fonts I normally
+ * use are not installed on the PC.
+ *
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans'); /* Imports Noto Sans */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP'); /* Imports Noto Sans Japanese */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP'); /* Imports Noto Serif Japanese */
+
+/* ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+ * ┃ Styling for specific elements ┃
+ * ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+ */
+
+/* ┌─────────────────────┐
+ * │ Stylesheet for body │
+ * └─────────────────────┘
+ */
+
+body {
+	font-family: "ヒラギノ丸ゴ Pro W4", "Noto Sans JP", sans-serif;
+	font-size: 14pt;
+	background-color: black;
+	color: white;
+	padding-right: 2px;
+	padding-left: 2px;
+}
+
+/* ┌─────────────────────────┐
+ * │ Stylesheet for headings │
+ * └─────────────────────────┘
+ */
+
+/* Heading 1 */
+h1 {
+	font-size: 32pt;
+	font-family: "ヒラギノ明朝 Pro W6", "Noto Serif JP", serif;
+	line-height: 1em;
+	margin-bottom: auto;
+	text-align: center;
+}
+
+/* Heading 2 */
+h2 {
+	font-size: 28pt;
+	font-family: "ヒラギノ明朝 Pro W6", "Noto Serif JP", serif;
+	line-height: 1em;
+	margin-bottom: auto;
+	text-align: center;
+}
+
+/* Heading 3 */
+h3 {
+	font-size: 24pt;
+	font-family: "ヒラギノ明朝 Pro W6", "Noto Serif JP", serif;
+	line-height: 1em;
+	margin-bottom: auto;
+	text-align: center;
+}
+
+/* Heading 4 */
+h4 {
+	font-size: 18pt;
+	font-family: "ヒラギノ角ゴ Pro W6", "Noto Sans JP", sans-serif;
+	line-height: 1em;
+	margin-bottom: auto;
+	text-align: center;
+}
+
+/* Heading 5 */
+h5 {
+	font-size: 16pt;
+	font-family: "ヒラギノ角ゴ Pro W6", "Noto Sans JP", sans-serif;
+	line-height: 1em;
+	margin-bottom: auto;
+	text-align: center;
+}
+
+/* ┌─────────────────────────┐
+ * │ Stylesheet for furigana │
+ * └─────────────────────────┘
+ */
+
+/* Furigana / ふりがな */
+rt {
+	font-size: 0.55em; /* see https://www.w3.org/TR/jlreq/?lang=en#ruby_and_emphasis_dots for more details */
+}
+
+/* ┌───────────────────────┐
+ * │ Stylesheet for header │
+ * └───────────────────────┘
+ */
+
+header {
+	background-color: #222;
+	padding: 8px;
+	text-align: center;
+}
+
+/* ┌────────────────────────┐
+ * │ Stylesheet for article │
+ * └────────────────────────┘
+ */
+
+article {
+	padding: 8px;
+}
+
+/* ┌───────────────────────┐
+ * │ Styelsheet for footer │
+ * └───────────────────────┘
+ */
+
+footer {
+	background-color: #444;
+	padding: 8px;
+	text-align: center;
+	color: white;
+	font-family: "ヒラギノ角ゴ Pro W3", "Noto Sans JP", sans-serif;
+}
+
+/* ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+ * ┃ Classes for various stuffs >:3 ┃
+ * ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+ */
+
+/* ┌────────────────────────────┐
+ * │ Language classes for fonts │
+ * └────────────────────────────┘
+ */
+
+/* Burmese script */
+.font-myanmar {
+	font-family: Pyidaungsu, "Noto Sans Myanmar UI", "Noto Sans Myanmar", "Myanmar Text", sans-serif;
+}
+
+/* Cyrillic alphabet */
+.font-cyrillic {
+	font-family: "Noto Sans", "Linux Biolinum", Arial, sans-serif;
+}
+
+/* Simplified Chinese */
+.font-simphanzi {
+	font-family: "Noto Sans CJK SC", KaiTi, sans-serif;
+}
+
+/* Traditional Chinese */
+.font-tradhanzi {
+	font-family: "Noto Sans CJK TC", "DFKai-SB", sans-serif;
+}
+
+/* Devanagari */
+.font-devanagari {
+	font-family: Chandas, "Noto Serif Devanagari", "Sanskrit Text", Mangal, serif;
+}
+
+/* Georgian script */
+.font-georgian {
+	font-family: "Noto Sans Georgian", Sylfaen, serif;
+}
+
+/* Greek alphabet */
+.font-greek {
+	font-family: "Noto Sans", "Linux Biolinum", Arial, sans-serif;
+}
+
+/* Korean - Hangul */
+.font-hangul {
+	font-family: "Noto Sans CJK KR", Gulim, sans-serif;
+}
+
+/* Korean - Hanja */
+.font-hanja {
+	font-family: "Noto Sans CJK KR", Gulim, sans-serif;
+}
+
+/* Latin alphabet */
+.font-latin {
+	font-family: "Noto Sans", "Linux Biolinum", Arial, sans-serif;
+}
+
+/* Malayalam script */
+.font-malayalam {
+	font-family: Gayathri, "Noto Sans Malayalam" sans-serif;
+}
+
+/* Mongolian script */
+.font-mongolian {
+	font-family: "Menk Hawang Tig", "Menk Qagan Tig", "Menk Garqag Tig", "Menk Har_a Tig", "Menk Scnin Tig", "Oyun Gurban Ulus Tig", "Oyun Qagan Tig", "Oyun Garqag Tig", "Oyun Har_a Tig", "Oyun Scnin Tig", "Oyun Agula Tig", "Mongolian Baiti", "Noto Sans Mongolian", "Mongolian Universal White", "Mongol Usug", "Mongolian White", "MongolianScript", "Code2000", "Menksoft Qagan", serif;
+	font-size: 150%;
+}
+
+/* Perso-Arabic script - Naskh */
+.font-naskh {
+	font-family: "Noto Naskh Arabic UI", "Noto Naskh Arabic", "Arabic Typesetting", Dubai, serif;
+}
+
+/* Perso-Arabic script - Nastaliq */
+.font-nastaliq {
+	font-family: "Noto Nastaliq Urdu", "Urdu Typesetting", serif;
+}
+
+/* Tibetan script */
+.font-tibetan {
+	font-family: "Tibetan Machine Uni", "BabelStone Tibetan Slim", "BabelStone Tibetan", "Noto Serif Tibetan", serif;
+}
+
+/* ┌───────────────┐
+ * │ <div> classes │
+ * └───────────────┘
+ */
+
+/* <div> for entire blocks */
+.section {
+	margin: 4px;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-bottom: 16px;
+}
+
+/* <div> for galleries */
+.gallery {
+	padding-top: 8px;
+	padding-right: 4px;
+	padding-left: 4px;
+	padding-bottom: 0px;
+}
+
+/* <div> for headings */
+.heading {
+	padding-top: 4px;
+	padding-right: 8px;
+	padding-left: 8px;
+	padding-bottom: 4px;
+}
+
+/* <div> for body text */
+.body {
+	padding-top: 4px;
+	padding-right: 8px;
+	padding-left: 8px;
+	padding-bottom: 4px;
+}
+
+/* <div> for sprite (and their captions) */
+.sprite {
+	float: right;
+	box-sizing: border-box;
+	border-style: ridge;
+	border-width: 5px;
+	border-color: #666666;
+	padding: 1px;
+	margin: 4px;
+	background-color: #666666;
+}
+
+/* <div> for character art (and their captions) */
+.art-chara {
+	float: right;
+	box-sizing: border-box;
+	border-style: ridge;
+	border-width: 5px;
+	border-color: #666666;
+	padding: 1px;
+	margin: 4px;
+	background-color: #666666;
+}
+
+/* <div> for prides! */
+.pride {
+	float: right;
+	box-sizing: border-box;
+	border-style: ridge;
+	border-width: 5px;
+	border-color: hotpink;
+	padding: 1px;
+	margin: 4px;
+	background-color: hotpink;
+}
+
+/* <div> for character refs */
+.art-ref {
+	float: left;
+	box-sizing: border-box;
+	border-style: ridge;
+	border-width: 5px;
+	border-color: #666666;
+	padding: 1px;
+	margin: 8px;
+	background-color: #666666;
+}
+
+/* ┌─────────────────┐
+ * │ Flexbox classes │
+ * └─────────────────┘
+ */
+
+/* Art Gallery flexbox */
+.flex-gallery {
+	display: flex;
+	flex-direction: row;
+}
+
+/* ┌───────────────┐
+ * │ Other classes │
+ * └───────────────┘
+ * 
+ */
+
+/* Captions! */
+.caption {
+	padding: 0px;
+	margin: 2px;
+}
+
+/* Image borders (primarily for the pride flags) :3 */
+.border {
+	border-style: groove;
+	border-width: 2px;
+	border-color: #FEFEFA;
+}
+
+/* COMING AT SOME POINT!! */
+.coming-soon {
+	text-align: center;
+	font-size: 128pt;
+}
