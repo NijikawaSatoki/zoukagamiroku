@@ -321,6 +321,18 @@ footer {
 	background-color: #666666;
 }
 
+/* <div> for character art (Gallery only) */
+.art-gallery {
+    float: left;
+    box-sizing: border-box;
+    border-style: ridge;
+    border-width: 5px;
+    border-color: #666666;
+    padding: 1px;
+    margin: 8px;
+    background-color: #666666;
+}
+
 /* ┌─────────────────┐
  * │ Flexbox classes │
  * └─────────────────┘
