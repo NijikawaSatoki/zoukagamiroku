@@ -3,7 +3,7 @@
 
 ![天園神關里](./img/art/天園神關里.png "天園神關里　～ Brilliance of Heaven Pleasure")
 
-Just an HTML version of an encyclopaedia for a project of mine.
+Just an HTML version of an encyclopædia for a project of mine.
 
 ### Running
 
