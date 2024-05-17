@@ -344,6 +344,12 @@ footer {
 	flex-direction: row;
 }
 
+/* Character art flexbox */
+.flex-art {
+    display: flex;
+    flex-direction: column;
+}
+
 /* ┌───────────────┐
  * │ Other classes │
  * └───────────────┘
