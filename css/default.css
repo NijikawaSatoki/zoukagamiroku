@@ -48,7 +48,7 @@
  */
 
 body {
-	font-family: "ヒラギノ丸ゴ Pro W4", "Noto Sans CJK JP", "Noto Sans JP", sans-serif;
+	font-family: 'ヒラギノ丸ゴ Pro W4', 'Noto Sans CJK JP', 'Noto Sans JP', sans-serif;
 	font-size: 14pt;
 	background-color: black;
 	color: white;
@@ -64,7 +64,7 @@ body {
 /* Heading 1 */
 h1 {
 	font-size: 32pt;
-	font-family: "ヒラギノ明朝 Pro W6", "Noto Serif CJK JP", "Noto Serif JP", serif;
+	font-family: 'ヒラギノ明朝 Pro W6', 'Noto Serif CJK JP', 'Noto Serif JP', serif;
 	line-height: 1em;
 	margin-bottom: auto;
 	text-align: center;
@@ -73,7 +73,7 @@ h1 {
 /* Heading 2 */
 h2 {
     font-size: 28pt;
-    font-family: "ヒラギノ明朝 Pro W6", "Noto Serif CJK JP", "Noto Serif JP", serif;
+    font-family: 'ヒラギノ明朝 Pro W6', 'Noto Serif CJK JP', 'Noto Serif JP', serif;
     line-height: 1em;
     margin-bottom: auto;
     text-align: center;
@@ -82,7 +82,7 @@ h2 {
 /* Heading 3 */
 h3 {
     font-size: 24pt;
-    font-family: "ヒラギノ明朝 Pro W6", "Noto Serif CJK JP", "Noto Serif JP", serif;
+    font-family: 'ヒラギノ明朝 Pro W6', 'Noto Serif CJK JP', 'Noto Serif JP', serif;
     line-height: 1em;
     margin-bottom: auto;
     text-align: center;
@@ -91,7 +91,7 @@ h3 {
 /* Heading 4 */
 h4 {
     font-size: 18pt;
-    font-family: "ヒラギノ角ゴ Pro W6", "Noto Sans CJK JP", "Noto Sans JP", sans-serif;
+    font-family: 'ヒラギノ角ゴ Pro W6', 'Noto Sans CJK JP', 'Noto Sans JP', sans-serif;
     line-height: 1em;
     margin-bottom: auto;
     text-align: center;
@@ -100,7 +100,7 @@ h4 {
 /* Heading 5 */
 h5 {
     font-size: 16pt;
-    font-family: "ヒラギノ角ゴ Pro W6", "Noto Sans CJK JP", "Noto Sans JP", sans-serif;
+    font-family: 'ヒラギノ角ゴ Pro W6', 'Noto Sans CJK JP', 'Noto Sans JP', sans-serif;
     line-height: 1em;
     margin-bottom: auto;
     text-align: center;
@@ -146,7 +146,7 @@ footer {
     padding: 8px;
     text-align: center;
     color: white;
-    font-family: "ヒラギノ角ゴ Pro W3", "Noto Sans CJK JP", "Noto Sans JP", sans-serif;
+    font-family: 'ヒラギノ角ゴ Pro W3', 'Noto Sans CJK JP', 'Noto Sans JP', sans-serif;
 }
 
 /* ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
@@ -161,83 +161,83 @@ footer {
 
 /* Burmese script */
 .font-myanmar {
-    font-family: Pyidaungsu, "Noto Sans Myanmar UI", "Myanmar Text", "Noto Sans Myanmar", sans-serif;
+    font-family: Pyidaungsu, 'Noto Sans Myanmar UI', 'Myanmar Text', 'Noto Sans Myanmar', sans-serif;
     font-size: 125%;
 }
 
 /* Cyrillic alphabet */
 .font-cyrillic {
-    font-family: "Linux Biolinum", Arial, "Noto Sans", sans-serif;
+    font-family: 'Linux Biolinum', Arial, 'Noto Sans', sans-serif;
 }
 
 /* Simplified Chinese */
 .font-simphanzi {
-	font-family: "Noto Sans CJK SC", KaiTi, sans-serif;
+	font-family: 'Noto Sans CJK SC', KaiTi, sans-serif;
 }
 
 /* Traditional Chinese */
 .font-tradhanzi {
-	font-family: "Noto Sans CJK TC", "DFKai-SB", sans-serif;
+	font-family: 'Noto Sans CJK TC', 'DFKai-SB', sans-serif;
 }
 
 /* Devanagari */
 .font-devanagari {
-    font-family: Chandas, "Sanskrit Text", Mangal, "Noto Serif Devanagari", serif;
+    font-family: Chandas, 'Sanskrit Text', Mangal, 'Noto Serif Devanagari', serif;
     font-size: 125%;
 }
 
 /* Georgian script */
 .font-georgian {
-    font-family: Sylfaen, "Noto Sans Georgian", serif;
+    font-family: Sylfaen, 'Noto Sans Georgian', serif;
 }
 
 /* Greek alphabet */
 .font-greek {
-    font-family: "Linux Biolinum", Arial, "Noto Sans", sans-serif;
+    font-family: 'Linux Biolinum', Arial, 'Noto Sans', sans-serif;
 }
 
 /* Korean - Hangul */
 .font-hangul {
-    font-family: Gulim, "Noto Sans CJK KR", sans-serif;
+    font-family: Gulim, 'Noto Sans CJK KR', sans-serif;
 }
 
 /* Korean - Hanja */
 .font-hanja {
-    font-family: Gulim, "Noto Sans CJK KR", sans-serif;
+    font-family: Gulim, 'Noto Sans CJK KR', sans-serif;
 }
 
 /* Latin alphabet */
 .font-latin {
-    font-family: "Linux Biolinum", Arial, "Noto Sans", sans-serif;
+    font-family: 'Linux Biolinum', Arial, 'Noto Sans', sans-serif;
 }
 
 /* Malayalam script */
 .font-malayalam {
-	font-family: Gayathri, "Noto Sans Malayalam" sans-serif;
+	font-family: Gayathri, 'Noto Sans Malayalam' sans-serif;
     font-size: 125%;
 }
 
 /* Mongolian script */
 .font-mongolian {
-    font-family: "Menk Hawang Tig", "Menk Qagan Tig", "Menk Garqag Tig", "Menk Har_a Tig", "Menk Scnin Tig", "Oyun Gurban Ulus Tig", "Oyun Qagan Tig", "Oyun Garqag Tig", "Oyun Har_a Tig", "Oyun Scnin Tig", "Oyun Agula Tig", "Mongolian Baiti", "Mongolian Universal White", "Mongol Usug", "Mongolian White", "MongolianScript", "Code2000", "Menksoft Qagan", "Noto Sans Mongolian", serif;
+    font-family: 'Menk Hawang Tig', 'Menk Qagan Tig', 'Menk Garqag Tig', 'Menk Har_a Tig', 'Menk Scnin Tig', 'Oyun Gurban Ulus Tig', 'Oyun Qagan Tig', 'Oyun Garqag Tig', 'Oyun Har_a Tig', 'Oyun Scnin Tig', 'Oyun Agula Tig', 'Mongolian Baiti', 'Mongolian Universal White', 'Mongol Usug', 'Mongolian White', 'MongolianScript', 'Code2000', 'Menksoft Qagan', 'Noto Sans Mongolian', serif;
     font-size: 150%;
 }
 
 /* Perso-Arabic script - Naskh */
 .font-naskh {
-    font-family: "Noto Naskh Arabic UI", "Arabic Typesetting", Dubai, "Noto Naskh Arabic", serif;
+    font-family: 'Noto Naskh Arabic UI', 'Arabic Typesetting', Dubai, 'Noto Naskh Arabic', serif;
     font-size: 125%;
 }
 
 /* Perso-Arabic script - Nastaliq */
 .font-nastaliq {
-    font-family: "Urdu Typesetting", "Noto Nastaliq Urdu", serif;
+    font-family: 'Urdu Typesetting', 'Noto Nastaliq Urdu', serif;
     font-size: 125%;
 }
 
 /* Tibetan script */
 .font-tibetan {
-	font-family: "Tibetan Machine Uni", "BabelStone Tibetan Slim", "BabelStone Tibetan", "Noto Serif Tibetan", serif;
+	font-family: 'Tibetan Machine Uni', 'BabelStone Tibetan Slim', 'BabelStone Tibetan', 'Noto Serif Tibetan', serif;
     font-size: 125%;
 }
 

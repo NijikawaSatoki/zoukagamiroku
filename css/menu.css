@@ -47,7 +47,7 @@
  */
 
 body {
-	font-family: "ヒラギノ角ゴ Pro W3", "Noto Sans JP", sans-serif;
+	font-family: 'ヒラギノ角ゴ Pro W3', 'Noto Sans JP', sans-serif;
 	font-size: 12pt;
 	background-color: black;
 	color: lightgrey;
@@ -63,7 +63,7 @@ body {
 /* Heading 1 */
 h1 {
     font-size: 32pt;
-    font-family: "ヒラギノ明朝 Pro W6", "Noto Serif CJK JP", "Noto Serif JP", serif;
+    font-family: 'ヒラギノ明朝 Pro W6', 'Noto Serif CJK JP', 'Noto Serif JP', serif;
     line-height: 1em;
     text-align: center;
     margin-bottom: auto;
@@ -72,7 +72,7 @@ h1 {
 /* Heading 2 */
 h2 {
     font-size: 28pt;
-    font-family: "ヒラギノ明朝 Pro W6", "Noto Serif CJK JP", "Noto Serif JP", serif;
+    font-family: 'ヒラギノ明朝 Pro W6', 'Noto Serif CJK JP', 'Noto Serif JP', serif;
     line-height: 1em;
     text-align: center;
     margin-bottom: auto;
@@ -81,7 +81,7 @@ h2 {
 /* Heading 3 */
 h3 {
     font-size: 24pt;
-    font-family: "ヒラギノ明朝 Pro W6", "Noto Serif CJK JP", "Noto Serif JP", serif;
+    font-family: 'ヒラギノ明朝 Pro W6', 'Noto Serif CJK JP', 'Noto Serif JP', serif;
     line-height: 1em;
     text-align: center;
     margin-bottom: auto;
@@ -90,7 +90,7 @@ h3 {
 /* Heading 4 */
 h4 {
     font-size: 18pt;
-    font-family: "ヒラギノ角ゴ Std W8", "Noto Sans CJK JP", "Noto Sans JP", sans-serif;
+    font-family: 'ヒラギノ角ゴ Std W8', 'Noto Sans CJK JP', 'Noto Sans JP', sans-serif;
     line-height: 1em;
     text-align: center;
     margin-bottom: auto;
@@ -99,7 +99,7 @@ h4 {
 /* Heading 5 */
 h5 {
     font-size: 16pt;
-    font-family: "ヒラギノ角ゴ Pro W6", "Noto Sans CJK JP", "Noto Sans JP", sans-serif;
+    font-family: 'ヒラギノ角ゴ Pro W6', 'Noto Sans CJK JP', 'Noto Sans JP', sans-serif;
     line-height: 1em;
     text-align: center;
     margin-bottom: auto;
@@ -108,7 +108,7 @@ h5 {
 /* Heading 6 */
 h6 {
     font-size: 14pt;
-    font-family: "ヒラギノ角ゴ Pro W6", "Noto Sans CJK JP", "Noto Sans JP", sans-serif;
+    font-family: 'ヒラギノ角ゴ Pro W6', 'Noto Sans CJK JP', 'Noto Sans JP', sans-serif;
     line-height: 1em;
     text-align: center;
     margin-bottom: auto;
