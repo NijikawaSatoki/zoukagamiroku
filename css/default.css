@@ -251,7 +251,7 @@ footer {
 
 /* Malayalam script */
 .font-malayalam {
-    font-family: 'Gayathri', 'Noto Sans Malayalam' sans-serif;
+    font-family: 'Gayathri', 'Noto Sans Malayalam', sans-serif;
     font-size: 125%;
 }
 
