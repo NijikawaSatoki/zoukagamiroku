@@ -182,6 +182,7 @@ footer {
 /* Devanagari */
 .font-devanagari {
 	font-family: Chandas, "Noto Serif Devanagari", "Sanskrit Text", Mangal, serif;
+    font-size: 125%;
 }
 
 /* Georgian script */
