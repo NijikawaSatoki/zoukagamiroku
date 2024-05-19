@@ -226,6 +226,7 @@ footer {
 /* Perso-Arabic script - Naskh */
 .font-naskh {
 	font-family: "Noto Naskh Arabic UI", "Noto Naskh Arabic", "Arabic Typesetting", Dubai, serif;
+    font-size: 125%;
 }
 
 /* Perso-Arabic script - Nastaliq */
