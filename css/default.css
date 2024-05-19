@@ -204,12 +204,12 @@ footer {
 
 /* Korean - Hangul */
 .font-hangul {
-    font-family: 'Gulim', 'Noto Sans CJK KR', sans-serif;
+    font-family: 'Gulim', 'Noto Sans CJK KR', 'Noto Sans KR', sans-serif;
 }
 
 /* Korean - Hanja */
 .font-hanja {
-    font-family: 'Gulim', 'Noto Sans CJK KR', sans-serif;
+    font-family: 'Gulim', 'Noto Sans CJK KR', 'Noto Sans KR', sans-serif;
 }
 
 /* Latin alphabet */
