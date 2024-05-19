@@ -162,6 +162,7 @@ footer {
 /* Burmese script */
 .font-myanmar {
 	font-family: Pyidaungsu, "Noto Sans Myanmar UI", "Noto Sans Myanmar", "Myanmar Text", sans-serif;
+    font-size: 125%;
 }
 
 /* Cyrillic alphabet */
