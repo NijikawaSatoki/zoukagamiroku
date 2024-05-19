@@ -36,6 +36,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP'); /* Imports Noto Sans Japanese */
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP'); /* Imports Noto Serif Japanese */
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Myanmar'); /* Imports Noto Sans Myanmar */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC'); /* Imports Noto Sans Simplified Chinese */
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans'); /* Imports Noto Sans */
 
 /* ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
@@ -173,7 +174,7 @@ footer {
 
 /* Simplified Chinese */
 .font-simphanzi {
-	font-family: 'Noto Sans CJK SC', 'KaiTi', sans-serif;
+	font-family: 'Noto Sans CJK SC', 'KaiTi', 'Noto Sans SC', sans-serif;
 }
 
 /* Traditional Chinese */
