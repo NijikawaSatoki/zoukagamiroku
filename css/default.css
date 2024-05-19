@@ -232,6 +232,7 @@ footer {
 /* Perso-Arabic script - Nastaliq */
 .font-nastaliq {
 	font-family: "Noto Nastaliq Urdu", "Urdu Typesetting", serif;
+    font-size: 125%;
 }
 
 /* Tibetan script */
