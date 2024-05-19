@@ -32,21 +32,47 @@
  * use are not installed on the PC.
  *
  */
+/* Noto Sans Japanese */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP');
 
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP'); /* Imports Noto Sans Japanese */
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP'); /* Imports Noto Serif Japanese */
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Myanmar'); /* Imports Noto Sans Myanmar */
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans'); /* Imports Noto Sans */
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC'); /* Imports Noto Sans Simplified Chinese */
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC'); /* Imports Noto Sans Traditional Chinese */
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Devanagari'); /* Imports Noto Serif Devanagari */
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian'); /* Imports Noto Sans Georgian */
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR'); /* Imports Noto Sans Korean */
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Malayalam'); /* Imports Noto Sans Malayalam */
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mongolian'); /* Imports Noto Sans Mongolian */
-@import url('https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic'); /* Imports Noto Naskh Arabic */
-@import url('https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu'); /* Imports Noto Nastaliq Urdu */
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Tibetan'); /* Imports Noto Serif Tibetan */
+/* Noto Serif Japanese */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP');
+
+/* Noto Sans Myanmar */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Myanmar');
+
+/* Noto Sans */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans');
+
+/* Noto Sans Simplified Chinese */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC');
+
+/* Noto Sans Traditional Chinese */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC');
+
+/* Noto Serif Devanagari */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Devanagari');
+
+/* Noto Sans Georgian */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian');
+
+/* Noto Sans Korean */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR');
+
+/* Noto Sans Malayalam */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Malayalam');
+
+/* Noto Sans Mongolian */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mongolian');
+
+/* Noto Naskh Arabic */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic');
+
+/* Noto Nastaliq Urdu */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu');
+
+/* Noto Serif Tibetan */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Tibetan');
 
 /* ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
  * ┃ Styling for specific elements ┃
