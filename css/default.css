@@ -233,6 +233,7 @@ footer {
 /* Tibetan script */
 .font-tibetan {
 	font-family: "Tibetan Machine Uni", "BabelStone Tibetan Slim", "BabelStone Tibetan", "Noto Serif Tibetan", serif;
+    font-size: 125%;
 }
 
 /* ┌───────────────┐
