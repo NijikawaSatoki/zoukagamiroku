@@ -205,7 +205,7 @@ footer {
 
 /* Cyrillic alphabet */
 .font-cyrillic {
-    font-family: 'Linux Biolinum', 'Arial', 'Noto Sans', sans-serif;
+    font-family: 'Linux Biolinum', 'Arimo', 'Arial', 'Noto Sans', sans-serif;
 }
 
 /* Simplified Chinese */
@@ -231,7 +231,7 @@ footer {
 
 /* Greek alphabet */
 .font-greek {
-    font-family: 'Linux Biolinum', 'Arial', 'Noto Sans', sans-serif;
+    font-family: 'Linux Biolinum', 'Arimo', 'Arial', 'Noto Sans', sans-serif;
 }
 
 /* Korean - Hangul */
@@ -246,7 +246,7 @@ footer {
 
 /* Latin alphabet */
 .font-latin {
-    font-family: 'Linux Biolinum', 'Arial', 'Noto Sans', sans-serif;
+    font-family: 'Linux Biolinum', 'Arimo', 'Arial', 'Noto Sans', sans-serif;
 }
 
 /* Malayalam script */
