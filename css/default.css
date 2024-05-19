@@ -167,12 +167,12 @@ footer {
 
 /* Cyrillic alphabet */
 .font-cyrillic {
-    font-family: 'Linux Biolinum', Arial, 'Noto Sans', sans-serif;
+    font-family: 'Linux Biolinum', 'Arial', 'Noto Sans', sans-serif;
 }
 
 /* Simplified Chinese */
 .font-simphanzi {
-	font-family: 'Noto Sans CJK SC', KaiTi, sans-serif;
+	font-family: 'Noto Sans CJK SC', 'KaiTi', sans-serif;
 }
 
 /* Traditional Chinese */
@@ -182,38 +182,38 @@ footer {
 
 /* Devanagari */
 .font-devanagari {
-    font-family: Chandas, 'Sanskrit Text', Mangal, 'Noto Serif Devanagari', serif;
+    font-family: 'Chandas', 'Sanskrit Text', 'Mangal', 'Noto Serif Devanagari', serif;
     font-size: 125%;
 }
 
 /* Georgian script */
 .font-georgian {
-    font-family: Sylfaen, 'Noto Sans Georgian', serif;
+    font-family: 'Sylfaen', 'Noto Sans Georgian', serif;
 }
 
 /* Greek alphabet */
 .font-greek {
-    font-family: 'Linux Biolinum', Arial, 'Noto Sans', sans-serif;
+    font-family: 'Linux Biolinum', 'Arial', 'Noto Sans', sans-serif;
 }
 
 /* Korean - Hangul */
 .font-hangul {
-    font-family: Gulim, 'Noto Sans CJK KR', sans-serif;
+    font-family: 'Gulim', 'Noto Sans CJK KR', sans-serif;
 }
 
 /* Korean - Hanja */
 .font-hanja {
-    font-family: Gulim, 'Noto Sans CJK KR', sans-serif;
+    font-family: 'Gulim', 'Noto Sans CJK KR', sans-serif;
 }
 
 /* Latin alphabet */
 .font-latin {
-    font-family: 'Linux Biolinum', Arial, 'Noto Sans', sans-serif;
+    font-family: 'Linux Biolinum', 'Arial', 'Noto Sans', sans-serif;
 }
 
 /* Malayalam script */
 .font-malayalam {
-	font-family: Gayathri, 'Noto Sans Malayalam' sans-serif;
+    font-family: 'Gayathri', 'Noto Sans Malayalam' sans-serif;
     font-size: 125%;
 }
 
@@ -225,7 +225,7 @@ footer {
 
 /* Perso-Arabic script - Naskh */
 .font-naskh {
-    font-family: 'Noto Naskh Arabic UI', 'Arabic Typesetting', Dubai, 'Noto Naskh Arabic', serif;
+    font-family: 'Noto Naskh Arabic UI', 'Arabic Typesetting', 'Dubai', 'Noto Naskh Arabic', serif;
     font-size: 125%;
 }
 
