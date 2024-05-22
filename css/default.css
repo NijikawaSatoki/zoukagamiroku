@@ -418,3 +418,9 @@ footer {
 	text-align: center;
 	font-size: 128pt;
 }
+
+/* Header text */
+.header-text {
+    font-family: 'ヒラギノ角ゴ Std W8', 'Noto Sans CJK JP Black', 'ＭＳ ゴシック', sans-serif;
+    font-size: 27pt;
+}
