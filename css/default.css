@@ -424,3 +424,10 @@ footer {
     font-family: 'ヒラギノ角ゴ Std W8', 'Noto Sans CJK JP Black', 'ＭＳ ゴシック', sans-serif;
     font-size: 27pt;
 }
+
+/* Pride heading */
+.pride-head {
+    text-align: center;
+    font-size: 16pt;
+    font-family: 'ヒラギノ角ゴ Std W8', 'Noto Sans CJK JP Black', 'ＭＳ ゴシック', sans-serif;
+}
