@@ -50,12 +50,12 @@
  */
 
 body {
-	font-family: 'ヒラギノ角ゴ Pro W3', 'Noto Sans JP', sans-serif;
-	font-size: 12pt;
-	background-color: black;
-	color: lightgrey;
-	padding-right: 4px;
-	padding-left: 4px;
+    font-family: 'ヒラギノ角ゴ Pro W3', 'Noto Sans JP', sans-serif;
+    font-size: 12pt;
+    background-color: black;
+    color: lightgrey;
+    padding-right: 4px;
+    padding-left: 4px;
 }
 
 /* ┌─────────────────────────┐
@@ -124,5 +124,18 @@ h6 {
 
 /* Furigana / ふりがな */
 rt {
-	font-size: 50%; /* see https://www.w3.org/TR/jlreq/?lang=en#ruby_and_emphasis_dots for more details */
+    font-size: 50%; /* see https://www.w3.org/TR/jlreq/?lang=en#ruby_and_emphasis_dots for more details */
+}
+
+/* ┌───────────────┐
+ * │ Other classes │
+ * └───────────────┘
+ */
+
+/* Contents */
+.mokuji {
+    font-size: 32pt;
+    font-family: 'ヒラギノ角ゴ Std W8', 'Noto Sans CJK JP Medium', 'ＭＳ ゴシック', sans-serif;
+    text-align: center;
+    line-height: 0em;
 }
