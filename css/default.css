@@ -440,3 +440,17 @@ footer {
     width: 200px;
     height: 125px;
 }
+
+/* Textual setup for Mongolian script */
+.text-mongolian {
+    display: inline-block;
+    font-weight: normal;
+    line-height: 1.125em;
+    -webkit-writing-mode: vertical-lr;
+    -o-writing-mode: vertical-lr;
+    -ms-writing-mode: tb-lr;
+    writing-mode: tb-lr;
+    writing-mode: vertical-lr;
+    text-orientation: sideways;
+    vertical-align: top;
+}
