@@ -421,7 +421,7 @@ footer {
 
 /* Header text */
 .header-text {
-    font-family: 'ヒラギノ角ゴ Std W8', 'Noto Sans CJK JP Black', 'ＭＳ ゴシック', sans-serif;
+    font-family: 'ヒラギノ角ゴ Std W8', 'Noto Sans CJK JP Black', 'ＭＳ ゴシック', 'Noto Sans JP', sans-serif;
     font-size: 27pt;
 }
 
@@ -429,7 +429,7 @@ footer {
 .pride-head {
     text-align: center;
     font-size: 16pt;
-    font-family: 'ヒラギノ角ゴ Std W8', 'Noto Sans CJK JP Black', 'ＭＳ ゴシック', sans-serif;
+    font-family: 'ヒラギノ角ゴ Std W8', 'Noto Sans CJK JP Black', 'ＭＳ ゴシック', 'Noto Sans JP', sans-serif;
 }
 
 /* Pride flags! :3 */
