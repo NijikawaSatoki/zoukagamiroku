@@ -454,3 +454,8 @@ footer {
     text-orientation: sideways;
     vertical-align: top;
 }
+
+/* Old or obsolete writing system notes */
+.old-text {
+	color: #CD0000;
+}
