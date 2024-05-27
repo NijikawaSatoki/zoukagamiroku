@@ -445,7 +445,7 @@ footer {
 .text-mongolian {
     display: inline-block;
     font-weight: normal;
-    line-height: 1.125em;
+    line-height: 1.1em;
     -webkit-writing-mode: vertical-lr;
     -o-writing-mode: vertical-lr;
     -ms-writing-mode: tb-lr;
