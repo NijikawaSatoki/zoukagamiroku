@@ -9,7 +9,9 @@ Just an HTML version of an encyclopædia for a project of mine.
 
 Just run `index.html` using your preferred browser.
 
-※ The only browser tested so far is Firefox. I'll prolly test in Chromium at some point, if I remember to.
+※ The only browser tested so far is Firefox. (see note!)
+
+**Note:** I've tested this in Brave Browser and Google Chrome as well. The only issue I ran into were font-related, but not beyond what is the usual issues with Chromium-based browsers.
 
 ### Editing
 
