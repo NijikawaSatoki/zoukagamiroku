@@ -19,7 +19,10 @@
       　〓〓〓〓　　〓　　　〓
       　　　　　　　　〓〓〓〓〓〓〓〓
     -->
+    <!-- Metadata -->
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Satoki Nijikawa">
     <!-- The title of the page shown in the browser tab. -->
     <title>美術館　妖狐</title>
     <!-- The CSS stylesheet. -->
@@ -27,39 +30,37 @@
   </head>
   <body>
     <header>
-      <div class="heading">
-        <h1 class="header-text">天園神關里　～ Brilliance of Heaven Pleasure</h1>
-        <h2 class="header-text">美術館</h2>
-        <h3 class="header-text">妖狐</h3>
-      </div>
+      <h1 class="header-text">
+        天園神關里　～ Brilliance of Heaven Pleasure<br>
+        美術館<br>
+        妖狐
+      </h1>
     </header>
-    <article>
-      <section class="section">
+    <main>
         <!-- 造化神録に戻る（Return to the Record） -->
-        <a href="../../nizi.html#Youko">←　造化神録に戻る</a>
+        <a href="../../nizi.html#Youko" title="造化神録に戻る">←　造化神録に戻る</a>
         <!-- 現在レファレンス（Current Ref Sheet） -->
-        <div class="gallery">
-          <h2 style="text-align: left;">レファレンス</h2><hr>
-          <div class="flex-gallery">
-            <div class="art-ref">
-              <img class="border" src="../../../img/ref/Youko.png" alt="妖狐のレファレンス" style="width: *; height: 256px;">
+        <div class="gallery" title="現在レファレンス">
+          <h2 class="art-heading">レファレンス</h2><hr>
+          <div class="flex-gallery" title="Flexbox 【レファレンス】">
+            <div class="art-ref" title="妖狐のレファレンス">
+              <img class="gallery-art" src="../../../img/ref/Youko.png" alt="妖狐のレファレンス">
             </div>
           </div>
         </div>
         <!-- 美術品（All Art） -->
-        <div class="gallery">
-          <h2 style="text-align: left;">美術品</h2><hr>
-          <div class="flex-gallery">
+        <div class="gallery" title="美術品">
+          <h2 class="art-heading">美術品</h2><hr>
+          <div class="flex-gallery" title="Flexbox 【美術品】">
           </div>
         </div>
         <!-- 旧レファレンス（Old ref sheets :3） -->
-        <div class="gallery">
-          <h2 style="text-align: left">旧レファレンス</h2><hr>
-          <div class="flex-gallery">
+        <div class="gallery" title="旧レファレンス">
+          <h2 class="art-heading">旧レファレンス</h2><hr>
+          <div class="flex-gallery" title="Flexbox 【旧レファレンス】">
           </div>
         </div>
-      </section>
-    </article>
+    </main>
     <footer>
       <p>© 2024 虹川郷鬼</p>
     </footer>

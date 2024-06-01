@@ -80,16 +80,26 @@
  * ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
  */
 
+/* ┌────────────────────────┐
+ * │ Stylesheet for anchors │
+ * └────────────────────────┘
+ */
+
+/* Unvisited links */
+a:link {
+    color: #99c3ff;
+}
+
 /* ┌─────────────────────┐
  * │ Stylesheet for body │
  * └─────────────────────┘
  */
 
 body {
-    font-family: 'ヒラギノ丸ゴ Pro W4', 'Noto Sans CJK JP', 'Noto Sans JP', sans-serif;
-    font-size: 14pt;
-    background-color: black;
-    color: white;
+    font-family: 'ヒラギノ丸ゴ Pro W4', 'Noto Sans CJK JP', 'ＭＳ ゴシック', 'Noto Sans JP', sans-serif;
+    font-size: 1.19em;
+    background-color: #121212;
+    color: #e5e5e5;
     padding-right: 2px;
     padding-left: 2px;
 }
@@ -101,7 +111,7 @@ body {
 
 /* Heading 1 */
 h1 {
-    font-size: 32pt;
+    font-size: 2.63em;
     font-family: 'ヒラギノ明朝 Pro W6', 'Noto Serif CJK JP', 'Noto Serif JP', serif;
     line-height: 1em;
     margin-bottom: auto;
@@ -110,7 +120,7 @@ h1 {
 
 /* Heading 2 */
 h2 {
-    font-size: 28pt;
+    font-size: 2.31em;
     font-family: 'ヒラギノ明朝 Pro W6', 'Noto Serif CJK JP', 'Noto Serif JP', serif;
     line-height: 1em;
     margin-bottom: auto;
@@ -119,7 +129,7 @@ h2 {
 
 /* Heading 3 */
 h3 {
-    font-size: 24pt;
+    font-size: 2em;
     font-family: 'ヒラギノ明朝 Pro W6', 'Noto Serif CJK JP', 'Noto Serif JP', serif;
     line-height: 1em;
     margin-bottom: auto;
@@ -128,7 +138,7 @@ h3 {
 
 /* Heading 4 */
 h4 {
-    font-size: 18pt;
+    font-size: 1.5em;
     font-family: 'ヒラギノ角ゴ Pro W6', 'Noto Sans CJK JP', 'Noto Sans JP', sans-serif;
     line-height: 1em;
     margin-bottom: auto;
@@ -137,7 +147,7 @@ h4 {
 
 /* Heading 5 */
 h5 {
-    font-size: 16pt;
+    font-size: 1.31em;
     font-family: 'ヒラギノ角ゴ Pro W6', 'Noto Sans CJK JP', 'Noto Sans JP', sans-serif;
     line-height: 1em;
     margin-bottom: auto;
@@ -151,7 +161,7 @@ h5 {
 
 /* Furigana / ふりがな */
 rt {
-    font-size: 0.55em; /* see https://www.w3.org/TR/jlreq/?lang=en#ruby_and_emphasis_dots for more details */
+    font-size: 0.595em; /* see https://www.w3.org/TR/jlreq/?lang=en#ruby_and_emphasis_dots for more details */
 }
 
 /* ┌───────────────────────┐
@@ -160,7 +170,7 @@ rt {
  */
 
 header {
-    background-color: #222;
+    background-color: #7f7f7f;
     padding: 8px;
     text-align: center;
 }
@@ -174,16 +184,28 @@ article {
     padding: 8px;
 }
 
+/* ┌─────────────────────────┐
+ * │ Stylesheet for sections │
+ * └─────────────────────────┘
+ */
+
+section {
+    padding-top: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-bottom: 92px;
+}
+
 /* ┌───────────────────────┐
  * │ Styelsheet for footer │
  * └───────────────────────┘
  */
 
 footer {
-    background-color: #444;
+    background-color: #1f1f1f;
     padding: 8px;
     text-align: center;
-    color: white;
+    color: #ffffff;
     font-family: 'ヒラギノ角ゴ Pro W3', 'Noto Sans CJK JP', 'Noto Sans JP', sans-serif;
 }
 
@@ -284,15 +306,6 @@ footer {
  * └───────────────┘
  */
 
-/* <div> for entire blocks */
-.section {
-    margin: 4px;
-    padding-top: 5px;
-    padding-right: 5px;
-    padding-left: 5px;
-    padding-bottom: 16px;
-}
-
 /* <div> for galleries */
 .gallery {
     padding-top: 8px;
@@ -303,14 +316,6 @@ footer {
 
 /* <div> for headings */
 .heading {
-    padding-top: 4px;
-    padding-right: 8px;
-    padding-left: 8px;
-    padding-bottom: 4px;
-}
-
-/* <div> for body text */
-.body {
     padding-top: 4px;
     padding-right: 8px;
     padding-left: 8px;
@@ -388,12 +393,6 @@ footer {
     flex-direction: row;
 }
 
-/* Character art flexbox */
-.flex-art {
-    display: flex;
-    flex-direction: column;
-}
-
 /* ┌───────────────┐
  * │ Other classes │
  * └───────────────┘
@@ -404,6 +403,7 @@ footer {
 .caption {
     padding: 0px;
     margin: 2px;
+    color: #ffffff;
 }
 
 /* Image borders (primarily for the pride flags) :3 */
@@ -416,29 +416,29 @@ footer {
 /* COMING AT SOME POINT!! */
 .coming-soon {
     text-align: center;
-    font-size: 128pt;
+    font-size: 10.67em;
 }
 
 /* Header text */
 .header-text {
     font-family: 'ヒラギノ角ゴ Std W8', 'Noto Sans CJK JP Black', 'ＭＳ ゴシック', 'Noto Sans JP', sans-serif;
-    font-size: 27pt;
+    font-size: 2.25em;
 }
 
 /* Pride heading */
 .pride-head {
     text-align: center;
-    font-size: 16pt;
+    font-size: 1.31em;
     font-family: 'ヒラギノ角ゴ Std W8', 'Noto Sans CJK JP Black', 'ＭＳ ゴシック', 'Noto Sans JP', sans-serif;
+    color: #000000;
 }
 
-/* Pride flags! :3 */
-.pride-flag {
-    border-style: groove;
-    border-width: 2px;
-    border-color: #FEFEFA;
-    width: 200px;
-    height: 125px;
+/* Pronouns */
+.pronouns {
+    padding-left: 2px;
+    font-size: 1.19em;
+    font-family: 'ヒラギノ丸ゴ Pro W4', 'Noto Sans CJK JP', 'ＭＳ ゴシック', 'Noto Sans JP', sans-serif;
+    color: #000000;
 }
 
 /* Textual setup for Mongolian script */
@@ -457,5 +457,57 @@ footer {
 
 /* Old or obsolete writing system notes */
 .old-text {
-	color: #CD0000;
+    color: #cd0000;
+}
+
+/* Gallery Headings */
+.art-heading {
+    text-align: left;
+}
+
+/* ┌───────────────┐
+ * │ Image classes │
+ * └───────────────┘
+ * 
+ */
+
+/* Main Character Art */
+.art {
+    border-style: groove;
+    border-width: 2px;
+    border-color: #fefefa;
+    width: 256px;
+}
+
+/* Gallery Character Art */
+.gallery-art {
+    border-style: groove;
+    border-width: 2px;
+    border-color: #fefefa;
+    height: 256px;
+}
+
+/* Pride flags! :3 */
+.pride-flag {
+    border-style: groove;
+    border-width: 2px;
+    border-color: #fefefa;
+    width: 260px;
+    height: 158px;
+}
+
+/* Ref Sheets */
+.reference-art {
+    border-style: groove;
+    border-width: 2px;
+    border-color: #fefefa;
+    width: 256px;
+}
+
+/* Title art */
+.title-art {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }

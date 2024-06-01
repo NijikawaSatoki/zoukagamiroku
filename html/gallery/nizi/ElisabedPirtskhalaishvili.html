@@ -19,7 +19,10 @@
       　〓〓〓〓　　〓　　　〓
       　　　　　　　　〓〓〓〓〓〓〓〓
     -->
+    <!-- Metadata -->
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Satoki Nijikawa">
     <!-- The title of the page shown in the browser tab. -->
     <title>美術館　エリサベト・ピルツハライシュヴィリ</title>
     <!-- The CSS stylesheet. -->
@@ -27,39 +30,37 @@
   </head>
   <body>
     <header>
-      <div class="heading">
-        <h1 class="header-text">天園神關里　～ Brilliance of Heaven Pleasure</h1>
-        <h2 class="header-text">美術館</h2>
-        <h3 class="header-text">エリサベト・ヒディルベギシュヴィリ＝ガルセヴァニシュヴィリ＝ピルツハライシュヴィリ</h3>
-      </div>
+      <h1 class="header-text">
+        天園神關里　～ Brilliance of Heaven Pleasure<br>
+        美術館<br>
+        エリサベト・ヒディルベギシュヴィリ＝ガルセヴァニシュヴィリ＝ピルツハライシュヴィリ
+      </h1>
     </header>
-    <article>
-      <section class="section">
-        <!-- 造化神録に戻る（Return to the Record） -->
-        <a href="../../nizi.html#Elisabed_Khidirbegishvili-Garsevanishvili-Pirtskhalaishvili">←　造化神録に戻る</a>
-        <!-- 現在レファレンス（Current Ref Sheet） -->
-        <div class="gallery">
-          <h2 style="text-align: left;">レファレンス</h2><hr>
-          <div class="flex-gallery">
-            <div class="art-ref">
-              <img class="border" src="../../../img/ref/ElisabedKhidirbegishviliGarsevanishviliPirtskhalaishvili.png" alt="エリサベトのレファレンス" style="width: *; height: 256px;">
-            </div>
-          </div>
-        </div>
-        <!-- 美術品（All Art） -->
-        <div class="gallery">
-          <h2 style="text-align: left;">美術品</h2><hr>
-          <div class="flex-gallery">
-          </div>
-        </div>
-        <!-- 旧レファレンス（Old ref sheets :3） -->
-        <div class="gallery">
-          <h2 style="text-align: left">旧レファレンス</h2><hr>
-          <div class="flex-gallery">
+    <main>
+      <!-- 造化神録に戻る（Return to the Record） -->
+      <a href="../../nizi.html#Elisabed_Khidirbegishvili-Garsevanishvili-Pirtskhalaishvili" title="造化神録に戻る">←　造化神録に戻る</a>
+      <!-- 現在レファレンス（Current Ref Sheet） -->
+      <section class="gallery" title="現在レファレンス">
+        <h2 class="art-heading">レファレンス</h2><hr>
+        <div class="flex-gallery" title="Flexbox 【レファレンス】">
+          <div class="art-ref" title="エリサベトのレファレンス">
+            <img class="reference-art" src="../../../img/ref/ElisabedKhidirbegishviliGarsevanishviliPirtskhalaishvili.png" alt="エリサベトのレファレンス">
           </div>
         </div>
       </section>
-    </article>
+      <!-- 美術品（All Art） -->
+      <section class="gallery" title="美術品">
+        <h2 class="art-heading">美術品</h2><hr>
+        <div class="flex-gallery" title="Flexbox 【美術品】">
+        </div>
+      </section>
+      <!-- 旧レファレンス（Old ref sheets :3） -->
+      <section class="gallery" title="旧レファレンス">
+        <h2 class="art-heading">旧レファレンス</h2><hr>
+        <div class="flex-gallery" title="Flexbox 【旧レファレンス】">
+        </div>
+      </section>
+    </main>
     <footer>
       <p>© 2024 虹川郷鬼</p>
     </footer>
