@@ -19,7 +19,10 @@
       　〓〓〓〓　　〓　　　〓
       　　　　　　　　〓〓〓〓〓〓〓〓
     -->
+    <!-- Metadata -->
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Satoki Nijikawa">
     <!-- The title of the page shown in the browser tab. -->
     <title>美術館　インゲゲルド・スカースゴールド</title>
     <!-- The CSS stylesheet. -->
@@ -27,39 +30,37 @@
   </head>
   <body>
     <header>
-      <div class="heading">
-        <h1 class="header-text">天園神關里　～ Brilliance of Heaven Pleasure</h1>
-        <h2 class="header-text">美術館</h2>
-        <h3 class="header-text">インゲゲルド・スカースゴールド</h3>
-      </div>
+      <h1 class="header-text">
+        天園神關里　～ Brilliance of Heaven Pleasure<br>
+        美術館<br>
+        インゲゲルド・スカースゴールド
+      </h1>
     </header>
-    <article>
-      <section class="section">
-        <!-- 造化神録に戻る（Return to the Record） -->
-        <a href="../../spalmea.html#Ingegärd_Skarsgård">←　造化神録に戻る</a>
-        <!-- 現在レファレンス（Current Ref Sheet） -->
-        <div class="gallery">
-          <h2 style="text-align: left;">レファレンス</h2><hr>
-          <div class="flex-gallery">
-            <div class="art-ref">
-              <img class="border" src="../../../img/ref/IngegärdSkarsgård.png" alt="インゲゲルドのレファレンス" style="width: *; height: 256px;">
-            </div>
-          </div>
-        </div>
-        <!-- 美術品（All Art） -->
-        <div class="gallery">
-          <h2 style="text-align: left;">美術品</h2><hr>
-          <div class="flex-gallery">
-          </div>
-        </div>
-        <!-- 旧レファレンス（Old ref sheets :3） -->
-        <div class="gallery">
-          <h2 style="text-align: left">旧レファレンス</h2><hr>
-          <div class="flex-gallery">
+    <main>
+      <!-- 造化神録に戻る（Return to the Record） -->
+      <a href="../../spalmea.html#Ingegärd_Skarsgård" title="現在レファレンス">←　造化神録に戻る</a>
+      <!-- 現在レファレンス（Current Ref Sheet） -->
+      <section class="gallery" title="現在レファレンス">
+        <h2 class="art-heading">レファレンス</h2><hr>
+        <div class="flex-gallery" title="Flexbox 【レファレンス】">
+          <div class="art-ref" title="インゲゲルドのレファレンス">
+            <img class="reference-art" src="../../../img/ref/IngegärdSkarsgård.png" alt="インゲゲルドのレファレンス">
           </div>
         </div>
       </section>
-    </article>
+      <!-- 美術品（All Art） -->
+      <section class="gallery" title="美術品">
+        <h2 class="art-heading">美術品</h2><hr>
+        <div class="flex-gallery" title="Flexbox 【美術品】">
+        </div>
+      </section>
+      <!-- 旧レファレンス（Old ref sheets :3） -->
+      <section class="gallery" title="旧レファレンス">
+        <h2 class="art-heading">旧レファレンス</h2><hr>
+        <div class="flex-gallery" title="Flexbox 【旧レファレンス】">
+        </div>
+      </section>
+    </main>
     <footer>
       <p>© 2024 虹川郷鬼</p>
     </footer>
