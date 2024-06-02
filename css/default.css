@@ -181,7 +181,8 @@ header {
  */
 
 article {
-    padding: 8px;
+    padding: 4px;
+    margin-bottom: 122px;
 }
 
 /* ┌─────────────────────────┐
@@ -190,10 +191,7 @@ article {
  */
 
 section {
-    padding-top: 4px;
-    padding-left: 4px;
-    padding-right: 4px;
-    padding-bottom: 92px;
+    padding: 4px;
 }
 
 /* ┌───────────────────────┐
