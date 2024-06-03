@@ -463,6 +463,16 @@ footer {
     text-align: left;
 }
 
+/* For furigana on <h2> elements */
+.head-furigana {
+    font-size: 37%;
+}
+
+/* For the staff credits page */
+.credits {
+    text-align: center;
+}
+
 /* ┌───────────────┐
  * │ Image classes │
  * └───────────────┘
