@@ -161,7 +161,7 @@ h5 {
 
 /* Furigana / ふりがな */
 rt {
-    font-size: 0.595em; /* see https://www.w3.org/TR/jlreq/?lang=en#ruby_and_emphasis_dots for more details */
+    font-size: 0.55em; /* see https://www.w3.org/TR/jlreq/?lang=en#ruby_and_emphasis_dots for more details */
 }
 
 /* ┌───────────────────────┐
@@ -220,7 +220,7 @@ footer {
 /* Burmese script */
 .font-myanmar {
     font-family: Pyidaungsu, 'Noto Sans Myanmar UI', 'Myanmar Text', 'Noto Sans Myanmar', sans-serif;
-    font-size: 125%;
+    font-size: 130%;
 }
 
 /* Cyrillic alphabet */
@@ -241,7 +241,7 @@ footer {
 /* Devanagari */
 .font-devanagari {
     font-family: 'Chandas', 'Sanskrit Text', 'Mangal', 'Noto Serif Devanagari', serif;
-    font-size: 125%;
+    font-size: 130%;
 }
 
 /* Georgian script */
@@ -278,25 +278,25 @@ footer {
 /* Mongolian script */
 .font-mongolian {
     font-family: 'Menk Hawang Tig', 'Menk Qagan Tig', 'Menk Garqag Tig', 'Menk Har_a Tig', 'Menk Scnin Tig', 'Oyun Gurban Ulus Tig', 'Oyun Qagan Tig', 'Oyun Garqag Tig', 'Oyun Har_a Tig', 'Oyun Scnin Tig', 'Oyun Agula Tig', 'Mongolian Baiti', 'Mongolian Universal White', 'Mongol Usug', 'Mongolian White', 'MongolianScript', 'Code2000', 'Menksoft Qagan', 'Noto Sans Mongolian', serif;
-    font-size: 125%;
+    font-size: 130%;
 }
 
 /* Perso-Arabic script - Naskh */
 .font-naskh {
     font-family: 'Noto Naskh Arabic UI', 'Arabic Typesetting', 'Dubai', 'Noto Naskh Arabic', serif;
-    font-size: 125%;
+    font-size: 130%;
 }
 
 /* Perso-Arabic script - Nastaliq */
 .font-nastaliq {
     font-family: 'Urdu Typesetting', 'Noto Nastaliq Urdu', serif;
-    font-size: 125%;
+    font-size: 130%;
 }
 
 /* Tibetan script */
 .font-tibetan {
     font-family: 'Tibetan Machine Uni', 'BabelStone Tibetan Slim', 'BabelStone Tibetan', 'Noto Serif Tibetan', serif;
-    font-size: 125%;
+    font-size: 130%;
 }
 
 /* ┌───────────────┐
@@ -466,6 +466,11 @@ footer {
 /* For furigana on <h2> elements */
 .head-furigana {
     font-size: 37%;
+}
+
+/* For the heading furigana in the summary page */
+.top-head-furigana {
+    font-size: 50%;
 }
 
 /* For the staff credits page */
