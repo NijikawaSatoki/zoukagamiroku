@@ -171,7 +171,7 @@ rt {
 
 header {
     background-color: #7f7f7f;
-    padding: 8px;
+    padding: 4px;
     text-align: center;
 }
 
@@ -505,8 +505,8 @@ footer {
     border-style: groove;
     border-width: 2px;
     border-color: #fefefa;
-    width: 260px;
-    height: 158px;
+    width: 300px;
+    height: 200px;
 }
 
 /* Ref Sheets */
