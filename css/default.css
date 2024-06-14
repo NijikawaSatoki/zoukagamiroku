@@ -164,6 +164,17 @@ rt {
     font-size: 0.55em; /* see https://www.w3.org/TR/jlreq/?lang=en#ruby_and_emphasis_dots for more details */
 }
 
+/* ┌───────────────────────────┐
+ * │ Stylesheet for paragraphs │
+ * └───────────────────────────┘
+ */
+
+/* Paragraphs */
+/*p {
+    margin-top: 8.00px;
+    margin-bottom: 8.00px;
+}*/
+
 /* ┌───────────────────────┐
  * │ Stylesheet for header │
  * └───────────────────────┘
@@ -256,12 +267,12 @@ footer {
 
 /* Korean - Hangul */
 .font-hangul {
-    font-family: 'Gulim', 'Noto Sans CJK KR', 'Noto Sans KR', sans-serif;
+    font-family: 'Noto Sans CJK KR', 'Gulim', 'Noto Sans KR', sans-serif;
 }
 
 /* Korean - Hanja */
 .font-hanja {
-    font-family: 'Gulim', 'Noto Sans CJK KR', 'Noto Sans KR', sans-serif;
+    font-family: 'Noto Sans CJK KR', 'Gulim', 'Noto Sans KR', sans-serif;
 }
 
 /* Latin alphabet */
@@ -415,6 +426,7 @@ footer {
 .coming-soon {
     text-align: center;
     font-size: 10.67em;
+    font-family: 'HGTakahashiReishotai', 'ヒラギノ明朝 Pro W6', 'Noto Serif CJK JP', 'Noto Serif JP', serif;
 }
 
 /* Header text */
@@ -476,6 +488,11 @@ footer {
 /* For the staff credits page */
 .credits {
     text-align: center;
+}
+
+/* For the section headings on the staff credits page */
+.credits-head {
+    font-family: 'HGTakahashiReishotai', 'ヒラギノ明朝 Pro W6', 'Noto Serif CJK JP', 'Noto Serif JP', serif;
 }
 
 /* ┌───────────────┐
