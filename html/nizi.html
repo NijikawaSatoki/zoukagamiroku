@@ -25,10 +25,11 @@
     <meta name="author" content="Satoki Nijikawa">
     <!-- The title of the page shown in the browser tab. -->
     <title>造化神録　虹の造化者</title>
-    <!-- The CSS stylesheet. -->
+    <!-- The CSS stylesheets -->
     <link rel="stylesheet" href="../css/default.css">
+    <link rel="stylesheet" href="../css/nizi.css">
     <!-- The JavaScript scripts -->
-    <script scr="../js/nizi.js"></script>
+    <script src="../js/nizi.js"></script>
   </head>
   <body>
     <header>
@@ -43,11 +44,19 @@
       <!-- あたしらのシステム（Our System） -->
       <article>
         <h2 id="Our_System">システム：虹</h2>
+        <button type="button" onclick="hideSystem()">システムを隠す</button>
+        <button type="button" onclick="revealSystem()">システムを現す</button>
         <div id="OurSystem">
           <!-- 虹川郷鬼（Satoki Nijikawa） -->
           <section>
             <h4 id="Satoki_Nijikawa">虹川郷鬼</h4>
+            <button type="button" onclick="hideSatoki()">郷鬼を隠す</button>
+            <button type="button" onclick="revealSatoki()">郷鬼を現す</button>
             <div id="SatokiNijikawa">
+              <button type="button" onclick="hideSatokiPride()">プライドを隠す</button>
+              <button type="button" onclick="revealSatokiPride()">プライドを現す</button>
+              <button type="button" onclick="hideSatokiArt()">美術品を隠す</button>
+              <button type="button" onclick="revealSatokiArt()">美術品を現す</button>
               <div id="SatokiNijikawaPride" class="pride">
                 <p class="pride-head"><strong>🏳️‍🌈 プライド 🏳️‍🌈</strong></p>
                 <p class="pronouns">代名詞：she/her</p>
@@ -108,7 +117,13 @@
           <!-- ワーモ（Wamo｜ཝ་མོ་｜wa mo） -->
           <section>
             <h4 id="Wamo">ワーモ</h4>
+            <button type="button" onclick="hideWamo()">ワーモを隠す</button>
+            <button type="button" onclick="revealWamo()">ワーモを現す</button>
             <div id="wamo">
+              <button type="button" onclick="hideWamoPride()">プライドを隠す</button>
+              <button type="button" onclick="revealWamoPride()">プライドを現す</button>
+              <button type="button" onclick="hideWamoArt()">美術品を隠す</button>
+              <button type="button" onclick="revealWamoArt()">美術品を現す</button>
               <div id="wamoPride" class="pride">
                 <p class="pride-head"><strong>🏳️‍🌈 プライド 🏳️‍🌈</strong></p>
                 <p class="pronouns">代名詞：she/they</p>
@@ -167,7 +182,13 @@
           <!-- 清（Kiyoi） -->
           <section>
             <h4 id="Kiyoi">清</h4>
+            <button type="button" onclick="hideKiyoi()">清を隠す</button>
+            <button type="button" onclick="revealKiyoi()">清を現す</button>
             <div id="kiyoi">
+              <button type="button" onclick="hideKiyoiPride()">プライドを隠す</button>
+              <button type="button" onclick="revealKiyoiPride()">プライドを現す</button>
+              <button type="button" onclick="hideKiyoiArt()">美術品を隠す</button>
+              <button type="button" onclick="revealKiyoiArt()">美術品を現す</button>
               <div id="kiyoiPride" class="pride">
                 <p class="pride-head"><strong>🏳️‍🌈 プライド 🏳️‍🌈</strong></p>
                 <p class="pronouns">代名詞：she/they</p>
@@ -220,11 +241,19 @@
       <!-- 自己ケモノ（My fursona(s)） -->
       <article>
         <h2 id="My_fursonas">自己ケモノ</h2>
+        <button type="button" onclick="hideFursona()">自己ケモノを隠す</button>
+        <button type="button" onclick="revealFursona()">自己ケモノを現す</button>
         <div id="MyFursonas">
           <!-- 妖狐（Youko） -->
           <section>
             <h4 id="Youko">妖狐</h4>
+            <button type="button" onclick="hideYouko()">妖狐を隠す</button>
+            <button type="button" onclick="revealYouko()">妖狐を現す</button>
             <div id="youko">
+              <button type="button" onclick="hideYoukoPride()">プライドを隠す</button>
+              <button type="button" onclick="revealYoukoPride()">プライドを現す</button>
+              <button type="button" onclick="hideYoukoArt()">美術品を隠す</button>
+              <button type="button" onclick="revealYoukoArt()">美術品を現す</button>
               <div id="youkoPride" class="pride">
                 <p class="pride-head"><strong>🏳️‍🌈 プライド 🏳️‍🌈</strong></p>
                 <p class="pronouns">代名詞：she/they</p>
@@ -281,11 +310,19 @@
       <!-- オリキャラ達（OC's） -->
       <article>
         <h2 id="OC's">虹のオリキャラ</h2>
+        <button type="button" onclick="hideOriginalCharacter()">ＯＣ達を隠す</button>
+        <button type="button" onclick="revealOriginalCharacter()">ＯＣ達を現す</button>
         <div id="OriKyara">
           <!-- アニムス（Animus） -->
           <section>
             <h4 id="Animus">アニムス</h4>
+            <button type="button" onclick="hideAnimus()">アニムスを隠す</button>
+            <button type="button" onclick="revealAnimus()">アニムスを現す</button>
             <div id="animus">
+              <button type="button" onclick="hideAnimusPride()">プライドを隠す</button>
+              <button type="button" onclick="revealAnimusPride()">プライドを現す</button>
+              <button type="button" onclick="hideAnimusArt()">美術品を隠す</button>
+              <button type="button" onclick="revealAnimusArt()">美術品を現す</button>
               <div id="animusPride" class="pride">
                 <p class="pride-head"><strong>🏳️‍🌈 プライド 🏳️‍🌈</strong></p>
                 <p class="pronouns">代名詞：she/her</p>
@@ -326,7 +363,13 @@
           <!-- アイン（'Ayn｜عَيْن｜ʿAyn） -->
           <section>
             <h4 id="ʿAyn">アイン</h4>
+            <button type="button" onclick="hideAyn()">アインを隠す</button>
+            <button type="button" onclick="revealAyn()">アインを現す</button>
             <div id="Ayn">
+              <button type="button" onclick="hideAynPride()">プライドを隠す</button>
+              <button type="button" onclick="revealAynPride()">プライドを現す</button>
+              <button type="button" onclick="hideAynArt()">美術品を隠す</button>
+              <button type="button" onclick="revealAynArt()">美術品を現す</button>
               <div id="AynPride" class="pride">
                 <p class="pride-head"><strong>🏳️‍🌈 プライド 🏳️‍🌈</strong></p>
                 <p class="pronouns">代名詞：they/it</p>
@@ -364,7 +407,13 @@
           <!-- ボルルマー（Bolormaa｜Болормаа｜ᠪᠣᠯᠣᠷᠮᠠ｜｜Bolurma） -->
           <section>
             <h4 id="Bolormaa">ボルルマー</h4>
+            <button type="button" onclick="hideBolormaa()">ボルルマーを隠す</button>
+            <button type="button" onclick="revealBolormaa()">ボルルマーを現す</button>
             <div id="bolormaa">
+              <button type="button" onclick="hideBolormaaPride()">プライドを隠す</button>
+              <button type="button" onclick="revealBolormaaPride()">プライドを現す</button>
+              <button type="button" onclick="hideBolormaaArt()">美術品を隠す</button>
+              <button type="button" onclick="revealBolormaaArt()">美術品を現す</button>
               <div id="bolormaaPride" class="pride">
                 <p class="pride-head"><strong>🏳️‍🌈 プライド 🏳️‍🌈</strong></p>
                 <p class="pronouns">代名詞：they/them</p>
@@ -401,7 +450,13 @@
           <!-- 錯誤（Cuòwù｜錯誤｜错误） -->
           <section>
             <h4 id="Cuòwù">錯誤</h4>
+            <button type="button" onclick="hideCuowu()">錯誤達を隠す</button>
+            <button type="button" onclick="revealCuowu()">錯誤達を現す</button>
             <div id="Cuowu">
+              <button type="button" onclick="hideCuowuPride()">プライドを隠す</button>
+              <button type="button" onclick="revealCuowuPride()">プライドを現す</button>
+              <button type="button" onclick="hideCuowuArt()">美術品を隠す</button>
+              <button type="button" onclick="revealCuowuArt()">美術品を現す</button>
               <div id="CuowuPride" class="pride">
                 <p class="pride-head"><strong>🏳️‍🌈 プライド 🏳️‍🌈</strong></p>
                 <p class="pronouns">代名詞：she/any</p>
@@ -507,7 +562,13 @@
           <!-- ハップ・Ｐ・エモ＝ション（Hap P. Emo-shun） -->
           <section>
             <h4 id="Hap_P._Emo-shun">ハップ・Ｐ・エモ＝ション</h4>
+            <button type="button" onclick="hideHap()">ハップを隠す</button>
+            <button type="button" onclick="revealHap()">ハップを現す</button>
             <div id="HapP_Emoshun">
+              <button type="button" onclick="hideHapPride()">プライドを隠す</button>
+              <button type="button" onclick="revealHapPride()">プライドを現す</button>
+              <button type="button" onclick="hideHapArt()">美術品を隠す</button>
+              <button type="button" onclick="revealHapArt()">美術品を現す</button>
               <div id="HapP_EmoshunPride" class="pride">
                 <p class="pride-head"><strong>🏳️‍🌈 プライド 🏳️‍🌈</strong></p>
                 <p class="pronouns">代名詞：she/they</p>
@@ -554,7 +615,13 @@
           <!-- イドラ（Idola） -->
           <section>
             <h4 id="Idola">イドラ</h4>
+            <button type="button" onclick="hideIdola()">イドラを隠す</button>
+            <button type="button" onclick="revealIdola()">イドラを現す</button>
             <div id="idola">
+              <button type="button" onclick="hideIdolaPride()">プライドを隠す</button>
+              <button type="button" onclick="revealIdolaPride()">プライドを現す</button>
+              <button type="button" onclick="hideIdolaArt()">美術品を隠す</button>
+              <button type="button" onclick="revealIdolaArt()">美術品を現す</button>
               <div id="idolaPride" class="pride">
                 <p class="pride-head"><strong>🏳️‍🌈 プライド 🏳️‍🌈</strong></p>
                 <p class="pronouns">代名詞：</p>
@@ -597,11 +664,19 @@
       <!-- あたしの式神達（My Shikigami） -->
       <article>
         <h2 id="My_Shikigami">郷鬼の式神達</h2>
+        <button type="button" onclick="hideShikigami()">式神達を隠す</button>
+        <button type="button" onclick="revealShikigami()">式神達を現す</button>
         <div id="MyShikigami">
           <!-- エリサベト・ヒディルベギシュヴィリ＝ガルセヴァニシュヴィリ＝ピルツハライシュヴィリ（Elisabed Khidirbegishvili-Garsevanishvili-Pirtskhalaishvili｜ელისაბედ ხიდირბეგიშვილი-გარსევანიშვილი-ფირცხალაიშვილი｜Elisabed Khidirbegishvili-Garsevanishvili-Pirtskhalaishvili） -->
           <section>
             <h4 id="Elisabed_Khidirbegishvili-Garsevanishvili-Pirtskhalaishvili">エリサベト・ピルツハライシュヴィリ</h4>
+            <button type="button" onclick="hideElisabed()">エリサベトを隠す</button>
+            <button type="button" onclick="revealElisabed()">エリサベトを現す</button>
             <div id="ElisabedKhidirbegishviliGarsevanishviliPirtskhalaishvili">
+              <button type="button" onclick="hideElisabedPride()">プライドを隠す</button>
+              <button type="button" onclick="revealElisabedPride()">プライドを現す</button>
+              <button type="button" onclick="hideElisabedArt()">美術品を隠す</button>
+              <button type="button" onclick="revealElisabedArt()">美術品を現す</button>
               <div id="ElisabedKhidirbegishviliGarsevanishviliPirtskhalaishviliPride" class="pride">
                 <p class="pride-head"><strong>🏳️‍🌈 プライド 🏳️‍🌈</strong></p>
                 <p class="pronouns">代名詞：she/they/hu</p>
@@ -648,7 +723,13 @@
           <!-- オルハ・ユヒミウナ・リトウィナ＝コスチュチェンコ（Olha Yukhymivna Lytvyna-Kostyuchenko｜Олга Юхимівна Литвина-Костюченко｜Olga Yukhymivna Lytvyna-Kostyuchenko） -->
           <section>
             <h4 id="Olha_Yukhymivna_Lytvyna-Kostyuchenko">オルハ・ユヒミウナ・リトウィナ</h4>
+            <button type="button" onclick="hideOlha()">オルハを隠す</button>
+            <button type="button" onclick="revealOlha()">オルハを現す</button>
             <div id="OlhaYukhymivnaLytvynaKostyuchenko">
+              <button type="button" onclick="hideOlhaPride()">プライドを隠す</button>
+              <button type="button" onclick="revealOlhaPride()">プライドを現す</button>
+              <button type="button" onclick="hideOlhaArt()">美術品を隠す</button>
+              <button type="button" onclick="revealOlhaArt()">美術品を現す</button>
               <div id="OlhaYukhymivnaLytvynaKostyuchenkoPride" class="pride">
                 <p class="pride-head"><strong>🏳️‍🌈 プライド 🏳️‍🌈</strong></p>
                 <p class="pronouns">代名詞：</p>
@@ -691,7 +772,13 @@
           <!-- 孟聖姫（Maeng Song-Hee｜맹성희｜孟聖姬｜Maeng Seonghui） -->
           <section>
             <h4 id="Maeng_Song-Hee">孟聖姫</h4>
+            <button type="button" onclick="hideSonghee()">聖姫を隠す</button>
+            <button type="button" onclick="revealSonghee()">聖姫を現す</button>
             <div id="MaengSongHee">
+              <button type="button" onclick="hideSongheePride()">プライドを隠す</button>
+              <button type="button" onclick="revealSongheePride()">プライドを現す</button>
+              <button type="button" onclick="hideSongheeArt()">美術品を隠す</button>
+              <button type="button" onclick="revealSongheeArt()">美術品を現す</button>
               <div id="MaengSongHeePride" class="pride">
                 <p class="pride-head"><strong>🏳️‍🌈 プライド 🏳️‍🌈</strong></p>
                 <p class="pronouns">代名詞：</p>
@@ -734,7 +821,13 @@
           <!-- ぬゑさか岸姫（Kishihime Nuwesaka） -->
           <section class="section">
             <h4 id="Kishihime_Nuwesaka">ぬゑさか岸姫</h4>
+            <button type="button" onclick="hideKishihime()">岸姫を隠す</button>
+            <button type="button" onclick="revealKishihime()">岸姫を現す</button>
             <div id="KishihimeNuwesaka">
+              <button type="button" onclick="hideKishihimePride()">プライドを隠す</button>
+              <button type="button" onclick="revealKishihimePride()">プライドを現す</button>
+              <button type="button" onclick="hideKishihimeArt()">美術品を隠す</button>
+              <button type="button" onclick="revealKishihimeArt()">美術品を現す</button>
               <div id="KishihimeNuwesakaPride" class="pride">
                 <p class="pride-head"><strong>🏳️‍🌈 プライド 🏳️‍🌈</strong></p>
                 <p class="pronouns">代名詞：she/he</p>
@@ -776,7 +869,13 @@
           <!-- イリニシュナ・マカロフナ・オブラズツォファ＝スルチェフスカヤ（Ilyinishna Makarovna Obraztsova-Sluchevskaya｜Ильинишна Макаровна Образцова-Случевская｜Il'inishna Makarovna Obraztsova-Sluchevskaya） -->
           <section>
             <h4 id="Ilyinishna_Makarovna_Obraztsova-Sluchevskaya">イリニシュナ・マカロフナ・オブラズツォファ</h4>
+            <button type="button" onclick="hideIlyinishna()">イリィを隠す</button>
+            <button type="button" onclick="revealIlyinishna()">イリィを現す</button>
             <div id="IlyinishnaMakarovnaObraztsovaSluchevskaya">
+              <button type="button" onclick="hideIlyinishnaPride()">プライドを隠す</button>
+              <button type="button" onclick="revealIlyinishnaPride()">プライドを現す</button>
+              <button type="button" onclick="hideIlyinishnaArt()">美術品を隠す</button>
+              <button type="button" onclick="revealIlyinishnaArt()">美術品を現す</button>
               <div id="IlyinishnaMakarovnaObraztsovaSluchevskayaPride" class="pride">
                 <p class="pride-head"><strong>🏳️‍🌈 プライド 🏳️‍🌈</strong></p>
                 <p class="pronouns">代名詞：</p>
@@ -818,7 +917,13 @@
           <!-- サンダ・カイン・テインギ・テ（Sanda Khaing Theingi Htet｜စန္ဒာခိုင်သိင်္ဂီထက်｜Canda Hkuing Singgi Htak） -->
           <section>
             <h4 id="Sanda_Khaing_Theingi_Htet">サンダ・カイン・テインギ・テ</h4>
+            <button type="button" onclick="hideSanda()">サンダを隠す</button>
+            <button type="button" onclick="revealSanda()">サンダを現す</button>
             <div id="SandaKhaingTheingiHtet">
+              <button type="button" onclick="hideSandaPride()">プライドを隠す</button>
+              <button type="button" onclick="revealSandaPride()">プライドを現す</button>
+              <button type="button" onclick="hideSandaArt()">美術品を隠す</button>
+              <button type="button" onclick="revealSandaArt()">美術品を現す</button>
               <div id="SandaKhaingTheingiHtetPride" class="pride">
                 <p class="pride-head"><strong>🏳️‍🌈 プライド 🏳️‍🌈</strong></p>
                 <p class="pronouns">代名詞：</p>
@@ -860,7 +965,13 @@
           <!-- スカーレット・ウィリアムズ（Scarlett Williams） -->
           <section>
             <h4 id="Scarlett_Williams">スカーレット・ウィリアムズ</h4>
+            <button type="button" onclick="hideScarlett()">スカーレットを隠す</button>
+            <button type="button" onclick="revealScarlett()">スカーレットを現す</button>
             <div id="ScarlettWilliams">
+              <button type="button" onclick="hideScarlettPride()">プライドを隠す</button>
+              <button type="button" onclick="revealScarlettPride()">プライドを現す</button>
+              <button type="button" onclick="hideScarlettArt()">美術品を隠す</button>
+              <button type="button" onclick="revealScarlettArt()">美術品を現す</button>
               <div id="ScarlettWilliamsPride" class="pride">
                 <p class="pride-head"><strong>🏳️‍🌈 プライド 🏳️‍🌈</strong></p>
                 <p class="pronouns">代名詞：</p>
