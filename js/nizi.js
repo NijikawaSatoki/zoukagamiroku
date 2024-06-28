@@ -1,12 +1,12 @@
 /* =========================================================================
- * nizi.js "���̑�����"
+ * nizi.js "øÌ¢»Ò"
  * =========================================================================
  * 
- * ����ҁF���싽�S
+ * §ìÒFøì½S
  * 
  * [ja]
- * ���̃t�@�C����HTML�u/html/nizi.html�v�ׂ̈Ƀf�U�C�����܂����B
- * �y���݂������āB
+ * ±Ìt@CÍHTMLu/html/nizi.htmlvÌ×ÉfUCµÜµ½B
+ * yµÝðÁÄB
  * 
  * [en]
  * This script file is for the HTML file located at
@@ -16,9 +16,9 @@
  * 
  */
 
-/* ��������������������������������������
- * �� �w�V�X�e���F���x�̃t�@���N�V���� ��
- * ��������������������������������������
+/* ¬ªªªªªªªªªªªªªªªªª­
+ * « wVXeFøxÌt@NV «
+ * ¯ªªªªªªªªªªªªªªªªª®
  * 
  */
 
@@ -32,9 +32,9 @@ function revealSystem() {
     document.getElementById("OurSystem").style.display = "unset";
 }
 
-/* ����������������������������������
- * �� �w���싽�S�x�̃t�@���N�V���� ��
- * ����������������������������������
+/* ¬ªªªªªªªªªªªªªªª­
+ * « wøì½SxÌt@NV «
+ * ¯ªªªªªªªªªªªªªªª®
  * 
  */
 
@@ -68,9 +68,9 @@ function revealSatokiArt() {
     document.getElementById("SatokiNijikawaArt").style.display = "unset";
 }
 
-/* ��������������������������������
- * �� �w���[���x�̃t�@���N�V���� ��
- * ��������������������������������
+/* ¬ªªªªªªªªªªªªªª­
+ * « w[xÌt@NV «
+ * ¯ªªªªªªªªªªªªªª®
  * 
  */
 
@@ -104,9 +104,9 @@ function revealWamoArt() {
     document.getElementById("wamoArt").style.display = "unset";
 }
 
-/* ����������������������������
- * �� �w���x�̃t�@���N�V���� ��
- * ����������������������������
+/* ¬ªªªªªªªªªªªª­
+ * « w´xÌt@NV «
+ * ¯ªªªªªªªªªªªª®
  * 
  */
 
@@ -140,9 +140,9 @@ function revealKiyoiArt() {
     document.getElementById("kiyoiArt").style.display = "unset";
 }
 
-/* ������������������������������������
- * �� �w���ȃP���m�x�̃t�@���N�V���� ��
- * ������������������������������������
+/* ¬ªªªªªªªªªªªªªªªª­
+ * « w©ÈPmxÌt@NV «
+ * ¯ªªªªªªªªªªªªªªªª®
  * 
  */
 
@@ -156,9 +156,9 @@ function revealFursona() {
     document.getElementById("MyFursonas").style.display = "unset";
 }
 
-/* ������������������������������
- * �� �w�d�ρx�̃t�@���N�V���� ��
- * ������������������������������
+/* ¬ªªªªªªªªªªªªª­
+ * « wdÏxÌt@NV «
+ * ¯ªªªªªªªªªªªªª®
  * 
  */
 
@@ -192,9 +192,9 @@ function revealYoukoArt() {
     document.getElementById("youkoArt").style.display = "unset";
 }
 
-/* ����������������������������������������
- * �� �w���̃I���L�����x�̃t�@���N�V���� ��
- * ����������������������������������������
+/* ¬ªªªªªªªªªªªªªªªªªª­
+ * « wøÌILxÌt@NV «
+ * ¯ªªªªªªªªªªªªªªªªªª®
  * 
  */
 
@@ -208,9 +208,9 @@ function revealOriginalCharacter() {
     document.getElementById("OriKyara").style.display = "unset";
 }
 
-/* ����������������������������������
- * �� �w�A�j���X�x�̃t�@���N�V���� ��
- * ����������������������������������
+/* ¬ªªªªªªªªªªªªªªª­
+ * « wAjXxÌt@NV «
+ * ¯ªªªªªªªªªªªªªªª®
  * 
  */
 
@@ -244,9 +244,9 @@ function revealAnimusArt() {
     document.getElementById("animusArt").style.display = "unset";
 }
 
-/* ��������������������������������
- * �� �w�A�C���x�̃t�@���N�V���� ��
- * ��������������������������������
+/* ¬ªªªªªªªªªªªªªª­
+ * « wACxÌt@NV «
+ * ¯ªªªªªªªªªªªªªª®
  * 
  */
 
@@ -280,9 +280,9 @@ function revealAynArt() {
     document.getElementById("AynArt").style.display = "unset";
 }
 
-/* ������������������������������������
- * �� �w�{�����}�[�x�̃t�@���N�V���� ��
- * ������������������������������������
+/* ¬ªªªªªªªªªªªªªªªª­
+ * « w{}[xÌt@NV «
+ * ¯ªªªªªªªªªªªªªªªª®
  * 
  */
 
@@ -316,9 +316,9 @@ function revealBolormaaArt() {
     document.getElementById("bolormaaArt").style.display = "unset";
 }
 
-/* ������������������������������
- * �� �w����x�̃t�@���N�V���� ��
- * ������������������������������
+/* ¬ªªªªªªªªªªªªª­
+ * « wöëxÌt@NV «
+ * ¯ªªªªªªªªªªªªª®
  * 
  */
 
@@ -352,9 +352,9 @@ function revealCuowuArt() {
     document.getElementById("CuowuArt").style.display = "unset";
 }
 
-/* ��������������������������������������������������
- * �� �w�n�b�v�E�o�E�G�����V�����x�̃t�@���N�V���� ��
- * ��������������������������������������������������
+/* ¬ªªªªªªªªªªªªªªªªªªªªªªª­
+ * « wnbvEoEGVxÌt@NV «
+ * ¯ªªªªªªªªªªªªªªªªªªªªªªª®
  * 
  */
 
@@ -388,9 +388,9 @@ function revealHapArt() {
     document.getElementById("HapP_EmoshunArt").style.display = "unset";
 }
 
-/* ��������������������������������
- * �� �w�C�h���x�̃t�@���N�V���� ��
- * ��������������������������������
+/* ¬ªªªªªªªªªªªªªª­
+ * « wChxÌt@NV «
+ * ¯ªªªªªªªªªªªªªª®
  * 
  */
 
@@ -424,9 +424,9 @@ function revealIdolaArt() {
     document.getElementById("idolaArt").style.display = "unset";
 }
 
-/* ��������������������������������������
- * �� �w���S�̎��_�B�x�̃t�@���N�V���� ��
- * ��������������������������������������
+/* ¬ªªªªªªªªªªªªªªªªª­
+ * « w½SÌ®_BxÌt@NV «
+ * ¯ªªªªªªªªªªªªªªªªª®
  * 
  */
 
@@ -440,9 +440,9 @@ function revealShikigami() {
     document.getElementById("MyShikigami").style.display = "unset";
 }
 
-/* ������������������������������������������������������������
- * �� �w�G���T�x�g�E�s���c�n���C�V�����B���x�̃t�@���N�V���� ��
- * ������������������������������������������������������������
+/* ¬ªªªªªªªªªªªªªªªªªªªªªªªªªªªª­
+ * « wGTxgEscnCVBxÌt@NV «
+ * ¯ªªªªªªªªªªªªªªªªªªªªªªªªªªªª®
  * 
  */
 
@@ -476,9 +476,9 @@ function revealElisabedArt() {
     document.getElementById("ElisabedKhidirbegishviliGarsevanishviliPirtskhalaishviliArt").style.display = "unset";
 }
 
-/* ��������������������������������������������������������
- * �� �w�I���n�E���q�~�E�i�E���g�E�B�i�x�̃t�@���N�V���� ��
- * ��������������������������������������������������������
+/* ¬ªªªªªªªªªªªªªªªªªªªªªªªªªª­
+ * « wInEq~EiEgEBixÌt@NV «
+ * ¯ªªªªªªªªªªªªªªªªªªªªªªªªªª®
  * 
  */
 
@@ -512,9 +512,9 @@ function revealOlhaArt() {
     document.getElementById("OlhaYukhymivnaLytvynaKostyuchenkoArt").style.display = "unset";
 }
 
-/* ��������������������������������
- * �� �w�А��P�x�̃t�@���N�V���� ��
- * ��������������������������������
+/* ¬ªªªªªªªªªªªªªª­
+ * « wÐ¹PxÌt@NV «
+ * ¯ªªªªªªªªªªªªªª®
  * 
  */
 
@@ -548,9 +548,9 @@ function revealSongheeArt() {
     document.getElementById("MaengSongHeeArt").style.display = "unset";
 }
 
-/* ��������������������������������������
- * �� �w�ʂ���ݕP�x�̃t�@���N�V���� ��
- * ��������������������������������������
+/* ¬ªªªªªªªªªªªªªªªªª­
+ * « wÊï³©ÝPxÌt@NV «
+ * ¯ªªªªªªªªªªªªªªªªª®
  * 
  */
 
@@ -584,9 +584,9 @@ function revealKishihimeArt() {
     document.getElementById("KishihimeNuwesakaArt").style.display = "unset";
 }
 
-/* ��������������������������������������������������������������������
- * �� �w�C���j�V���i�E�}�J���t�i�E�I�u���Y�c�H�t�@�x�̃t�@���N�V���� ��
- * ��������������������������������������������������������������������
+/* ¬ªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªª­
+ * « wCjViE}JtiEIuYcHt@xÌt@NV «
+ * ¯ªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªª®
  * 
  */
 
@@ -620,9 +620,9 @@ function revealIlyinishnaArt() {
     document.getElementById("IlyinishnaMakarovnaObraztsovaSluchevskayaArt").style.display = "unset";
 }
 
-/* ������������������������������������������������������
- * �� �w�T���_�E�J�C���E�e�C���M�E�e�x�̃t�@���N�V���� ��
- * ������������������������������������������������������
+/* ¬ªªªªªªªªªªªªªªªªªªªªªªªªª­
+ * « wT_EJCEeCMEexÌt@NV «
+ * ¯ªªªªªªªªªªªªªªªªªªªªªªªªª®
  * 
  */
 
@@ -656,9 +656,9 @@ function revealSandaArt() {
     document.getElementById("SandaKhaingTheingiHtetArt").style.display = "unset";
 }
 
-/* ����������������������������������������������������
- * �� �w�X�J�[���b�g�E�E�B���A���Y�x�̃t�@���N�V���� ��
- * ����������������������������������������������������
+/* ¬ªªªªªªªªªªªªªªªªªªªªªªªª­
+ * « wXJ[bgEEBAYxÌt@NV «
+ * ¯ªªªªªªªªªªªªªªªªªªªªªªªª®
  * 
  */
 
