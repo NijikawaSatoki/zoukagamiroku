@@ -24,9 +24,9 @@
  * 　　　　　　　　〓〓〓〓〓〓〓〓
  */
 
-/* ┌─────────────────────────────────────────┐
- * │ Import fonts from Google (sorry EU :/ ) │
- * └─────────────────────────────────────────┘
+/* ┌─────────────────────┐
+ * │ Import fonts from Google (sorry EU :/ )  │
+ * └─────────────────────┘
  *
  * This is mainly for in the event that the fonts I normally
  * use are not installed on the PC.
@@ -75,14 +75,14 @@
 /* Noto Serif Tibetan */
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Tibetan');
 
-/* ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
- * ┃ Styling for specific elements ┃
- * ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+/* ┏━━━━━━━━━━━━━━━━┓
+ * ┃ Styling for specific elements  ┃
+ * ┗━━━━━━━━━━━━━━━━┛
  */
 
-/* ┌────────────────────────┐
+/* ┌────────────┐
  * │ Stylesheet for anchors │
- * └────────────────────────┘
+ * └────────────┘
  */
 
 /* Unvisited links */
@@ -90,9 +90,9 @@ a:link {
     color: #99c3ff;
 }
 
-/* ┌─────────────────────┐
- * │ Stylesheet for body │
- * └─────────────────────┘
+/* ┌───────────┐
+ * │ Stylesheet for body  │
+ * └───────────┘
  */
 
 body {
@@ -104,9 +104,9 @@ body {
     padding-left: 2px;
 }
 
-/* ┌─────────────────────────┐
- * │ Stylesheet for headings │
- * └─────────────────────────┘
+/* ┌─────────────┐
+ * │ Stylesheet for headings  │
+ * └─────────────┘
  */
 
 /* Heading 1 */
@@ -154,9 +154,9 @@ h5 {
     text-align: center;
 }
 
-/* ┌─────────────────────────┐
- * │ Stylesheet for furigana │
- * └─────────────────────────┘
+/* ┌─────────────┐
+ * │ Stylesheet for furigana  │
+ * └─────────────┘
  */
 
 /* Furigana / ふりがな */
@@ -164,9 +164,9 @@ rt {
     font-size: 0.55em; /* see https://www.w3.org/TR/jlreq/?lang=en#ruby_and_emphasis_dots for more details */
 }
 
-/* ┌───────────────────────────┐
- * │ Stylesheet for paragraphs │
- * └───────────────────────────┘
+/* ┌──────────────┐
+ * │ Stylesheet for paragraphs  │
+ * └──────────────┘
  */
 
 /* Paragraphs */
@@ -175,9 +175,9 @@ rt {
     margin-bottom: 8.00px;
 }*/
 
-/* ┌───────────────────────┐
- * │ Stylesheet for header │
- * └───────────────────────┘
+/* ┌────────────┐
+ * │ Stylesheet for header  │
+ * └────────────┘
  */
 
 header {
@@ -186,9 +186,9 @@ header {
     text-align: center;
 }
 
-/* ┌────────────────────────┐
+/* ┌────────────┐
  * │ Stylesheet for article │
- * └────────────────────────┘
+ * └────────────┘
  */
 
 article {
@@ -196,18 +196,18 @@ article {
     margin-bottom: 122px;
 }
 
-/* ┌─────────────────────────┐
- * │ Stylesheet for sections │
- * └─────────────────────────┘
+/* ┌─────────────┐
+ * │ Stylesheet for sections  │
+ * └─────────────┘
  */
 
 section {
     padding: 4px;
 }
 
-/* ┌───────────────────────┐
- * │ Styelsheet for footer │
- * └───────────────────────┘
+/* ┌────────────┐
+ * │ Styelsheet for footer  │
+ * └────────────┘
  */
 
 footer {
@@ -218,14 +218,24 @@ footer {
     font-family: 'ヒラギノ角ゴ Pro W3', 'Noto Sans CJK JP', 'Noto Sans JP', sans-serif;
 }
 
-/* ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
- * ┃ Classes for various stuffs >:3 ┃
- * ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+/* ┌────────────┐
+ * │ Stylesheet for buttons │
+ * └────────────┘
  */
 
-/* ┌────────────────────────────┐
+button {
+    font-family: 'ヒラギノ丸ゴ Pro W4', 'Noto Sans CJK JP', 'ＭＳ ゴシック', 'Noto Sans JP', sans-serif;
+    font-size: 0.7em;
+}
+
+/* ┏━━━━━━━━━━━━━━━━┓
+ * ┃ Classes for various stuffs >:3 ┃
+ * ┗━━━━━━━━━━━━━━━━┛
+ */
+
+/* ┌──────────────┐
  * │ Language classes for fonts │
- * └────────────────────────────┘
+ * └──────────────┘
  */
 
 /* Burmese script */
@@ -310,9 +320,9 @@ footer {
     font-size: 130%;
 }
 
-/* ┌───────────────┐
- * │ <div> classes │
- * └───────────────┘
+/* ┌────────┐
+ * │ <div> classes  │
+ * └────────┘
  */
 
 /* <div> for galleries */
@@ -391,9 +401,9 @@ footer {
     background-color: #666666;
 }
 
-/* ┌─────────────────┐
- * │ Flexbox classes │
- * └─────────────────┘
+/* ┌─────────┐
+ * │ Flexbox classes  │
+ * └─────────┘
  */
 
 /* Art Gallery flexbox */
@@ -402,9 +412,9 @@ footer {
     flex-direction: row;
 }
 
-/* ┌───────────────┐
- * │ Other classes │
- * └───────────────┘
+/* ┌────────┐
+ * │ Other classes  │
+ * └────────┘
  * 
  */
 
@@ -495,9 +505,9 @@ footer {
     font-family: 'HGTakahashiReishotai', 'ヒラギノ明朝 Pro W6', 'Noto Serif CJK JP', 'Noto Serif JP', serif;
 }
 
-/* ┌───────────────┐
- * │ Image classes │
- * └───────────────┘
+/* ┌────────┐
+ * │ Image classes  │
+ * └────────┘
  * 
  */
 
