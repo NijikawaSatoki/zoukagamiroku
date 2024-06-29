@@ -164,17 +164,6 @@ rt {
     font-size: 0.55em; /* see https://www.w3.org/TR/jlreq/?lang=en#ruby_and_emphasis_dots for more details */
 }
 
-/* ┌──────────────┐
- * │ Stylesheet for paragraphs  │
- * └──────────────┘
- */
-
-/* Paragraphs */
-/*p {
-    margin-top: 8.00px;
-    margin-bottom: 8.00px;
-}*/
-
 /* ┌────────────┐
  * │ Stylesheet for header  │
  * └────────────┘
