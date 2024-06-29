@@ -229,7 +229,7 @@ button {
 
 /* Burmese script */
 .font-myanmar {
-    font-family: Pyidaungsu, 'Noto Sans Myanmar UI', 'Myanmar Text', 'Noto Sans Myanmar', sans-serif;
+    font-family: 'Pyidaungsu', 'Noto Sans Myanmar UI', 'Myanmar Text', 'Noto Sans Myanmar', sans-serif;
     font-size: 130%;
 }
 
