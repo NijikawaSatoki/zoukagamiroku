@@ -691,3 +691,133 @@ function hideScarlettArt() {
 function revealScarlettArt() {
     document.getElementById("ScarlettWilliamsArt").style.display = "unset";
 }
+
+/* ┏━━━━━━━━━━━━━━━━┓
+ * ┃ 『全ての為に』のファンクション ┃
+ * ┗━━━━━━━━━━━━━━━━┛
+ * 
+ */
+
+// Function for the "Hide all" / 『全てを隠す』 button
+function hideAll() {
+    hideSystem();
+    hideSatoki();
+    hideSatokiPride();
+    hideSatokiArt();
+    hideWamo();
+    hideWamoPride();
+    hideWamoArt();
+    hideKiyoi();
+    hideKiyoiPride();
+    hideKiyoiArt();
+
+    hideFursona();
+    hideYouko();
+    hideYoukoPride();
+    hideYoukoArt();
+
+    hideOriginalCharacter();
+    hideAnimus();
+    hideAnimusPride();
+    hideAnimusArt();
+    hideAyn();
+    hideAynPride();
+    hideAynArt();
+    hideBolormaa();
+    hideBolormaaPride();
+    hideBolormaaArt();
+    hideCuowu();
+    hideCuowuPride();
+    hideCuowuArt();
+    hideHap();
+    hideHapPride();
+    hideHapArt();
+    hideIdola();
+    hideIdolaPride();
+    hideIdolaArt();
+
+    hideShikigami();
+    hideElisabed();
+    hideElisabedPride();
+    hideElisabedArt();
+    hideOlha();
+    hideOlhaPride();
+    hideOlhaArt();
+    hideSonghee();
+    hideSongheePride();
+    hideSongheeArt();
+    hideKishihime();
+    hideKishihimePride();
+    hideKishihimeArt();
+    hideIlyinishna();
+    hideIlyinishnaPride();
+    hideIlyinishnaArt();
+    hideSanda();
+    hideSandaPride();
+    hideSandaArt();
+    hideScarlett();
+    hideScarlettPride();
+    hideScarlettArt();
+}
+
+// Function for the "Reveal all" / 『全てを現す』 button
+function revealAll() {
+    revealSystem();
+    revealSatoki();
+    revealSatokiPride();
+    revealSatokiArt();
+    revealWamo();
+    revealWamoPride();
+    revealWamoArt();
+    revealKiyoi();
+    revealKiyoiPride();
+    revealKiyoiArt();
+
+    revealFursona();
+    revealYouko();
+    revealYoukoPride();
+    revealYoukoArt();
+
+    revealOriginalCharacter();
+    revealAnimus();
+    revealAnimusPride();
+    revealAnimusArt();
+    revealAyn();
+    revealAynPride();
+    revealAynArt();
+    revealBolormaa();
+    revealBolormaaPride();
+    revealBolormaaArt();
+    revealCuowu();
+    revealCuowuPride();
+    revealCuowuArt();
+    revealHap();
+    revealHapPride();
+    revealHapArt();
+    revealIdola();
+    revealIdolaPride();
+    revealIdolaArt();
+
+    revealShikigami();
+    revealElisabed();
+    revealElisabedPride();
+    revealElisabedArt();
+    revealOlha();
+    revealOlhaPride();
+    revealOlhaArt();
+    revealSonghee();
+    revealSongheePride();
+    revealSongheeArt();
+    revealKishihime();
+    revealKishihimePride();
+    revealKishihimeArt();
+    revealIlyinishna();
+    revealIlyinishnaPride();
+    revealIlyinishnaArt();
+    revealSanda();
+    revealSandaPride();
+    revealSandaArt();
+    revealScarlett();
+    revealScarlettPride();
+    revealScarlettArt();
+}
