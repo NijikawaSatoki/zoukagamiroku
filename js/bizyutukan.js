@@ -7,15 +7,12 @@
  * [ja]
  * このファイルはHTML「/html/gallery/*.html」の為にデザインしました。
  * 楽しみを持って。
- * テンプレートですよ！
  * 
  * [en]
  * This script file is for the HTML file located at
  *     /html/gallery/*.html
  * 
  * Enjoy!
- * 
- * This is a template file!
  * 
  */
 
