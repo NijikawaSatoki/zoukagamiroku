@@ -1,0 +1,38 @@
+/* ============================================================================
+ * bizyutukan.js "美術館"
+ * ============================================================================
+ * 
+ * 制作者：虹川郷鬼
+ * 
+ * [ja]
+ * このファイルはHTML「/html/gallery/*.html」の為にデザインしました。
+ * 楽しみを持って。
+ * テンプレートですよ！
+ * 
+ * [en]
+ * This script file is for the HTML file located at
+ *     /html/gallery/*.html
+ * 
+ * Enjoy!
+ * 
+ * This is a template file!
+ * 
+ */
+
+/* ┏━━━━━━━━━━━━━━━━━━━━━┓
+ * ┃ 『ＮＳＦＷコントロール』のファンクション ┃
+ * ┗━━━━━━━━━━━━━━━━━━━━━┛
+ * 
+ */
+
+/* ┏━━━━━━━━━━━━━━━━┓
+ * ┃ 『全ての為に』のファンクション ┃
+ * ┗━━━━━━━━━━━━━━━━┛
+ * 
+ */
+
+// Function for the "Hide all" / 『全てを隠す』 button
+function hideAll() {}
+
+// Function for the "Reveal all" / 『全てを現す』 button
+function revealAll() {}
