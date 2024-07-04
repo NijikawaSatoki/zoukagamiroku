@@ -29,7 +29,7 @@ function hideNotSafeForWork() {
 }
 
 // Function for showing NSFW art
-function showNotSafeForAll() {
+function showNotSafeForWork() {
     document.getElementById("nsfw").style.display = "unset";
     return 0;
 }
