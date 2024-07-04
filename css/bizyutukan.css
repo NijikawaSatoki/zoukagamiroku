@@ -1,0 +1,13 @@
+/* ＃＃＃＃＃＃＃＃＃＃
+ * ＃ bizyutukan.css ＃
+ * ＃＃＃＃＃＃＃＃＃＃
+ *
+ * This just exists to set the default state of the togglable
+ * <div> elements to "none".
+ *
+ */
+
+/* NSFW :3 */
+div#nsfw {
+    display: none;
+}
