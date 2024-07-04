@@ -22,6 +22,12 @@
  * 
  */
 
+// Function for hiding NSFW art
+function hideNotSafeForAll() {
+    document.getElementById("nsfw").style.display = "hide";
+    return 0;
+}
+
 /* ┏━━━━━━━━━━━━━━━━┓
  * ┃ 『全ての為に』のファンクション ┃
  * ┗━━━━━━━━━━━━━━━━┛
