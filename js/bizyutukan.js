@@ -28,6 +28,12 @@ function hideNotSafeForAll() {
     return 0;
 }
 
+// Function for showing NSFW art
+function showNotSafeForAll() {
+    document.getElementById("nsfw").style.display = "unset";
+    return 0;
+}
+
 /* ┏━━━━━━━━━━━━━━━━┓
  * ┃ 『全ての為に』のファンクション ┃
  * ┗━━━━━━━━━━━━━━━━┛
