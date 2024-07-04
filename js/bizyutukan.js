@@ -24,7 +24,7 @@
 
 // Function for hiding NSFW art
 function hideNotSafeForAll() {
-    document.getElementById("nsfw").style.display = "hide";
+    document.getElementById("nsfw").style.display = "none";
     return 0;
 }
 
