@@ -24,12 +24,14 @@
 
 // Function for hiding NSFW art
 function hideNotSafeForWork() {
-    document.getElementById("nsfw").style.display = "none";
+    document.getElementById("nsfw0").style.display = "none";
+    document.getElementById("nsfw1").style.display = "none";
 }
 
 // Function for showing NSFW art
 function showNotSafeForWork() {
-    document.getElementById("nsfw").style.display = "unset";
+    document.getElementById("nsfw0").style.display = "unset";
+    document.getElementById("nsfw1").style.display = "unset";
 }
 
 /* ┏━━━━━━━━━━━━━━━━┓
