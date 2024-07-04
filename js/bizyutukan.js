@@ -25,13 +25,11 @@
 // Function for hiding NSFW art
 function hideNotSafeForWork() {
     document.getElementById("nsfw").style.display = "none";
-    return 0;
 }
 
 // Function for showing NSFW art
 function showNotSafeForWork() {
     document.getElementById("nsfw").style.display = "unset";
-    return 0;
 }
 
 /* ┏━━━━━━━━━━━━━━━━┓
