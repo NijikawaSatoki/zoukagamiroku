@@ -1,0 +1,13 @@
+/* ＃＃＃＃＃＃＃＃＃
+ * ＃ ancient.css  ＃
+ * ＃＃＃＃＃＃＃＃＃
+ *
+ * This just exists to set the default state of the togglable
+ * <div> elements to "none".
+ *
+ */
+
+/* The Former Capital, Then & Now */
+div#TheFormerCapitalThenAndNow {
+    display: none;
+}
