@@ -26,12 +26,14 @@
 function hideNotSafeForWork() {
     document.getElementById("nsfw0").style.display = "none";
     document.getElementById("nsfw1").style.display = "none";
+    return 0;
 }
 
 // Function for showing NSFW art
 function showNotSafeForWork() {
     document.getElementById("nsfw0").style.display = "unset";
     document.getElementById("nsfw1").style.display = "unset";
+    return 0;
 }
 
 /* ┏━━━━━━━━━━━━━━━━┓
@@ -41,7 +43,11 @@ function showNotSafeForWork() {
  */
 
 // Function for the "Hide all" / 『全てを隠す』 button
-function hideAll() {}
+function hideAll() {
+    return 0;
+}
 
 // Function for the "Reveal all" / 『全てを現す』 button
-function revealAll() {}
+function revealAll() {
+    return 0;
+}

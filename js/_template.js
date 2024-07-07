@@ -32,7 +32,11 @@
  */
 
 // Function for the "Hide all" / 『全てを隠す』 button
-function hideAll() {}
+function hideAll() {
+    return 0;
+}
 
 // Function for the "Reveal all" / 『全てを現す』 button
-function revealAll() {}
+function revealAll() {
+    return 0;
+}
