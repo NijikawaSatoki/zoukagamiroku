@@ -1,36 +1,20 @@
-/* ＃＃＃＃＃＃＃＃＃
- * ＃ default.css  ＃
- * ＃＃＃＃＃＃＃＃＃
- *
- * For `/html/*`, with exception of `/html/menu.html`
- *
- */
-
-/* 　　　　〓
- * 　　　　〓　　　〓〓〓〓〓〓〓
- * 　　　　〓　　　　　　〓
- * 　〓〓〓〓〓〓〓　　　〓
- * 　〓　　〓　　〓　　　〓
- * 　〓　　〓　　〓　　　〓
- * 　〓　　〓　　〓　　　〓
- * 　〓　　〓　　〓　　　〓
- * 　〓〓〓〓〓〓〓　　　〓
- * 　　　　〓　　　　　　〓
- * 　　　　〓　　　　　　〓
- * 　　　　〓　〓　　　　〓
- * 　　　　〓　〓　　　　〓
- * 　　　　〓〓〓〓　　　〓
- * 　〓〓〓〓　　〓　　　〓
- * 　　　　　　　　〓〓〓〓〓〓〓〓
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ * default.css
+ * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ * 
+ * 制作者：虹川郷鬼
+ * 
+ * This is the general stylesheet.
+ * 
  */
 
 /* ┌─────────────────────┐
  * │ Import fonts from Google (sorry EU :/ )  │
  * └─────────────────────┘
- *
- * This is mainly for in the event that the fonts I normally
- * use are not installed on the PC.
- *
+ * 
+ * This is mainly for in the event that the fonts I normally use are not
+ * installed on the PC.
+ * 
  */
 
 /* Noto Sans Japanese */

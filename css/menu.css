@@ -1,36 +1,18 @@
-/* ＃＃＃＃＃＃＃
- * ＃ menu.css ＃
- * ＃＃＃＃＃＃＃
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ * menu.css "目次"
+ * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  *
- * For `/html/menu.html`
+ * The stylesheet for the contents panels.
  *
- */
-
-/* 　　　　〓
- * 　　　　〓　　　〓〓〓〓〓〓〓
- * 　　　　〓　　　　　　〓
- * 　〓〓〓〓〓〓〓　　　〓
- * 　〓　　〓　　〓　　　〓
- * 　〓　　〓　　〓　　　〓
- * 　〓　　〓　　〓　　　〓
- * 　〓　　〓　　〓　　　〓
- * 　〓〓〓〓〓〓〓　　　〓
- * 　　　　〓　　　　　　〓
- * 　　　　〓　　　　　　〓
- * 　　　　〓　〓　　　　〓
- * 　　　　〓　〓　　　　〓
- * 　　　　〓〓〓〓　　　〓
- * 　〓〓〓〓　　〓　　　〓
- * 　　　　　　　　〓〓〓〓〓〓〓〓
  */
  
-/* ┌─────────────────────────────────────────┐
- * │ Import fonts from Google (sorry EU :/ ) │
- * └─────────────────────────────────────────┘
- *
+/* ┌─────────────────────┐
+ * │ Import fonts from Google (sorry EU :/ )  │
+ * └─────────────────────┘
+ * 
  * This is mainly for in the event that the fonts I normally
  * use are not installed on the PC.
- *
+ * 
  */
 
 /* Noto Sans Japanese */
@@ -39,14 +21,14 @@
 /* Noto Serif Japanese */
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP');
 
-/* ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
- * ┃ Styling for specific elements ┃
- * ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+/* ┏━━━━━━━━━━━━━━━━┓
+ * ┃ Styling for specific elements  ┃
+ * ┗━━━━━━━━━━━━━━━━┛
  */
 
-/* ┌────────────────────────┐
+/* ┌────────────┐
  * │ Stylesheet for anchors │
- * └────────────────────────┘
+ * └────────────┘
  */
 
 /* Unvisited links */
@@ -54,9 +36,9 @@ a:link {
     color: #99c3ff;
 }
 
-/* ┌─────────────────────┐
- * │ Stylesheet for body │
- * └─────────────────────┘
+/* ┌───────────┐
+ * │ Stylesheet for body  │
+ * └───────────┘
  */
 
 body {
@@ -68,9 +50,9 @@ body {
     padding-left: 4px;
 }
 
-/* ┌─────────────────────────┐
- * │ Stylesheet for headings │
- * └─────────────────────────┘
+/* ┌─────────────┐
+ * │ Stylesheet for headings  │
+ * └─────────────┘
  */
 
 /* Heading 1 */
@@ -118,9 +100,9 @@ h5 {
     margin-bottom: auto;
 }
 
-/* ┌─────────────────────────┐
- * │ Stylesheet for furigana │
- * └─────────────────────────┘
+/* ┌─────────────┐
+ * │ Stylesheet for furigana  │
+ * └─────────────┘
  */
 
 /* Furigana / ふりがな */
@@ -128,9 +110,9 @@ rt {
     font-size: 0.55em; /* see https://www.w3.org/TR/jlreq/?lang=en#ruby_and_emphasis_dots for more details */
 }
 
-/* ┌───────────────┐
- * │ Other classes │
- * └───────────────┘
+/* ┌────────┐
+ * │ Other classes  │
+ * └────────┘
  */
 
 /* Contents */
