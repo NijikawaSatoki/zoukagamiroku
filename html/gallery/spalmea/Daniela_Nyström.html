@@ -32,7 +32,7 @@
     <script src="../../../js/bizyutukan.js"></script>
   </head>
   <body>
-    <header>
+    <header id="top">
       <h1 class="header-text">
         天園神關里　～ Brilliance of Heaven Pleasure<br>
         美術館<br>
@@ -43,28 +43,33 @@
       <!-- 造化神録に戻る（Return to the Record） -->
       <a href="../../spalmea.html#Daniela_Nyström" title="造化神録に戻る">←　造化神録に戻る</a>
       <!-- 現在レファレンス（Current Ref Sheet） -->
-      <div class="gallery" id="現在レファレンス">
+      <section class="gallery" id="現在レファレンス">
         <h2 class="art-heading">レファレンス</h2><hr>
         <div class="flex-gallery" id="Flexbox 【レファレンス】">
           <div class="art-ref" id="ダニエラのレファレンス">
             <img class="reference-art" src="../../../img/ref/DanielaNyström.png" alt="ダニエラのレファレンス">
           </div>
         </div>
-      </div>
+      </section>
       <!-- 美術品（All Art） -->
-      <div class="gallery" id="美術品">
+      <section class="gallery" id="美術品">
         <h2 class="art-heading">美術品</h2><hr>
         <button type="button" onclick="hideNotSafeForWork()">ＮＳＦＷを隠す</button>
         <button type="button" onclick="showNotSafeForWork()">ＮＳＦＷを現す</button>
         <div class="flex-gallery" id="Flexbox 【美術品】">
         </div>
-      </div>
+      </section>
       <!-- 旧レファレンス（Old ref sheets :3） -->
-      <div class="gallery" id="旧レファレンス">
+      <section class="gallery" id="旧レファレンス">
         <h2 class="art-heading">旧レファレンス</h2><hr>
         <div class="flex-gallery" id="Flexbox 【旧レファレンス】">
         </div>
-      </div>
+      </section>
+      <!-- 始まりに戻る（Return to Top） -->
+      <br>
+      <a href="#top">始まりに戻る</a>
+      <br>
+      <br>
     </main>
     <footer>
       <p>© 2024 虹川郷鬼</p>
