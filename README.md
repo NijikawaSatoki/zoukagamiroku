@@ -21,6 +21,7 @@ I'd love to genuinely see it!
 ### To-do
 
 - [ ] Finish everything needed for v0.1.0
+- [ ] Add English localisation
 - [ ] Add stuffs for section "Ame-no-Ohkoku" (needed for v0.2.0)
 - [ ] Add stuffs for section "Toshaeji Province" (needed for v0.3.0)
 - [ ] Add stuffs for section "Claeq-Swary Council Area" (needed for v0.4.0)
