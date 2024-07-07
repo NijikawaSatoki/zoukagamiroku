@@ -160,6 +160,40 @@ function revealKiyoiArt() {
     return 0;
 }
 
+// ****************************************************************************
+// `hide0` and `reveal0` functions for hideAll() and revealAll(), respectively
+// ****************************************************************************
+
+function hide0() {
+    hideSystem();
+    hideSatoki();
+    hideSatokiPride();
+    hideSatokiArt();
+    hideWamo();
+    hideWamoPride();
+    hideWamoArt();
+    hideKiyoi();
+    hideKiyoiPride();
+    hideKiyoiArt();
+    return 0;
+}
+
+function reveal0() {
+    revealSystem();
+    revealSatoki();
+    revealSatokiPride();
+    revealSatokiArt();
+    revealWamo();
+    revealWamoPride();
+    revealWamoArt();
+    revealKiyoi();
+    revealKiyoiPride();
+    revealKiyoiArt();
+    return 0;
+}
+
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 /* ┏━━━━━━━━━━━━━━━━┓
  * ┃ 『自己ケモノ』のファンクション ┃
  * ┗━━━━━━━━━━━━━━━━┛
@@ -219,6 +253,28 @@ function revealYoukoArt() {
     document.getElementById("youkoArt").style.display = "unset";
     return 0;
 }
+
+// ****************************************************************************
+// `hide1` and `reveal1` functions for hideAll() and revealAll(), respectively
+// ****************************************************************************
+
+function hide1() {
+    hideFursona();
+    hideYouko();
+    hideYoukoPride();
+    hideYoukoArt();
+    return 0;
+}
+
+function reveal1() {
+    revealFursona();
+    revealYouko();
+    revealYoukoPride();
+    revealYoukoArt();
+    return 0;
+}
+
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 /* ┏━━━━━━━━━━━━━━━━━━┓
  * ┃ 『虹のオリキャラ』のファンクション ┃
@@ -489,6 +545,58 @@ function revealIdolaArt() {
     document.getElementById("idolaArt").style.display = "unset";
     return 0;
 }
+
+// ****************************************************************************
+// `hide2` and `reveal2` functions for hideAll() and revealAll(), respectively
+// ****************************************************************************
+
+function hide2() {
+    hideOriginalCharacter();
+    hideAnimus();
+    hideAnimusPride();
+    hideAnimusArt();
+    hideAyn();
+    hideAynPride();
+    hideAynArt();
+    hideBolormaa();
+    hideBolormaaPride();
+    hideBolormaaArt();
+    hideCuowu();
+    hideCuowuPride();
+    hideCuowuArt();
+    hideHap();
+    hideHapPride();
+    hideHapArt();
+    hideIdola();
+    hideIdolaPride();
+    hideIdolaArt();
+    return 0;
+}
+
+function reveal2() {
+    revealOriginalCharacter();
+    revealAnimus();
+    revealAnimusPride();
+    revealAnimusArt();
+    revealAyn();
+    revealAynPride();
+    revealAynArt();
+    revealBolormaa();
+    revealBolormaaPride();
+    revealBolormaaArt();
+    revealCuowu();
+    revealCuowuPride();
+    revealCuowuArt();
+    revealHap();
+    revealHapPride();
+    revealHapArt();
+    revealIdola();
+    revealIdolaPride();
+    revealIdolaArt();
+    return 0;
+}
+
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 /* ┏━━━━━━━━━━━━━━━━━┓
  * ┃ 『郷鬼の式神達』のファンクション ┃
@@ -802,50 +910,11 @@ function revealScarlettArt() {
     return 0;
 }
 
-/* ┏━━━━━━━━━━━━━━━━┓
- * ┃ 『全ての為に』のファンクション ┃
- * ┗━━━━━━━━━━━━━━━━┛
- * 
- */
+// ****************************************************************************
+// `hide3` and `reveal3` functions for hideAll() and revealAll(), respectively
+// ****************************************************************************
 
-// Function for the "Hide all" / 『全てを隠す』 button
-function hideAll() {
-    hideSystem();
-    hideSatoki();
-    hideSatokiPride();
-    hideSatokiArt();
-    hideWamo();
-    hideWamoPride();
-    hideWamoArt();
-    hideKiyoi();
-    hideKiyoiPride();
-    hideKiyoiArt();
-
-    hideFursona();
-    hideYouko();
-    hideYoukoPride();
-    hideYoukoArt();
-
-    hideOriginalCharacter();
-    hideAnimus();
-    hideAnimusPride();
-    hideAnimusArt();
-    hideAyn();
-    hideAynPride();
-    hideAynArt();
-    hideBolormaa();
-    hideBolormaaPride();
-    hideBolormaaArt();
-    hideCuowu();
-    hideCuowuPride();
-    hideCuowuArt();
-    hideHap();
-    hideHapPride();
-    hideHapArt();
-    hideIdola();
-    hideIdolaPride();
-    hideIdolaArt();
-
+function hide3() {
     hideShikigami();
     hideElisabed();
     hideElisabedPride();
@@ -868,48 +937,10 @@ function hideAll() {
     hideScarlett();
     hideScarlettPride();
     hideScarlettArt();
-
     return 0;
 }
 
-// Function for the "Reveal all" / 『全てを現す』 button
-function revealAll() {
-    revealSystem();
-    revealSatoki();
-    revealSatokiPride();
-    revealSatokiArt();
-    revealWamo();
-    revealWamoPride();
-    revealWamoArt();
-    revealKiyoi();
-    revealKiyoiPride();
-    revealKiyoiArt();
-
-    revealFursona();
-    revealYouko();
-    revealYoukoPride();
-    revealYoukoArt();
-
-    revealOriginalCharacter();
-    revealAnimus();
-    revealAnimusPride();
-    revealAnimusArt();
-    revealAyn();
-    revealAynPride();
-    revealAynArt();
-    revealBolormaa();
-    revealBolormaaPride();
-    revealBolormaaArt();
-    revealCuowu();
-    revealCuowuPride();
-    revealCuowuArt();
-    revealHap();
-    revealHapPride();
-    revealHapArt();
-    revealIdola();
-    revealIdolaPride();
-    revealIdolaArt();
-
+function reveal3() {
     revealShikigami();
     revealElisabed();
     revealElisabedPride();
@@ -932,6 +963,31 @@ function revealAll() {
     revealScarlett();
     revealScarlettPride();
     revealScarlettArt();
+    return 0;
+}
 
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+/* ┏━━━━━━━━━━━━━━━━┓
+ * ┃ 『全ての為に』のファンクション ┃
+ * ┗━━━━━━━━━━━━━━━━┛
+ * 
+ */
+
+// Function for the "Hide all" / 『全てを隠す』 button
+function hideAll() {
+    hide0();
+    hide1();
+    hide2();
+    hide3();
+    return 0;
+}
+
+// Function for the "Reveal all" / 『全てを現す』 button
+function revealAll() {
+    reveal0();
+    reveal1();
+    reveal2();
+    reveal3();
     return 0;
 }
