@@ -1,13 +1,150 @@
-/* ＃＃＃＃＃＃＃＃＃
- * ＃ ancient.css  ＃
- * ＃＃＃＃＃＃＃＃＃
- *
- * This just exists to set the default state of the togglable
- * <div> elements to "none".
- *
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ * ancient.css "旧神關里"
+ * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ * 
+ * 制作者：虹川郷鬼
+ * 
+ * This just exists to set the default state of the togglable <div> elements to 
+ * "none".
+ * 
  */
 
-/* The Former Capital, Then & Now */
+/* 古い都の町人、古代と現代 */
 div#TheFormerCapitalThenAndNow {
+    display: none;
+}
+
+/* 柏嵜法牌香 */
+div#KashizakiNoHakaruNoFudakau {
+    display: none;
+}
+
+/* 遠呂智蛇揺雨 */
+div#OrochiNoHebiNoYurusame {
+    display: none;
+}
+
+/* 平也醒上丸 */
+div#TairaNoYasameNoKamimaru {
+    display: none;
+}
+
+/* 夜叉町鐵奈我沙 */
+div#YashamachiNoKuroganeNoNagasa {
+    display: none;
+}
+
+/* 神關里の元帝王 */
+div#FormerEmperorsOfKansekiri {
+    display: none;
+}
+
+/* 一条久二乃良宗 */
+div#IchijoNoKuniNoNoramune {
+    display: none;
+}
+
+/* 二条清八太郎 */
+div#NijoNoKiyoNoYataro {
+    display: none;
+}
+
+/* 三條麹丸雨 */
+div#SanjoNoKoujiNoMarusame {
+    display: none;
+}
+
+/* 源蜘彩歌子 */
+div#MinamotoNoKumoNoAyakashi {
+    display: none;
+}
+
+/* 平榊間美智 */
+div#TairaNoSakamaNoYoshitomo {
+    display: none;
+}
+
+/* 藤原裁峰義 */
+div#FujiwaraNoSaiNoMineyoshi {
+    display: none;
+}
+
+/* 橘藪根岸仁 */
+div#TachibanaNoYabuneNoKishihito {
+    display: none;
+}
+
+/* 物部鑓殺奈 */
+div#MononobeNoYariNoSetsuna {
+    display: none;
+}
+
+/* 九条纖本盛 */
+div#KujoNoShinaNoMotomori {
+    display: none;
+}
+
+/* 蘇我牀遣仁 */
+div#SogaNoYukaNoYaruhito {
+    display: none;
+}
+
+/* 足利畔蒜毬二 */
+div#AshikagaNoKuroneNoMariji {
+    display: none;
+}
+
+/* 鷹司闇光之郞 */
+div#TakatsukasaNoYamiNoMitsunoro {
+    display: none;
+}
+
+/* 德川衣世探重 */
+div#TokugawaNoIyoNoSagashishige {
+    display: none;
+}
+
+/* 大炊御門鈴鵜麻 */
+div#OinomikadoNoSuzuNoUma {
+    display: none;
+}
+
+/* 西園寺綯清宗 */
+div#SaionjiNoNauNoKiyomune {
+    display: none;
+}
+
+/* 醍醐猿概 */
+div#DaigoNoSaruNoOmune {
+    display: none;
+}
+
+/* 今出川裙兔雪丸 */
+div#ImadegawaNoGuntoNoSetsumaru {
+    display: none;
+}
+
+/* 德大寺誇宗沙 */
+div#TokudaijiNoHokoruNoMunesa {
+    display: none;
+}
+
+/* 近衛鞠染鮫 */
+div#KonoeNoMariNoSomezame {
+    display: none;
+}
+
+/* 菊亭馬海春盛 */
+div#KikuteiNoUmakaiNoHarumori {
+    display: none;
+}
+
+/* 花山院墨染花清 */
+div#KasannoinNoSumizomeNoHananokiyo {
+    display: none;
+}
+
+/* 遊坂茜志奴呂 */
+div#YuuzakaNoAkaneNoShinuro {
     display: none;
 }

@@ -39,10 +39,12 @@ function revealTownfolk() {
  */
 
 function hideKashizakiNoHakaruNoFudakau() {
+    document.getElementById("KashizakiNoHakaruNoFudakau").style.display = "none";
     return 0;
 }
 
 function revealKashizakiNoHakaruNoFudakau() {
+    document.getElementById("KashizakiNoHakaruNoFudakau").style.display = "unset";
     return 0;
 }
 
@@ -53,10 +55,12 @@ function revealKashizakiNoHakaruNoFudakau() {
  */
 
 function hideOrochiNoHebiNoYurusame() {
+    document.getElementById("OrochiNoHebiNoYurusame").style.display = "none";
     return 0;
 }
 
 function revealOrochiNoHebiNoYurusame() {
+    document.getElementById("OrochiNoHebiNoYurusame").style.display = "unset";
     return 0;
 }
 
@@ -67,10 +71,12 @@ function revealOrochiNoHebiNoYurusame() {
  */
 
 function hideTairaNoYasameNoKamimaru() {
+    document.getElementById("TairaNoYasameNoKamimaru").style.display = "none";
     return 0;
 }
 
 function revealTairaNoYasameNoKamimaru() {
+    document.getElementById("TairaNoYasameNoKamimaru").style.display = "unset";
     return 0;
 }
 
@@ -81,10 +87,12 @@ function revealTairaNoYasameNoKamimaru() {
  */
 
 function hideYashamachiNoKuroganeNoNagasa() {
+    document.getElementById("YashamachiNoKuroganeNoNagasa").style.display = "none";
     return 0;
 }
 
 function revealYashamachiNoKuroganeNoNagasa() {
+    document.getElementById("YashamachiNoKuroganeNoNagasa").style.display = "unset";
     return 0;
 }
 
@@ -119,10 +127,12 @@ function reveal0() {
  */
 
 function hideFormerEmperors() {
+    document.getElementById("FormerEmperorsOfKansekiri").style.display = "none";
     return 0;
 }
 
 function revealFormerEmperors() {
+    document.getElementById("FormerEmperorsOfKansekiri").style.display = "unset";
     return 0;
 }
 
@@ -133,10 +143,12 @@ function revealFormerEmperors() {
  */
 
 function hideIchijoNoKuniNoNoramune() {
+    document.getElementById("IchijoNoKuniNoNoramune").style.display = "none";
     return 0;
 }
 
 function revealIchijoNoKuniNoNoramune() {
+    document.getElementById("IchijoNoKuniNoNoramune").style.display = "unset";
     return 0;
 }
 
@@ -147,10 +159,12 @@ function revealIchijoNoKuniNoNoramune() {
  */
 
 function hideNijoNoKiyoNoYataro() {
+    document.getElementById("NijoNoKiyoNoYataro").style.display = "none";
     return 0;
 }
 
 function revealNijoNoKiyoNoYataro() {
+    document.getElementById("NijoNoKiyoNoYataro").style.display = "unset";
     return 0;
 }
 
@@ -161,10 +175,12 @@ function revealNijoNoKiyoNoYataro() {
  */
 
 function hideSanjoNoKoujiNoMarusame() {
+    document.getElementById("SanjoNoKoujiNoMarusame").style.display = "none";
     return 0;
 }
 
 function revealSanjoNoKoujiNoMarusame() {
+    document.getElementById("SanjoNoKoujiNoMarusame").style.display = "unset";
     return 0;
 }
 
@@ -175,10 +191,12 @@ function revealSanjoNoKoujiNoMarusame() {
  */
 
 function hideMinamotoNoKumoNoAyakashi() {
+    document.getElementById("MinamotoNoKumoNoAyakashi").style.display = "none";
     return 0;
 }
 
 function revealMinamotoNoKumoNoAyakashi() {
+    document.getElementById("MinamotoNoKumoNoAyakashi").style.display = "unset";
     return 0;
 }
 
@@ -189,10 +207,12 @@ function revealMinamotoNoKumoNoAyakashi() {
  */
 
 function hideTairaNoSakamaNoYoshitomo() {
+    document.getElementById("TairaNoSakamaNoYoshitomo").style.display = "none";
     return 0;
 }
 
 function revealTairaNoSakamaNoYoshitomo() {
+    document.getElementById("TairaNoSakamaNoYoshitomo").style.display = "unset";
     return 0;
 }
 
@@ -203,10 +223,12 @@ function revealTairaNoSakamaNoYoshitomo() {
  */
 
 function hideFujiwaraNoSaiNoMineyoshi() {
+    document.getElementById("FujiwaraNoSaiNoMineyoshi").style.display = "none";
     return 0;
 }
 
 function revealFujiwaraNoSaiNoMineyoshi() {
+    document.getElementById("FujiwaraNoSaiNoMineyoshi").style.display = "unset";
     return 0;
 }
 
@@ -217,10 +239,12 @@ function revealFujiwaraNoSaiNoMineyoshi() {
  */
 
 function hideTachibanaNoYabuneNoKishihito() {
+    document.getElementById("TachibanaNoYabuneNoKishihito").style.display = "none";
     return 0;
 }
 
 function revealTachibanaNoYabuneNoKishihito() {
+    document.getElementById("TachibanaNoYabuneNoKishihito").style.display = "unset";
     return 0;
 }
 
@@ -231,10 +255,12 @@ function revealTachibanaNoYabuneNoKishihito() {
  */
 
 function hideMononobeNoYariNoSetsuna() {
+    document.getElementById("MononobeNoYariNoSetsuna").style.display = "none";
     return 0;
 }
 
 function revealMononobeNoYariNoSetsuna() {
+    document.getElementById("MononobeNoYariNoSetsuna").style.display = "unset";
     return 0;
 }
 
@@ -245,10 +271,12 @@ function revealMononobeNoYariNoSetsuna() {
  */
 
 function hideKujoNoShinaNoMotomori() {
+    document.getElementById("KujoNoShinaNoMotomori").style.display = "none";
     return 0;
 }
 
 function revealKujoNoShinaNoMotomori() {
+    document.getElementById("KujoNoShinaNoMotomori").style.display = "unset";
     return 0;
 }
 
@@ -259,10 +287,12 @@ function revealKujoNoShinaNoMotomori() {
  */
 
 function hideSogaNoYukaNoYaruhito() {
+    document.getElementById("SogaNoYukaNoYaruhito").style.display = "none";
     return 0;
 }
 
 function revealSogaNoYukaNoYaruhito() {
+    document.getElementById("SogaNoYukaNoYaruhito").style.display = "unset";
     return 0;
 }
 
@@ -273,10 +303,12 @@ function revealSogaNoYukaNoYaruhito() {
  */
 
 function hideAshikagaNoKuroneNoMariji() {
+    document.getElementById("AshikagaNoKuroneNoMariji").style.display = "none";
     return 0;
 }
 
 function revealAshikagaNoKuroneNoMariji() {
+    document.getElementById("AshikagaNoKuroneNoMariji").style.display = "unset";
     return 0;
 }
 
@@ -287,10 +319,12 @@ function revealAshikagaNoKuroneNoMariji() {
  */
 
 function hideTakatsukasaNoYamiNoMitsunoro() {
+    document.getElementById("TakatsukasaNoYamiNoMitsunoro").style.display = "none";
     return 0;
 }
 
 function revealTakatsukasaNoYamiNoMitsunoro() {
+    document.getElementById("TakatsukasaNoYamiNoMitsunoro").style.display = "unset";
     return 0;
 }
 
@@ -301,10 +335,12 @@ function revealTakatsukasaNoYamiNoMitsunoro() {
  */
 
 function hideTokugawaNoIyoNoSagashishige() {
+    document.getElementById("TokugawaNoIyoNoSagashishige").style.display = "none";
     return 0;
 }
 
 function revealTokugawaNoIyoNoSagashishige() {
+    document.getElementById("TokugawaNoIyoNoSagashishige").style.display = "unset";
     return 0;
 }
 
@@ -315,10 +351,12 @@ function revealTokugawaNoIyoNoSagashishige() {
  */
 
 function hideOinomikadoNoSuzuNoUma() {
+    document.getElementById("OinomikadoNoSuzuNoUma").style.display = "none";
     return 0;
 }
 
 function revealOinomikadoNoSuzuNoUma() {
+    document.getElementById("OinomikadoNoSuzuNoUma").style.display = "unset";
     return 0;
 }
 
@@ -329,10 +367,12 @@ function revealOinomikadoNoSuzuNoUma() {
  */
 
 function hideSaionjiNoNauNoKiyomune() {
+    document.getElementById("SaionjiNoNauNoKiyomune").style.display = "none";
     return 0;
 }
 
 function revealSaionjiNoNauNoKiyomune() {
+    document.getElementById("SaionjiNoNauNoKiyomune").style.display = "unset";
     return 0;
 }
 
@@ -343,10 +383,12 @@ function revealSaionjiNoNauNoKiyomune() {
  */
 
 function hideDaigoNoSaruNoOmune() {
+    document.getElementById("DaigoNoSaruNoOmune").style.display = "none";
     return 0;
 }
 
 function revealDaigoNoSaruNoOmune() {
+    document.getElementById("DaigoNoSaruNoOmune").style.display = "unset";
     return 0;
 }
 
@@ -357,10 +399,12 @@ function revealDaigoNoSaruNoOmune() {
  */
 
 function hideImadegawaNoGuntoNoSetsumaru() {
+    document.getElementById("ImadegawaNoGuntoNoSetsumaru").style.display = "none";
     return 0;
 }
 
 function revealImadegawaNoGuntoNoSetsumaru() {
+    document.getElementById("ImadegawaNoGuntoNoSetsumaru").style.display = "unset";
     return 0;
 }
 
@@ -371,10 +415,12 @@ function revealImadegawaNoGuntoNoSetsumaru() {
  */
 
 function hideTokudaijiNoHokoruNoMunesa() {
+    document.getElementById("TokudaijiNoHokoruNoMunesa").style.display = "none";
     return 0;
 }
 
 function revealTokudaijiNoHokoruNoMunesa() {
+    document.getElementById("TokudaijiNoHokoruNoMunesa").style.display = "unset";
     return 0;
 }
 
@@ -385,10 +431,12 @@ function revealTokudaijiNoHokoruNoMunesa() {
  */
 
 function hideKonoeNoMariNoSomezame() {
+    document.getElementById("KonoeNoMariNoSomezame").style.display = "none";
     return 0;
 }
 
 function revealKonoeNoMariNoSomezame() {
+    document.getElementById("KonoeNoMariNoSomezame").style.display = "unset";
     return 0;
 }
 
@@ -399,10 +447,12 @@ function revealKonoeNoMariNoSomezame() {
  */
 
 function hideKikuteiNoUmakaiNoHarumori() {
+    document.getElementById("KikuteiNoUmakaiNoHarumori").style.display = "none";
     return 0;
 }
 
 function revealKikuteiNoUmakaiNoHarumori() {
+    document.getElementById("KikuteiNoUmakaiNoHarumori").style.display = "unset";
     return 0;
 }
 
@@ -413,10 +463,12 @@ function revealKikuteiNoUmakaiNoHarumori() {
  */
 
 function hideKasannoinNoSumizomeNoHananokiyo() {
+    document.getElementById("KasannoinNoSumizomeNoHananokiyo").style.display = "none";
     return 0;
 }
 
 function revealKasannoinNoSumizomeNoHananokiyo() {
+    document.getElementById("KasannoinNoSumizomeNoHananokiyo").style.display = "unset";
     return 0;
 }
 
@@ -427,10 +479,12 @@ function revealKasannoinNoSumizomeNoHananokiyo() {
  */
 
 function hideYuuzakaNoAkaneNoShinuro() {
+    document.getElementById("YuuzakaNoAkaneNoShinuro").style.display = "none";
     return 0;
 }
 
 function revealYuuzakaNoAkaneNoShinuro() {
+    document.getElementById("YuuzakaNoAkaneNoShinuro").style.display = "unset";
     return 0;
 }
 
