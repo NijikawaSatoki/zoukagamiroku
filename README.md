@@ -1,5 +1,8 @@
 # 天園神關里　～ Brilliance of Heaven Pleasure
-## 造化神録
+
+*Ten'en Kansekiri ~ Brilliance of Heaven Pleasure*
+
+## 造化神録 (Creation God's Record)
 
 ![天園神關里](./img/art/天園神關里.png "天園神關里　～ Brilliance of Heaven Pleasure")
 
