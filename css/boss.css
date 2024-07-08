@@ -9,7 +9,72 @@
  * 
  */
 
-/*  */
-div# {
+/* 第一章　異常 */
+div#ChapterOneIjou {
+    display: none;
+}
+
+/* 崎鳥サーンプリヤ */
+div#SakidoriSampriya {
+    display: none;
+}
+
+/* テオニムフィ・アポストロプールー */
+div#TheonymphiApostolopoulou {
+    display: none;
+}
+
+/* 第二章　侵攻 */
+div#ChapterTwoShinkou {
+    display: none;
+}
+
+/* 第三章　補給 */
+div#ChapterThreeHokyuu {
+    display: none;
+}
+
+/* 第四章　砂漠 */
+div#ChapterFourSabaku {
+    display: none;
+}
+
+/* 第五章　山々 */
+div#ChapterFiveYamayama {
+    display: none;
+}
+
+/* 第六章　過去 */
+div#ChapterSixKako {
+    display: none;
+}
+
+/* 第七章　天界 */
+div#ChapterSevenTenkai {
+    display: none;
+}
+
+/* 第八章　流竄 */
+div#ChapterEightRyuuzan {
+    display: none;
+}
+
+/* 第九章　智慧 */
+div#ChapterNineChie {
+    display: none;
+}
+
+/* 第十章　解脱 */
+div#ChapterTenGedatsu {
+    display: none;
+}
+
+/* 最終章　輪廻 */
+div#FinalChapterRinne {
+    display: none;
+}
+
+/* ＥＸ章　再会 */
+div#ExtraChapterSaikai {
     display: none;
 }
