@@ -16,11 +16,9 @@
  * 
  */
 
-/* ┏━━━━━━━━━━━━━━━━━━━━━━━┓
- * ┃ 『古い都の町人、古代と現代』のファンクション ┃
- * ┗━━━━━━━━━━━━━━━━━━━━━━━┛
- * 
- */
+// <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+// 『古い都の町人、古代と現代』のファンクション
+// <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 function hideTownfolk() {
     document.getElementById("TheFormerCapitalThenAndNow").style.display = "none";
@@ -32,11 +30,9 @@ function revealTownfolk() {
     return 0;
 }
 
-/* ┏━━━━━━━━━━━━━━━━┓
- * ┃ 『柏嵜法牌香』のファンクション ┃
- * ┗━━━━━━━━━━━━━━━━┛
- * 
- */
+// <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+// 『柏嵜法牌香』のファンクション
+// <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 function hideKashizakiNoHakaruNoFudakau() {
     document.getElementById("KashizakiNoHakaruNoFudakau").style.display = "none";
@@ -48,11 +44,9 @@ function revealKashizakiNoHakaruNoFudakau() {
     return 0;
 }
 
-/* ┏━━━━━━━━━━━━━━━━━┓
- * ┃ 『遠呂智蛇揺雨』のファンクション ┃
- * ┗━━━━━━━━━━━━━━━━━┛
- * 
- */
+// <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+// 『遠呂智蛇揺雨』のファンクション
+// <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 function hideOrochiNoHebiNoYurusame() {
     document.getElementById("OrochiNoHebiNoYurusame").style.display = "none";
@@ -64,11 +58,9 @@ function revealOrochiNoHebiNoYurusame() {
     return 0;
 }
 
-/* ┏━━━━━━━━━━━━━━━━┓
- * ┃ 『平也醒上丸』のファンクション ┃
- * ┗━━━━━━━━━━━━━━━━┛
- * 
- */
+// <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+// 『平也醒上丸』のファンクション
+// <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 function hideTairaNoYasameNoKamimaru() {
     document.getElementById("TairaNoYasameNoKamimaru").style.display = "none";
@@ -80,11 +72,9 @@ function revealTairaNoYasameNoKamimaru() {
     return 0;
 }
 
-/* ┏━━━━━━━━━━━━━━━━━━┓
- * ┃ 『夜叉町鐵奈我沙』のファンクション ┃
- * ┗━━━━━━━━━━━━━━━━━━┛
- * 
- */
+// <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+// 『夜叉町鐵奈我沙』のファンクション
+// <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 function hideYashamachiNoKuroganeNoNagasa() {
     document.getElementById("YashamachiNoKuroganeNoNagasa").style.display = "none";
@@ -120,11 +110,11 @@ function reveal0() {
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-/* ┏━━━━━━━━━━━━━━━━━━┓
- * ┃ 『神關里の元帝王』のファンクション ┃
- * ┗━━━━━━━━━━━━━━━━━━┛
- * 
- */
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+// <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+// 『神關里の元帝王』のファンクション
+// <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 function hideFormerEmperors() {
     document.getElementById("FormerEmperorsOfKansekiri").style.display = "none";
@@ -136,11 +126,9 @@ function revealFormerEmperors() {
     return 0;
 }
 
-/* ┏━━━━━━━━━━━━━━━━━━┓
- * ┃ 『一条久二乃良宗』のファンクション ┃
- * ┗━━━━━━━━━━━━━━━━━━┛
- * 
- */
+// <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+// 『一条久二乃良宗』のファンクション
+// <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 function hideIchijoNoKuniNoNoramune() {
     document.getElementById("IchijoNoKuniNoNoramune").style.display = "none";
@@ -152,11 +140,9 @@ function revealIchijoNoKuniNoNoramune() {
     return 0;
 }
 
-/* ┏━━━━━━━━━━━━━━━━━┓
- * ┃ 『二条清八太郎』のファンクション ┃
- * ┗━━━━━━━━━━━━━━━━━┛
- * 
- */
+// <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+// 『二条清八太郎』のファンクション
+// <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 function hideNijoNoKiyoNoYataro() {
     document.getElementById("NijoNoKiyoNoYataro").style.display = "none";
@@ -168,11 +154,9 @@ function revealNijoNoKiyoNoYataro() {
     return 0;
 }
 
-/* ┏━━━━━━━━━━━━━━━━┓
- * ┃ 『三條麹丸雨』のファンクション ┃
- * ┗━━━━━━━━━━━━━━━━┛
- * 
- */
+// <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+// 『三條麹丸雨』のファンクション
+// <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 function hideSanjoNoKoujiNoMarusame() {
     document.getElementById("SanjoNoKoujiNoMarusame").style.display = "none";
@@ -184,11 +168,9 @@ function revealSanjoNoKoujiNoMarusame() {
     return 0;
 }
 
-/* ┏━━━━━━━━━━━━━━━━┓
- * ┃ 『源蜘彩歌子』のファンクション ┃
- * ┗━━━━━━━━━━━━━━━━┛
- * 
- */
+// <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+// 『源蜘彩歌子』のファンクション
+// <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 function hideMinamotoNoKumoNoAyakashi() {
     document.getElementById("MinamotoNoKumoNoAyakashi").style.display = "none";
@@ -200,11 +182,9 @@ function revealMinamotoNoKumoNoAyakashi() {
     return 0;
 }
 
-/* ┏━━━━━━━━━━━━━━━━┓
- * ┃ 『平榊間美智』のファンクション ┃
- * ┗━━━━━━━━━━━━━━━━┛
- * 
- */
+// <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+// 『平榊間美智』のファンクション
+// <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 function hideTairaNoSakamaNoYoshitomo() {
     document.getElementById("TairaNoSakamaNoYoshitomo").style.display = "none";
@@ -216,11 +196,9 @@ function revealTairaNoSakamaNoYoshitomo() {
     return 0;
 }
 
-/* ┏━━━━━━━━━━━━━━━━┓
- * ┃ 『藤原裁峰義』のファンクション ┃
- * ┗━━━━━━━━━━━━━━━━┛
- * 
- */
+// <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+// 『藤原裁峰義』のファンクション
+// <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 function hideFujiwaraNoSaiNoMineyoshi() {
     document.getElementById("FujiwaraNoSaiNoMineyoshi").style.display = "none";
@@ -232,11 +210,9 @@ function revealFujiwaraNoSaiNoMineyoshi() {
     return 0;
 }
 
-/* ┏━━━━━━━━━━━━━━━━┓
- * ┃ 『橘藪根岸仁』のファンクション ┃
- * ┗━━━━━━━━━━━━━━━━┛
- * 
- */
+// <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+// 『橘藪根岸仁』のファンクション
+// <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 function hideTachibanaNoYabuneNoKishihito() {
     document.getElementById("TachibanaNoYabuneNoKishihito").style.display = "none";
@@ -248,11 +224,9 @@ function revealTachibanaNoYabuneNoKishihito() {
     return 0;
 }
 
-/* ┏━━━━━━━━━━━━━━━━┓
- * ┃ 『物部鑓殺奈』のファンクション ┃
- * ┗━━━━━━━━━━━━━━━━┛
- * 
- */
+// <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+// 『物部鑓殺奈』のファンクション
+// <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 function hideMononobeNoYariNoSetsuna() {
     document.getElementById("MononobeNoYariNoSetsuna").style.display = "none";
@@ -264,11 +238,9 @@ function revealMononobeNoYariNoSetsuna() {
     return 0;
 }
 
-/* ┏━━━━━━━━━━━━━━━━┓
- * ┃ 『九条纖本盛』のファンクション ┃
- * ┗━━━━━━━━━━━━━━━━┛
- * 
- */
+// <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+// 『九条纖本盛』のファンクション
+// <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 function hideKujoNoShinaNoMotomori() {
     document.getElementById("KujoNoShinaNoMotomori").style.display = "none";
@@ -280,11 +252,9 @@ function revealKujoNoShinaNoMotomori() {
     return 0;
 }
 
-/* ┏━━━━━━━━━━━━━━━━┓
- * ┃ 『蘇我牀遣仁』のファンクション ┃
- * ┗━━━━━━━━━━━━━━━━┛
- * 
- */
+// <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+// 『蘇我牀遣仁』のファンクション
+// <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 function hideSogaNoYukaNoYaruhito() {
     document.getElementById("SogaNoYukaNoYaruhito").style.display = "none";
@@ -296,11 +266,9 @@ function revealSogaNoYukaNoYaruhito() {
     return 0;
 }
 
-/* ┏━━━━━━━━━━━━━━━━━┓
- * ┃ 『足利畔蒜毬二』のファンクション ┃
- * ┗━━━━━━━━━━━━━━━━━┛
- * 
- */
+// <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+// 『足利畔蒜毬二』のファンクション
+// <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 function hideAshikagaNoKuroneNoMariji() {
     document.getElementById("AshikagaNoKuroneNoMariji").style.display = "none";
@@ -312,11 +280,9 @@ function revealAshikagaNoKuroneNoMariji() {
     return 0;
 }
 
-/* ┏━━━━━━━━━━━━━━━━━┓
- * ┃ 『鷹司闇光之郞』のファンクション ┃
- * ┗━━━━━━━━━━━━━━━━━┛
- * 
- */
+// <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+// 『鷹司闇光之郞』のファンクション
+// <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 function hideTakatsukasaNoYamiNoMitsunoro() {
     document.getElementById("TakatsukasaNoYamiNoMitsunoro").style.display = "none";
@@ -328,11 +294,9 @@ function revealTakatsukasaNoYamiNoMitsunoro() {
     return 0;
 }
 
-/* ┏━━━━━━━━━━━━━━━━━┓
- * ┃ 『德川衣世探重』のファンクション ┃
- * ┗━━━━━━━━━━━━━━━━━┛
- * 
- */
+// <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+// 『德川衣世探重』のファンクション
+// <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 function hideTokugawaNoIyoNoSagashishige() {
     document.getElementById("TokugawaNoIyoNoSagashishige").style.display = "none";
@@ -344,11 +308,9 @@ function revealTokugawaNoIyoNoSagashishige() {
     return 0;
 }
 
-/* ┏━━━━━━━━━━━━━━━━━━┓
- * ┃ 『大炊御門鈴鵜麻』のファンクション ┃
- * ┗━━━━━━━━━━━━━━━━━━┛
- * 
- */
+// <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+// 『大炊御門鈴鵜麻』のファンクション
+// <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 function hideOinomikadoNoSuzuNoUma() {
     document.getElementById("OinomikadoNoSuzuNoUma").style.display = "none";
@@ -360,11 +322,9 @@ function revealOinomikadoNoSuzuNoUma() {
     return 0;
 }
 
-/* ┏━━━━━━━━━━━━━━━━━┓
- * ┃ 『西園寺綯清宗』のファンクション ┃
- * ┗━━━━━━━━━━━━━━━━━┛
- * 
- */
+// <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+// 『西園寺綯清宗』のファンクション
+// <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 function hideSaionjiNoNauNoKiyomune() {
     document.getElementById("SaionjiNoNauNoKiyomune").style.display = "none";
@@ -376,11 +336,9 @@ function revealSaionjiNoNauNoKiyomune() {
     return 0;
 }
 
-/* ┏━━━━━━━━━━━━━━━┓
- * ┃ 『醍醐猿概』のファンクション ┃
- * ┗━━━━━━━━━━━━━━━┛
- * 
- */
+// <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+// 『醍醐猿概』のファンクション
+// <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 function hideDaigoNoSaruNoOmune() {
     document.getElementById("DaigoNoSaruNoOmune").style.display = "none";
@@ -392,11 +350,9 @@ function revealDaigoNoSaruNoOmune() {
     return 0;
 }
 
-/* ┏━━━━━━━━━━━━━━━━━━┓
- * ┃ 『今出川裙兔雪丸』のファンクション ┃
- * ┗━━━━━━━━━━━━━━━━━━┛
- * 
- */
+// <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+// 『今出川裙兔雪丸』のファンクション
+// <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 function hideImadegawaNoGuntoNoSetsumaru() {
     document.getElementById("ImadegawaNoGuntoNoSetsumaru").style.display = "none";
@@ -408,11 +364,9 @@ function revealImadegawaNoGuntoNoSetsumaru() {
     return 0;
 }
 
-/* ┏━━━━━━━━━━━━━━━━━┓
- * ┃ 『德大寺誇宗沙』のファンクション ┃
- * ┗━━━━━━━━━━━━━━━━━┛
- * 
- */
+// <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+// 『德大寺誇宗沙』のファンクション
+// <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 function hideTokudaijiNoHokoruNoMunesa() {
     document.getElementById("TokudaijiNoHokoruNoMunesa").style.display = "none";
@@ -424,11 +378,9 @@ function revealTokudaijiNoHokoruNoMunesa() {
     return 0;
 }
 
-/* ┏━━━━━━━━━━━━━━━━┓
- * ┃ 『近衛鞠染鮫』のファンクション ┃
- * ┗━━━━━━━━━━━━━━━━┛
- * 
- */
+// <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+// 『近衛鞠染鮫』のファンクション
+// <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 function hideKonoeNoMariNoSomezame() {
     document.getElementById("KonoeNoMariNoSomezame").style.display = "none";
@@ -440,11 +392,9 @@ function revealKonoeNoMariNoSomezame() {
     return 0;
 }
 
-/* ┏━━━━━━━━━━━━━━━━━┓
- * ┃ 『菊亭馬海春盛』のファンクション ┃
- * ┗━━━━━━━━━━━━━━━━━┛
- * 
- */
+// <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+// 『菊亭馬海春盛』のファンクション
+// <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 function hideKikuteiNoUmakaiNoHarumori() {
     document.getElementById("KikuteiNoUmakaiNoHarumori").style.display = "none";
@@ -456,11 +406,9 @@ function revealKikuteiNoUmakaiNoHarumori() {
     return 0;
 }
 
-/* ┏━━━━━━━━━━━━━━━━━━┓
- * ┃ 『花山院墨染花清』のファンクション ┃
- * ┗━━━━━━━━━━━━━━━━━━┛
- * 
- */
+// <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+// 『花山院墨染花清』のファンクション
+// <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 function hideKasannoinNoSumizomeNoHananokiyo() {
     document.getElementById("KasannoinNoSumizomeNoHananokiyo").style.display = "none";
@@ -472,11 +420,9 @@ function revealKasannoinNoSumizomeNoHananokiyo() {
     return 0;
 }
 
-/* ┏━━━━━━━━━━━━━━━━━┓
- * ┃ 『遊坂茜志奴呂』のファンクション ┃
- * ┗━━━━━━━━━━━━━━━━━┛
- * 
- */
+// <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+// 『遊坂茜志奴呂』のファンクション
+// <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 function hideYuuzakaNoAkaneNoShinuro() {
     document.getElementById("YuuzakaNoAkaneNoShinuro").style.display = "none";
@@ -548,6 +494,8 @@ function reveal1() {
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
 /* ┏━━━━━━━━━━━━━━━━┓
  * ┃ 『全ての為に』のファンクション ┃
  * ┗━━━━━━━━━━━━━━━━┛
@@ -567,3 +515,5 @@ function revealAll() {
     reveal1();
     return 0;
 }
+
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
