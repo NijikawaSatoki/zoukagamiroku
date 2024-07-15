@@ -24,13 +24,25 @@
 function hideNotSafeForWork() {
     document.getElementById("nsfw0").style.display = "none";
     document.getElementById("nsfw1").style.display = "none";
+    document.getElementById("nsfw2").style.display = "none";
+    document.getElementById("nsfw3").style.display = "none";
+    document.getElementById("nsfw4").style.display = "none";
+    document.getElementById("nsfw5").style.display = "none";
+    document.getElementById("nsfw6").style.display = "none";
+    document.getElementById("nsfw7").style.display = "none";
     return 0;
 }
 
 // Function for showing NSFW art
 function showNotSafeForWork() {
-    document.getElementById("nsfw0").style.display = "unset";
-    document.getElementById("nsfw1").style.display = "unset";
+    document.getElementById("nsfw0").style.display = "block";
+    document.getElementById("nsfw1").style.display = "block";
+    document.getElementById("nsfw2").style.display = "block";
+    document.getElementById("nsfw3").style.display = "block";
+    document.getElementById("nsfw4").style.display = "block";
+    document.getElementById("nsfw5").style.display = "block";
+    document.getElementById("nsfw6").style.display = "block";
+    document.getElementById("nsfw7").style.display = "block";
     return 0;
 }
 
