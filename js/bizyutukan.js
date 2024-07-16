@@ -38,6 +38,22 @@ function hideNotSafeForWork() {
     document.getElementById("nsfw13").style.display = "none";
     document.getElementById("nsfw14").style.display = "none";
     document.getElementById("nsfw15").style.display = "none";
+    document.getElementById("nsfw16").style.display = "none";
+    document.getElementById("nsfw17").style.display = "none";
+    document.getElementById("nsfw18").style.display = "none";
+    document.getElementById("nsfw19").style.display = "none";
+    document.getElementById("nsfw20").style.display = "none";
+    document.getElementById("nsfw21").style.display = "none";
+    document.getElementById("nsfw22").style.display = "none";
+    document.getElementById("nsfw23").style.display = "none";
+    document.getElementById("nsfw24").style.display = "none";
+    document.getElementById("nsfw25").style.display = "none";
+    document.getElementById("nsfw26").style.display = "none";
+    document.getElementById("nsfw27").style.display = "none";
+    document.getElementById("nsfw28").style.display = "none";
+    document.getElementById("nsfw29").style.display = "none";
+    document.getElementById("nsfw30").style.display = "none";
+    document.getElementById("nsfw31").style.display = "none";
     return 0;
 }
 
@@ -59,6 +75,22 @@ function showNotSafeForWork() {
     document.getElementById("nsfw13").style.display = "block";
     document.getElementById("nsfw14").style.display = "block";
     document.getElementById("nsfw15").style.display = "block";
+    document.getElementById("nsfw16").style.display = "block";
+    document.getElementById("nsfw17").style.display = "block";
+    document.getElementById("nsfw18").style.display = "block";
+    document.getElementById("nsfw19").style.display = "block";
+    document.getElementById("nsfw20").style.display = "block";
+    document.getElementById("nsfw21").style.display = "block";
+    document.getElementById("nsfw22").style.display = "block";
+    document.getElementById("nsfw23").style.display = "block";
+    document.getElementById("nsfw24").style.display = "block";
+    document.getElementById("nsfw25").style.display = "block";
+    document.getElementById("nsfw26").style.display = "block";
+    document.getElementById("nsfw27").style.display = "block";
+    document.getElementById("nsfw28").style.display = "block";
+    document.getElementById("nsfw29").style.display = "block";
+    document.getElementById("nsfw30").style.display = "block";
+    document.getElementById("nsfw31").style.display = "block";
     return 0;
 }
 
