@@ -1,6 +1,6 @@
-/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/* ============================================================================
  * default.css
- * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ * ============================================================================
  * 
  * 制作者：虹川郷鬼
  * 
@@ -8,14 +8,9 @@
  * 
  */
 
-/* ┌─────────────────────┐
- * │ Import fonts from Google (sorry EU :/ )  │
- * └─────────────────────┘
- * 
- * This is mainly for in the event that the fonts I normally use are not
- * installed on the PC.
- * 
- */
+/* /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\  *
+ * Importing web fonts
+ * \/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/  */
 
 /* Noto Sans Japanese */
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP');
@@ -59,130 +54,194 @@
 /* Noto Serif Tibetan */
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Tibetan');
 
-/* ┏━━━━━━━━━━━━━━━━┓
- * ┃ Styling for specific elements  ┃
- * ┗━━━━━━━━━━━━━━━━┛
- */
+/* /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\  *
+ * Main stylesheets
+ * \/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/  */
 
-/* ┌────────────┐
- * │ Stylesheet for anchors │
- * └────────────┘
- */
+/* ------------------------------------------------------------------------- *
+ * Stylesheet for anchor links
+ * ------------------------------------------------------------------------- */
 
 /* Unvisited links */
 a:link {
     color: #99c3ff;
 }
 
-/* ┌───────────┐
- * │ Stylesheet for body  │
- * └───────────┘
- */
+/* ------------------------------------------------------------------------- *
+ * Stylesheet for the entire document body
+ * ------------------------------------------------------------------------- */
 
 body {
-    font-family: 'ヒラギノ丸ゴ Pro W4', 'Noto Sans CJK JP', 'ＭＳ ゴシック', 'Noto Sans JP', sans-serif;
-    font-size: 1.19em;
     background-color: #121212;
-    color: #e5e5e5;
     padding-right: 2px;
     padding-left: 2px;
 }
 
-/* ┌─────────────┐
- * │ Stylesheet for headings  │
- * └─────────────┘
- */
+/* ------------------------------------------------------------------------- *
+ * Stylesheet for paragraphs
+ * ------------------------------------------------------------------------- */
 
-/* Heading 1 */
+/* _default */
+p {
+    font-family: 'ヒラギノ丸ゴ Pro W4', 'Noto Sans CJK JP', 'ＭＳ ゴシック', 'Noto Sans JP', sans-serif;
+    color: #e5e5e5;
+    font-size: 1.25em;
+}
+
+/* Captions! */
+p.caption {
+    padding: 0px;
+    margin: 2px;
+    color: #ffffff;
+}
+
+/* COMING AT SOME POINT!! */
+p.coming-soon {
+    text-align: center;
+    font-size: 10.67em;
+    font-family: 'HGTakahashiReishotai', 'ヒラギノ明朝 Pro W6', 'Noto Serif CJK JP', 'Noto Serif JP', serif;
+}
+
+/* Pride heading */
+p.pride-head {
+    text-align: center;
+    font-size: 1.7em;
+    font-family: 'ヒラギノ角ゴ Std W8', 'Noto Sans CJK JP Black', 'ＭＳ ゴシック', 'Noto Sans JP', sans-serif;
+    color: #000000;
+}
+
+/* Pronouns */
+p.pronouns {
+    padding-left: 2px;
+    font-size: 1.4em;
+    font-family: 'ヒラギノ丸ゴ Pro W4', 'Noto Sans CJK JP', 'ＭＳ ゴシック', 'Noto Sans JP', sans-serif;
+    color: #000000;
+}
+
+/* ------------------------------------------------------------------------- *
+ * Stylesheet for headings
+ * ------------------------------------------------------------------------- */
+
+/* _default (Heading 1 / #) */
 h1 {
     font-size: 2.63em;
     font-family: 'HGTakahashiReishotai', 'ヒラギノ明朝 Pro W6', 'Noto Serif CJK JP', 'Noto Serif JP', serif;
+    color: #e5e5e5;
     line-height: 1em;
     margin-bottom: auto;
     text-align: center;
 }
 
-/* Heading 2 */
+/* Header text */
+h1.header-text {
+    font-family: 'HGTakahashiReishotai', 'ヒラギノ角ゴ Std W8', 'Noto Sans CJK JP Black', 'ＭＳ ゴシック', 'Noto Sans JP', sans-serif;
+    font-size: 2.25em;
+}
+
+/* _default (Heading 2 / ##) */
 h2 {
     font-size: 2.31em;
     font-family: 'HGTakahashiReishotai', 'ヒラギノ明朝 Pro W6', 'Noto Serif CJK JP', 'Noto Serif JP', serif;
+    color: #e5e5e5;
     line-height: 1em;
     margin-bottom: auto;
     text-align: center;
 }
 
-/* Heading 3 */
+/* Gallery Headings */
+h2.art-heading {
+    text-align: left;
+}
+
+/* _default (Heading 3 / ###) */
 h3 {
     font-size: 2em;
     font-family: 'HGTakahashiReishotai', 'ヒラギノ明朝 Pro W6', 'Noto Serif CJK JP', 'Noto Serif JP', serif;
+    color: #e5e5e5;
     line-height: 1em;
     margin-bottom: auto;
     text-align: center;
 }
 
-/* Heading 4 */
+/* _default (Heading 4 / ####) */
 h4 {
     font-size: 1.5em;
     font-family: 'ヒラギノ角ゴ Pro W6', 'Noto Sans CJK JP', 'Noto Sans JP', sans-serif;
+    color: #e5e5e5;
     line-height: 1em;
     margin-bottom: auto;
     text-align: center;
 }
 
-/* Heading 5 */
+/* For the section headings on the staff credits page */
+h4.credits-head {
+    font-family: 'HGTakahashiReishotai', 'ヒラギノ明朝 Pro W6', 'Noto Serif CJK JP', 'Noto Serif JP', serif;
+}
+
+/* _default (Heading 5 / #####) */
 h5 {
     font-size: 1.31em;
     font-family: 'ヒラギノ角ゴ Pro W6', 'Noto Sans CJK JP', 'Noto Sans JP', sans-serif;
+    color: #e5e5e5;
     line-height: 1em;
     margin-bottom: auto;
     text-align: center;
 }
 
-/* ┌─────────────┐
- * │ Stylesheet for furigana  │
- * └─────────────┘
- */
+/* ------------------------------------------------------------------------- *
+ * Stylesheet for furigana
+ * ------------------------------------------------------------------------- */
 
-/* Furigana / ふりがな */
+/* _default */
 rt {
     font-size: 0.55em; /* see https://www.w3.org/TR/jlreq/?lang=en#ruby_and_emphasis_dots for more details */
 }
 
-/* ┌────────────┐
- * │ Stylesheet for header  │
- * └────────────┘
- */
+/* For furigana on <h2> elements */
+rt.head-furigana {
+    font-size: 37%;
+}
 
+/* For the heading furigana in the summary page */
+rt.top-head-furigana {
+    font-size: 50%;
+}
+
+/* ------------------------------------------------------------------------- *
+ * Stylesheet for header
+ * ------------------------------------------------------------------------- */
+
+/* _default */
 header {
     background-color: #7f7f7f;
     padding: 4px;
     text-align: center;
 }
 
-/* ┌────────────┐
- * │ Stylesheet for article │
- * └────────────┘
- */
+/* ------------------------------------------------------------------------- *
+ * Stylesheet for articles
+ * ------------------------------------------------------------------------- */
 
+/* _default */
 article {
     padding: 4px;
     margin: 4px;
 }
 
-/* ┌─────────────┐
- * │ Stylesheet for sections  │
- * └─────────────┘
- */
+/* ------------------------------------------------------------------------- *
+ * Stylesheet for sections
+ * ------------------------------------------------------------------------- */
 
+/* _default */
 section {
     padding: 4px;
 }
 
-/* ┌────────────┐
- * │ Styelsheet for footer  │
- * └────────────┘
- */
+/* ------------------------------------------------------------------------- *
+ * Stylesheet for footer
+ * ------------------------------------------------------------------------- */
 
+/* _default */
 footer {
     background-color: #1f1f1f;
     padding: 8px;
@@ -191,131 +250,219 @@ footer {
     font-family: 'ヒラギノ角ゴ Pro W3', 'Noto Sans CJK JP', 'ＭＳ ゴシック', 'Noto Sans JP', sans-serif;
 }
 
-/* ┌────────────┐
- * │ Stylesheet for buttons │
- * └────────────┘
- */
+/* ------------------------------------------------------------------------- *
+ * Stylesheet for buttons
+ * ------------------------------------------------------------------------- */
 
+/* _default */
 button {
     font-family: 'ヒラギノ丸ゴ Pro W4', 'Noto Sans CJK JP', 'ＭＳ ゴシック', 'Noto Sans JP', sans-serif;
-    font-size: 0.7em;
+    font-size: 1em;
 }
 
-/* ┏━━━━━━━━━━━━━━━━┓
- * ┃ Classes for various stuffs >:3 ┃
- * ┗━━━━━━━━━━━━━━━━┛
- */
+/* ------------------------------------------------------------------------- *
+ * Stylesheet for images
+ * ------------------------------------------------------------------------- */
 
-/* ┌──────────────┐
- * │ Language classes for fonts │
- * └──────────────┘
- */
+/* _default */
+img {}
+
+/* Main Character Art */
+img.art {
+    border-style: groove;
+    border-width: 2px;
+    border-color: #fefefa;
+    width: 256px;
+}
+
+/* Gallery character art */
+img.gallery-art {
+    border-style: groove;
+    border-width: 2px;
+    border-color: #fefefa;
+    width: 256px;
+}
+
+/* Gallery character art (alternative) */
+img.gallery-art-alt {
+    border-style: groove;
+    border-width: 2px;
+    border-color: #fefefa;
+    height: 256px;
+}
+
+/* Pride flags! :3 */
+img.pride-flag {
+    border-style: groove;
+    border-width: 2px;
+    border-color: #fefefa;
+    width: 300px;
+    height: 180px;
+}
+
+/* Reference sheets */
+img.reference-art {
+    border-style: groove;
+    border-width: 2px;
+    border-color: #fefefa;
+    width: 400px;
+}
+
+/* Reference sheets (alternative) */
+img.reference-art-alt {
+    border-style: groove;
+    border-width: 2px;
+    border-color: #fefefa;
+    height: 320px;
+}
+
+/* Title art */
+img.title-art {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ------------------------------------------------------------------------- *
+ * Stylesheet for main content
+ * ------------------------------------------------------------------------- */
+
+/* _default */
+main {}
+
+/* For the staff credits page */
+main.credits {
+    text-align: center;
+}
+
+/* /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\  *
+ * <span> stylesheets
+ * \/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/  */
 
 /* Burmese script */
-.font-myanmar {
+span.font-myanmar {
     font-family: 'Pyidaungsu', 'Noto Sans Myanmar UI', 'Myanmar Text', 'Noto Sans Myanmar', sans-serif;
     font-size: 130%;
 }
 
 /* Cyrillic alphabet */
-.font-cyrillic {
+span.font-cyrillic {
     font-family: 'Arimo', 'Linux Biolinum', 'Arial', 'Noto Sans', sans-serif;
 }
 
 /* Simplified Chinese */
-.font-simphanzi {
+span.font-simphanzi {
     font-family: 'Noto Sans CJK SC', 'KaiTi', 'Noto Sans SC', sans-serif;
 }
 
 /* Traditional Chinese */
-.font-tradhanzi {
+span.font-tradhanzi {
     font-family: 'Noto Sans CJK TC', 'DFKai-SB', 'Noto Sans TC', sans-serif;
 }
 
 /* Devanagari */
-.font-devanagari {
+span.font-devanagari {
     font-family: 'Chandas', 'Sanskrit Text', 'Mangal', 'Noto Serif Devanagari', serif;
     font-size: 130%;
 }
 
 /* Georgian script */
-.font-georgian {
+span.font-georgian {
     font-family: 'Sylfaen', 'Noto Sans Georgian', serif;
 }
 
 /* Greek alphabet */
-.font-greek {
+span.font-greek {
     font-family: 'Arimo', 'Linux Biolinum', 'Arial', 'Noto Sans', sans-serif;
 }
 
 /* Korean - Hangul */
-.font-hangul {
+span.font-hangul {
     font-family: 'Noto Sans CJK KR', 'Gulim', 'Noto Sans KR', sans-serif;
 }
 
 /* Korean - Hanja */
-.font-hanja {
+span.font-hanja {
     font-family: 'Noto Sans CJK KR', 'Gulim', 'Noto Sans KR', sans-serif;
 }
 
 /* Latin alphabet */
-.font-latin {
+span.font-latin {
     font-family: 'Arimo', 'Linux Biolinum', 'Arial', 'Noto Sans', sans-serif;
 }
 
 /* Malayalam script */
-.font-malayalam {
+span.font-malayalam {
     font-family: 'Gayathri', 'Noto Sans Malayalam', sans-serif;
     font-size: 125%;
 }
 
 /* Mongolian script */
-.font-mongolian {
+span.font-mongolian {
     font-family: 'Menk Hawang Tig', 'Menk Qagan Tig', 'Menk Garqag Tig', 'Menk Har_a Tig', 'Menk Scnin Tig', 'Oyun Gurban Ulus Tig', 'Oyun Qagan Tig', 'Oyun Garqag Tig', 'Oyun Har_a Tig', 'Oyun Scnin Tig', 'Oyun Agula Tig', 'Mongolian Baiti', 'Mongolian Universal White', 'Mongol Usug', 'Mongolian White', 'MongolianScript', 'Code2000', 'Menksoft Qagan', 'Noto Sans Mongolian', serif;
     font-size: 130%;
 }
 
 /* Perso-Arabic script - Naskh */
-.font-naskh {
+span.font-naskh {
     font-family: 'Noto Naskh Arabic UI', 'Arabic Typesetting', 'Dubai', 'Noto Naskh Arabic', serif;
     font-size: 130%;
 }
 
 /* Perso-Arabic script - Nastaliq */
-.font-nastaliq {
+span.font-nastaliq {
     font-family: 'Urdu Typesetting', 'Noto Nastaliq Urdu', serif;
     font-size: 130%;
 }
 
 /* Tibetan script */
-.font-tibetan {
+span.font-tibetan {
     font-family: 'Tibetan Machine Uni', 'BabelStone Tibetan Slim', 'BabelStone Tibetan', 'Noto Serif Tibetan', serif;
     font-size: 130%;
 }
 
-/* ┌────────┐
- * │ <div> classes  │
- * └────────┘
- */
+/* Old or obsolete writing system notes */
+span.old-text {
+    color: #cd0000;
+}
 
-/* <div> for galleries */
-.gallery {
+/* Textual setup for Mongolian script */
+span.text-mongolian {
+    display: inline-block;
+    font-weight: normal;
+    line-height: 1.1em;
+    /*-webkit-writing-mode: vertical-lr;*/ /* Only uncomment if truly needed!! */
+    /*-o-writing-mode: vertical-lr;*/ /* Only uncomment if truly needed!! */
+    /*-ms-writing-mode: tb-lr;*/ /* Only uncomment if truly needed!! */
+    /*writing-mode: tb-lr;*/ /* Only uncomment if truly needed!! */
+    writing-mode: vertical-lr;
+    text-orientation: sideways;
+    vertical-align: top;
+}
+
+/* /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\  *
+ * <div> stylesheets
+ * \/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/  */
+
+/* Gallery */
+div.gallery {
     padding-top: 8px;
     padding-right: 4px;
     padding-left: 4px;
     padding-bottom: 0px;
 }
 
-/* <div> for headings */
-.heading {
+/* Heading */
+div.heading {
     padding-top: 4px;
     padding-right: 8px;
     padding-left: 8px;
     padding-bottom: 4px;
 }
 
-/* <div> for sprite (and their captions) */
-.sprite {
+/* Sprites and accompanying captions */
+div.sprite {
     float: right;
     box-sizing: border-box;
     border-style: ridge;
@@ -326,8 +473,8 @@ button {
     background-color: #666666;
 }
 
-/* <div> for character art (and their captions) */
-.art-chara {
+/* Character art and accompanying captions */
+div.art-chara {
     float: right;
     box-sizing: border-box;
     border-style: ridge;
@@ -338,8 +485,8 @@ button {
     background-color: #666666;
 }
 
-/* <div> for prides! */
-.pride {
+/* Pride :3 */
+div.pride {
     float: right;
     box-sizing: border-box;
     border-style: ridge;
@@ -348,10 +495,11 @@ button {
     padding: 1px;
     margin: 4px;
     background-color: hotpink;
+    width: 316px;
 }
 
-/* <div> for character refs */
-.art-ref {
+/* Character reference sheets */
+div.art-ref {
     float: left;
     box-sizing: border-box;
     border-style: ridge;
@@ -362,8 +510,8 @@ button {
     background-color: #666666;
 }
 
-/* <div> for character art (Gallery only) */
-.art-gallery {
+/* Character art inside the art gallery */
+div.art-gallery {
     float: left;
     box-sizing: border-box;
     border-style: ridge;
@@ -375,154 +523,24 @@ button {
     width: 272px;
 }
 
-/* ┌─────────┐
- * │ Flexbox classes  │
- * └─────────┘
- */
+/* ------------------------------------------------------------------------- *
+ * Flexbox stylesheets
+ * ------------------------------------------------------------------------- */
 
 /* Art Gallery flexbox */
-.flex-gallery {
+div.flex-gallery {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
 
-/* ┌────────┐
- * │ Other classes  │
- * └────────┘
- * 
- */
+/* /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\  *
+ * Archived stylesheets | PRESENT FOR ARCHIVAL PURPOSES
+ * \/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/  */
 
-/* Captions! */
-.caption {
-    padding: 0px;
-    margin: 2px;
-    color: #ffffff;
-}
-
-/* Image borders (primarily for the pride flags) :3 */
-.border {
+/* Image borders */
+img.border {
     border-style: groove;
     border-width: 2px;
     border-color: #FEFEFA;
-}
-
-/* COMING AT SOME POINT!! */
-.coming-soon {
-    text-align: center;
-    font-size: 10.67em;
-    font-family: 'HGTakahashiReishotai', 'ヒラギノ明朝 Pro W6', 'Noto Serif CJK JP', 'Noto Serif JP', serif;
-}
-
-/* Header text */
-.header-text {
-    font-family: 'HGTakahashiReishotai', 'ヒラギノ角ゴ Std W8', 'Noto Sans CJK JP Black', 'ＭＳ ゴシック', 'Noto Sans JP', sans-serif;
-    font-size: 2.25em;
-}
-
-/* Pride heading */
-.pride-head {
-    text-align: center;
-    font-size: 1.31em;
-    font-family: 'ヒラギノ角ゴ Std W8', 'Noto Sans CJK JP Black', 'ＭＳ ゴシック', 'Noto Sans JP', sans-serif;
-    color: #000000;
-}
-
-/* Pronouns */
-.pronouns {
-    padding-left: 2px;
-    font-size: 1.19em;
-    font-family: 'ヒラギノ丸ゴ Pro W4', 'Noto Sans CJK JP', 'ＭＳ ゴシック', 'Noto Sans JP', sans-serif;
-    color: #000000;
-}
-
-/* Textual setup for Mongolian script */
-.text-mongolian {
-    display: inline-block;
-    font-weight: normal;
-    line-height: 1.1em;
-    -webkit-writing-mode: vertical-lr;
-    -o-writing-mode: vertical-lr;
-    -ms-writing-mode: tb-lr;
-    writing-mode: tb-lr;
-    writing-mode: vertical-lr;
-    text-orientation: sideways;
-    vertical-align: top;
-}
-
-/* Old or obsolete writing system notes */
-.old-text {
-    color: #cd0000;
-}
-
-/* Gallery Headings */
-.art-heading {
-    text-align: left;
-}
-
-/* For furigana on <h2> elements */
-.head-furigana {
-    font-size: 37%;
-}
-
-/* For the heading furigana in the summary page */
-.top-head-furigana {
-    font-size: 50%;
-}
-
-/* For the staff credits page */
-.credits {
-    text-align: center;
-}
-
-/* For the section headings on the staff credits page */
-.credits-head {
-    font-family: 'HGTakahashiReishotai', 'ヒラギノ明朝 Pro W6', 'Noto Serif CJK JP', 'Noto Serif JP', serif;
-}
-
-/* ┌────────┐
- * │ Image classes  │
- * └────────┘
- * 
- */
-
-/* Main Character Art */
-.art {
-    border-style: groove;
-    border-width: 2px;
-    border-color: #fefefa;
-    width: 256px;
-}
-
-/* Gallery Character Art */
-.gallery-art {
-    border-style: groove;
-    border-width: 2px;
-    border-color: #fefefa;
-    height: 256px;
-}
-
-/* Pride flags! :3 */
-.pride-flag {
-    border-style: groove;
-    border-width: 2px;
-    border-color: #fefefa;
-    width: 300px;
-    height: 180px;
-}
-
-/* Ref Sheets */
-.reference-art {
-    border-style: groove;
-    border-width: 2px;
-    border-color: #fefefa;
-    width: 400px;
-}
-
-/* Title art */
-.title-art {
-    width: 50%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
