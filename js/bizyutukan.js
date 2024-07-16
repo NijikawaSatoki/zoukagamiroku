@@ -30,6 +30,14 @@ function hideNotSafeForWork() {
     document.getElementById("nsfw5").style.display = "none";
     document.getElementById("nsfw6").style.display = "none";
     document.getElementById("nsfw7").style.display = "none";
+    document.getElementById("nsfw8").style.display = "none";
+    document.getElementById("nsfw9").style.display = "none";
+    document.getElementById("nsfw10").style.display = "none";
+    document.getElementById("nsfw11").style.display = "none";
+    document.getElementById("nsfw12").style.display = "none";
+    document.getElementById("nsfw13").style.display = "none";
+    document.getElementById("nsfw14").style.display = "none";
+    document.getElementById("nsfw15").style.display = "none";
     return 0;
 }
 
@@ -43,6 +51,14 @@ function showNotSafeForWork() {
     document.getElementById("nsfw5").style.display = "block";
     document.getElementById("nsfw6").style.display = "block";
     document.getElementById("nsfw7").style.display = "block";
+    document.getElementById("nsfw8").style.display = "block";
+    document.getElementById("nsfw9").style.display = "block";
+    document.getElementById("nsfw10").style.display = "block";
+    document.getElementById("nsfw11").style.display = "block";
+    document.getElementById("nsfw12").style.display = "block";
+    document.getElementById("nsfw13").style.display = "block";
+    document.getElementById("nsfw14").style.display = "block";
+    document.getElementById("nsfw15").style.display = "block";
     return 0;
 }
 
