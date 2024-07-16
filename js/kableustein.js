@@ -1120,11 +1120,6 @@ function toggleSayzowTown() {
 // 『全ての為に』のファンクション
 // *==========================================================================*
 
-// Function for the "Hide all" / 『全てを隠す』 button
-function hideAll() {
-    return 0;
-}
-
 // Function for the "Reveal all" / 『全てを現す』 button
 function revealAll() {
     return 0;
@@ -1135,3 +1130,10 @@ function revealAll() {
 // *==========================================================================*
 // アーカイブしたファンクション
 // *==========================================================================*
+
+/*
+// Function for the "Hide all" / 『全てを隠す』 button
+function hideAll() {
+    return 0;
+}
+*/
