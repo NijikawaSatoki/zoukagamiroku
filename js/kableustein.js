@@ -20,6 +20,7 @@
 // 『キャブロイシュタイン町』のファンクション
 // *==========================================================================*
 
+// キャブロイシュタイン町をトグルする
 function toggleKableusteinTown() {
     let divKableusteinTown = document.getElementById("KableusteinTown");
     if (window.getComputedStyle(divKableusteinTown).display === "none") {
@@ -38,6 +39,7 @@ function toggleKableusteinTown() {
 // 『ヴィクトル・ボデンシュタイン』のファンクション
 // *==========================================================================*
 
+// ヴィクトルをトグルする
 function toggleViktorBodenstein() {
     let divViktorBodenstein = document.getElementById("ViktorBodenstein");
     if (window.getComputedStyle(divViktorBodenstein).display === "none") {
@@ -56,6 +58,7 @@ function toggleViktorBodenstein() {
 // 『ジークリンデ・アイベンシューツ』のファンクション
 // *==========================================================================*
 
+// ジークリンデをトグルする
 function toggleSieglindeEibenschuetz() {
     let divSieglindeEibenschuetz = document.getElementById("SieglindeEibenschuetz");
     if (window.getComputedStyle(divSieglindeEibenschuetz).display === "none") {
@@ -74,6 +77,7 @@ function toggleSieglindeEibenschuetz() {
 // 『ヴォルクハルト・ゴルヴィツァー』のファンクション
 // *==========================================================================*
 
+// ヴォルクハルトをトグルする
 function toggleVolkhardtGollwitzer() {
     let divVolkhardtGollwitzer = document.getElementById("VolkhardtGollwitzer");
     if (window.getComputedStyle(divVolkhardtGollwitzer).display === "none") {
@@ -92,6 +96,7 @@ function toggleVolkhardtGollwitzer() {
 // 『ヴィクトーリア・ギュールデンステイト』のファンクション
 // *==========================================================================*
 
+// ヴィクトーリアをトグルする
 function toggleViktoriaGueldenstaedt() {
     let divViktoriaGueldenstaedt = document.getElementById("ViktoriaGueldenstaedt");
     if (window.getComputedStyle(divViktoriaGueldenstaedt).display === "none") {
@@ -110,6 +115,7 @@ function toggleViktoriaGueldenstaedt() {
 // 『レオポルド・ヴォンヘルゲンレーザー』のファンクション
 // *==========================================================================*
 
+// レオポルドをトグルする
 function toggleLeopoldVonHergenroether() {
     let divLeopoldVonHergenroether = document.getElementById("LeopoldVonHergenroether");
     if (window.getComputedStyle(divLeopoldVonHergenroether).display === "none") {
@@ -128,6 +134,7 @@ function toggleLeopoldVonHergenroether() {
 // 『オスカー・ケイストナー』のファンクション
 // *==========================================================================*
 
+// オスカーをトグルする
 function toggleOskarKaestner() {
     let divOskarKaestner = document.getElementById("OskarKaestner");
     if (window.getComputedStyle(divOskarKaestner).display === "none") {
@@ -146,6 +153,7 @@ function toggleOskarKaestner() {
 // 『セラー・キルシュヴェガー』のファンクション
 // *==========================================================================*
 
+// セラーをトグルする
 function toggleSarahKirschweger() {
     let divSarahKirschweger = document.getElementById("SarahKirschweger");
     if (window.getComputedStyle(divSarahKirschweger).display === "none") {
@@ -164,6 +172,7 @@ function toggleSarahKirschweger() {
 // 『イリス・クロステルマン』のファンクション
 // *==========================================================================*
 
+// イリスをトグルする
 function toggleIrisKlostermann() {
     let divIrisKlostermann = document.getElementById("IrisKlostermann");
     if (window.getComputedStyle(divIrisKlostermann).display === "none") {
@@ -182,6 +191,7 @@ function toggleIrisKlostermann() {
 // 『天里愛・キュールシュマン』のファンクション
 // *==========================================================================*
 
+// 天里愛をトグルする
 function toggleAmaliaKuerschmann() {
     let divAmaliaKuerschmann = document.getElementById("AmaliaKuerschmann");
     if (window.getComputedStyle(divAmaliaKuerschmann).display === "none") {
@@ -200,6 +210,7 @@ function toggleAmaliaKuerschmann() {
 // 『イルゼ・キュールシュマン』のファンクション
 // *==========================================================================*
 
+// イルゼをトグルする
 function toggleIlseKuerschmann() {
     let divIlseKuerschmann = document.getElementById("IlseKuerschmann");
     if (window.getComputedStyle(divIlseKuerschmann).display === "none") {
@@ -218,6 +229,7 @@ function toggleIlseKuerschmann() {
 // 『アルフリッド・メンゲルベルク』のファンクション
 // *==========================================================================*
 
+// アルフリッドをトグルする
 function toggleAlfredMengelberg() {
     let divAlfredMengelberg = document.getElementById("AlfredMengelberg");
     if (window.getComputedStyle(divAlfredMengelberg).display === "none") {
@@ -236,6 +248,7 @@ function toggleAlfredMengelberg() {
 // 『キャスパー・メーリング』のファンクション
 // *==========================================================================*
 
+// キャスパーをトグルする
 function toggleKasparMoehling() {
     let divKasparMoehling = document.getElementById("KasparMoehling");
     if (window.getComputedStyle(divKasparMoehling).display === "none") {
@@ -254,6 +267,7 @@ function toggleKasparMoehling() {
 // 『テレサ・ノイホイッサー』のファンクション
 // *==========================================================================*
 
+// テレサをトグルする
 function toggleTeresaNeuhaeusser() {
     let divTeresaNeuhaeusser = document.getElementById("TeresaNeuhaeusser");
     if (window.getComputedStyle(divTeresaNeuhaeusser).display === "none") {
@@ -272,6 +286,7 @@ function toggleTeresaNeuhaeusser() {
 // 『リリ・ローゼンベルガー』のファンクション
 // *==========================================================================*
 
+// リリをトグルする
 function toggleLiliRosenberger() {
     let divLiliRosenberger = document.getElementById("LiliRosenberger");
     if (window.getComputedStyle(divLiliRosenberger).display === "none") {
@@ -290,6 +305,7 @@ function toggleLiliRosenberger() {
 // 『シグムンド・シェーンベルガー』のファンクション
 // *==========================================================================*
 
+// シグムンドをトグルする
 function toggleSigmundSchoenberger() {
     let divSigmundSchoenberger = document.getElementById("SigmundSchoenberger");
     if (window.getComputedStyle(divSigmundSchoenberger).display === "none") {
@@ -308,6 +324,7 @@ function toggleSigmundSchoenberger() {
 // 『ロズヴィザー・ジンメル』のファンクション
 // *==========================================================================*
 
+// ロズヴィザーをトグルする
 function toggleRoswithaSimmel() {
     let divRoswithaSimmel = document.getElementById("RoswithaSimmel");
     if (window.getComputedStyle(divRoswithaSimmel).display === "none") {
@@ -326,6 +343,7 @@ function toggleRoswithaSimmel() {
 // 『ヴィルヘルム・シュパイッス』のファンクション
 // *==========================================================================*
 
+// ヴィルヘルムをトグルする
 function toggleWilhelmSpeiss() {
     let divWilhelmSpeiss = document.getElementById("WilhelmSpeiss");
     if (window.getComputedStyle(divWilhelmSpeiss).display === "none") {
@@ -344,6 +362,7 @@ function toggleWilhelmSpeiss() {
 // 『ルドヴィグ・ヴォンヴァインベルガー』のファンクション
 // *==========================================================================*
 
+// ルドヴィグをトグルする
 function toggleLudwigVonWeinberger() {
     let divLudwigVonWeinberger = document.getElementById("LudwigVonWeinberger");
     if (window.getComputedStyle(divLudwigVonWeinberger).display === "none") {
@@ -362,6 +381,7 @@ function toggleLudwigVonWeinberger() {
 // 『カイ・ヴェーラー』のファンクション
 // *==========================================================================*
 
+// カイをトグルする
 function toggleKaiWoehler() {
     let divKaiWoehler = document.getElementById("KaiWoehler");
     if (window.getComputedStyle(divKaiWoehler).display === "none") {
@@ -380,6 +400,7 @@ function toggleKaiWoehler() {
 // 『セラフィナ・ヴォルフェンソーン・メルゲンタラー』のファンクション
 // *==========================================================================*
 
+// セラフィナをトグルする
 function toggleSerafinaWolfensohnMergenthaler() {
     let divSerafinaWolfensohnMergenthaler = document.getElementById("SerafinaWolfensohnMergenthaler");
     if (window.getComputedStyle(divSerafinaWolfensohnMergenthaler).display === "none") {
@@ -398,6 +419,7 @@ function toggleSerafinaWolfensohnMergenthaler() {
 // toggle0 function
 // ****************************************************************************
 
+// トグルする事のファンクションを組み合す
 function _toggle0() {
     toggleKableusteinTown();
     toggleViktorBodenstein();
@@ -429,6 +451,7 @@ function _toggle0() {
 // 『ステーンシンゲン市』のファンクション
 // *==========================================================================*
 
+// ステーンシンゲン市をトグルする
 function toggleSteensingenCity() {
     let divSteensingenCity = document.getElementById("SteensingenCity");
     if (window.getComputedStyle(divSteensingenCity).display === "none") {
@@ -447,6 +470,7 @@ function toggleSteensingenCity() {
 // toggle1 function
 // ****************************************************************************
 
+// トグルする事のファンクションを組み合す
 function _toggle1() {
     toggleSteensingenCity();
     return 0;
@@ -458,6 +482,7 @@ function _toggle1() {
 // 『ツヴィンゲンローダ町』のファンクション
 // *==========================================================================*
 
+// ツヴィンゲンローダ町をトグルする
 function toggleZwingenrodaTown() {
     let divZwingenrodaTown = document.getElementById("ZwingenrodaTown");
     if (window.getComputedStyle(divZwingenrodaTown).display === "none") {
@@ -476,6 +501,7 @@ function toggleZwingenrodaTown() {
 // 『エレノル・ベークマン』のファンクション
 // *==========================================================================*
 
+// エレノルをトグルする
 function toggleEllenorBoeckmann() {
     let divEllenorBoeckmann = document.getElementById("EllenorBoeckmann");
     if (window.getComputedStyle(divEllenorBoeckmann).display === "none") {
@@ -494,6 +520,7 @@ function toggleEllenorBoeckmann() {
 // 『レオンハルト・ヘーフレ』のファンクション
 // *==========================================================================*
 
+// レオンハルトをトグルする
 function toggleLeonhardHoefle() {
     let divLeonhardHoefle = document.getElementById("LeonhardHoefle");
     if (window.getComputedStyle(divLeonhardHoefle).display === "none") {
@@ -512,6 +539,7 @@ function toggleLeonhardHoefle() {
 // 『クリストフ・ハンフシュテイングル』のファンクション
 // *==========================================================================*
 
+// クリストフをトグルする
 function toggleChristofHanfstaengl() {
     let divChristofHanfstaengl = document.getElementById("ChristofHanfstaengl");
     if (window.getComputedStyle(divChristofHanfstaengl).display === "none") {
@@ -530,6 +558,7 @@ function toggleChristofHanfstaengl() {
 // 『エベリン・ヘイリング』のファンクション
 // *==========================================================================*
 
+// エベリンをトグルする
 function toggleEvelynHaering() {
     let divEvelynHaering = document.getElementById("EvelynHaering");
     if (window.getComputedStyle(divEvelynHaering).display === "none") {
@@ -548,6 +577,7 @@ function toggleEvelynHaering() {
 // 『ルツィア・クレチュメル』のファンクション
 // *==========================================================================*
 
+// ルツィアをトグルする
 function toggleLuziaKretschmer() {
     let divLuziaKretschmer = document.getElementById("LuziaKretschmer");
     if (window.getComputedStyle(divLuziaKretschmer).display === "none") {
@@ -566,6 +596,7 @@ function toggleLuziaKretschmer() {
 // 『ルウシー・オホス』のファンクション
 // *==========================================================================*
 
+// ルウシーをトグルする
 function toggleLucyOchs() {
     let divLucyOchs = document.getElementById("LucyOchs");
     if (window.getComputedStyle(divLucyOchs).display === "none") {
@@ -584,6 +615,7 @@ function toggleLucyOchs() {
 // 『ピート・プロホノフ』のファンクション
 // *==========================================================================*
 
+// ピートをトグルする
 function togglePietProchnow() {
     let divPietProchnow = document.getElementById("PietProchnow");
     if (window.getComputedStyle(divPietProchnow).display === "none") {
@@ -602,6 +634,7 @@ function togglePietProchnow() {
 // 『ジナ・ロゼンクランツ』のファンクション
 // *==========================================================================*
 
+// ジナをトグルする
 function toggleSinaRosenkranz() {
     let divSinaRosenkranz = document.getElementById("SinaRosenkranz");
     if (window.getComputedStyle(divSinaRosenkranz).display === "none") {
@@ -620,6 +653,7 @@ function toggleSinaRosenkranz() {
 // 『エドゥアルド・シット』のファンクション
 // *==========================================================================*
 
+// エドゥアルドをトグルする
 function toggleEduardSchitt() {
     let divEduardSchitt = document.getElementById("EduardSchitt");
     if (window.getComputedStyle(divEduardSchitt).display === "none") {
@@ -638,6 +672,7 @@ function toggleEduardSchitt() {
 // 『ヨハン・タイヒミュラ』のファンクション
 // *==========================================================================*
 
+// ヨハンをトグルする
 function toggleJohanTeichmueller() {
     let divJohanTeichmueller = document.getElementById("JohanTeichmueller");
     if (window.getComputedStyle(divJohanTeichmueller).display === "none") {
@@ -656,6 +691,7 @@ function toggleJohanTeichmueller() {
 // toggle2 function
 // ****************************************************************************
 
+// トグルする事のファンクションを組み合す
 function _toggle2() {
     toggleZwingenrodaTown();
     toggleEllenorBoeckmann();
@@ -677,6 +713,7 @@ function _toggle2() {
 // 『グロッスヴェルテル町』のファンクション
 // *==========================================================================*
 
+// グロッスヴェルテル町をトグルする
 function toggleGrosswerterTown() {
     let divGrosswerterTown = document.getElementById("GrosswerterTown");
     if (window.getComputedStyle(divGrosswerterTown).display === "none") {
@@ -695,6 +732,7 @@ function toggleGrosswerterTown() {
 // 『ブリッタ・ベイル』のファンクション
 // *==========================================================================*
 
+// ブリッタをトグルする
 function toggleBrittaBaer() {
     let divBrittaBaer = document.getElementById("BrittaBaer");
     if (window.getComputedStyle(divBrittaBaer).display === "none") {
@@ -713,6 +751,7 @@ function toggleBrittaBaer() {
 // 『フェリツィタス・グリュック』のファンクション
 // *==========================================================================*
 
+// フェリツィタスをトグルする
 function toggleFelizitasGlueck() {
     let divFelizitasGlueck = document.getElementById("FelizitasGlueck");
     if (window.getComputedStyle(divFelizitasGlueck).display === "none") {
@@ -731,6 +770,7 @@ function toggleFelizitasGlueck() {
 // 『アン・ハウフェ』のファンクション
 // *==========================================================================*
 
+// アンをトグルする
 function toggleAnneHauffe() {
     let divAnneHauffe = document.getElementById("AnneHauffe");
     if (window.getComputedStyle(divAnneHauffe).display === "none") {
@@ -749,6 +789,7 @@ function toggleAnneHauffe() {
 // 『ゲオルグ・ヘーニグマン』のファンクション
 // *==========================================================================*
 
+// ゲオルグをトグルする
 function toggleGeorgHoenigmann() {
     let divGeorgHoenigmann = document.getElementById("GeorgHoenigmann");
     if (window.getComputedStyle(divGeorgHoenigmann).display === "none") {
@@ -767,6 +808,7 @@ function toggleGeorgHoenigmann() {
 // 『イル・ホプフ』のファンクション
 // *==========================================================================*
 
+// イルをトグルする
 function toggleJilHopf() {
     let divJilHopf = document.getElementById("JilHopf");
     if (window.getComputedStyle(divJilHopf).display === "none") {
@@ -785,6 +827,7 @@ function toggleJilHopf() {
 // 『フィンヤ・リュティ』のファンクション
 // *==========================================================================*
 
+// フィンヤをトグルする
 function toggleFinjaLuethi() {
     let divFinjaLuethi = document.getElementById("FinjaLuethi");
     if (window.getComputedStyle(divFinjaLuethi).display === "none") {
@@ -803,6 +846,7 @@ function toggleFinjaLuethi() {
 // 『ベネディクト・フォンペーペル』のファンクション
 // *==========================================================================*
 
+// ベネディクトをトグルする
 function toggleBenediktVonPoepel() {
     let divBenediktVonPoepel = document.getElementById("BenediktVonPoepel");
     if (window.getComputedStyle(divBenediktVonPoepel).display === "none") {
@@ -821,6 +865,7 @@ function toggleBenediktVonPoepel() {
 // 『スフェン・シェルシャイト』のファンクション
 // *==========================================================================*
 
+// スフェンをトグルする
 function toggleSvenSchellscheidt() {
     let divSvenSchellscheidt = document.getElementById("SvenSchellscheidt");
     if (window.getComputedStyle(divSvenSchellscheidt).display === "none") {
@@ -839,6 +884,7 @@ function toggleSvenSchellscheidt() {
 // 『レフィ・フォンシュッツ』のファンクション
 // *==========================================================================*
 
+// レフィをトグルする
 function toggleLeviVonSchutz() {
     let divLeviVonSchutz = document.getElementById("LeviVonSchutz");
     if (window.getComputedStyle(divLeviVonSchutz).display === "none") {
@@ -857,6 +903,7 @@ function toggleLeviVonSchutz() {
 // 『ヨアヒム・シュヴァイニツ』のファンクション
 // *==========================================================================*
 
+// ヨアヒムをトグルする
 function toggleJoachimSchweinitz() {
     let divJoachimSchweinitz = document.getElementById("JoachimSchweinitz");
     if (window.getComputedStyle(divJoachimSchweinitz).display === "none") {
@@ -875,6 +922,7 @@ function toggleJoachimSchweinitz() {
 // toggle3 function
 // ****************************************************************************
 
+// トグルする事のファンクションを組み合す
 function _toggle3() {
     toggleGrosswerterTown();
     toggleBrittaBaer();
@@ -896,6 +944,7 @@ function _toggle3() {
 // 『アッピンゲスホテン町』のファンクション
 // *==========================================================================*
 
+// アッピンゲスホテン町をトグルする
 function toggleAppingeschotenTown() {
     let divAppingeschotenTown = document.getElementById("AppingeschotenTown");
     if (window.getComputedStyle(divAppingeschotenTown).display === "none") {
@@ -914,6 +963,7 @@ function toggleAppingeschotenTown() {
 // toggle4 function
 // ****************************************************************************
 
+// トグルする事のファンクションを組み合す
 function _toggle4() {
     toggleAppingeschotenTown();
     return 0;
@@ -925,6 +975,7 @@ function _toggle4() {
 // 『ニーデルンレイシェン村』のファンクション
 // *==========================================================================*
 
+// ニーデルンレイシェン村をトグルする
 function toggleNiedernraeschenVillage() {
     let divNiedernraeschenVillage = document.getElementById("NiedernraeschenVillage");
     if (window.getComputedStyle(divNiedernraeschenVillage).display === "none") {
@@ -943,6 +994,7 @@ function toggleNiedernraeschenVillage() {
 // 『マドレン・ボイムレル』のファンクション
 // *==========================================================================*
 
+// マドレンをトグルする
 function toggleMadlenBaeumler() {
     let divMadlenBaeumler = document.getElementById("MadlenBaeumler");
     if (window.getComputedStyle(divMadlenBaeumler).display === "none") {
@@ -961,6 +1013,7 @@ function toggleMadlenBaeumler() {
 // 『アロイス・ブリュヘル』のファンクション
 // *==========================================================================*
 
+// アロイスをトグルする
 function toggleAloisBluecher() {
     let divAloisBluecher = document.getElementById("AloisBluecher");
     if (window.getComputedStyle(divAloisBluecher).display === "none") {
@@ -979,6 +1032,7 @@ function toggleAloisBluecher() {
 // 『フィッシュ・ファックス』のファンクション
 // *==========================================================================*
 
+// フィッシュをトグルする
 function toggleFischFuchs() {
     let divFischFuchs = document.getElementById("FischFuchs");
     if (window.getComputedStyle(divFischFuchs).display === "none") {
@@ -997,6 +1051,7 @@ function toggleFischFuchs() {
 // 『ファルコ・ゲールデル』のファンクション
 // *==========================================================================*
 
+// ファルコをトグルする
 function toggleFalkoGoerder() {
     let divFalkoGoerder = document.getElementById("FalkoGoerder");
     if (window.getComputedStyle(divFalkoGoerder).display === "none") {
@@ -1015,6 +1070,7 @@ function toggleFalkoGoerder() {
 // 『ヴィーブケ・ケーレル＝ケーネ』のファンクション
 // *==========================================================================*
 
+// ヴィーブケをトグルする
 function toggleWiebkeKoehlerKoehne() {
     let divWiebkeKoehlerKoehne = document.getElementById("WiebkeKoehlerKoehne");
     if (window.getComputedStyle(divWiebkeKoehlerKoehne).display === "none") {
@@ -1033,6 +1089,7 @@ function toggleWiebkeKoehlerKoehne() {
 // 『リケ・ニチュ』のファンクション
 // *==========================================================================*
 
+// リケをトグルする
 function toggleRikeNitzsch() {
     let divRikeNitzsch = document.getElementById("RikeNitzsch");
     if (window.getComputedStyle(divRikeNitzsch).display === "none") {
@@ -1051,6 +1108,7 @@ function toggleRikeNitzsch() {
 // 『ビェールン・プライッス』のファンクション
 // *==========================================================================*
 
+// ビェールンをトグルする
 function toggleBjoernPreiss() {
     let divBjoernPreiss = document.getElementById("BjoernPreiss");
     if (window.getComputedStyle(divBjoernPreiss).display === "none") {
@@ -1069,6 +1127,7 @@ function toggleBjoernPreiss() {
 // 『イェールグ・シュヴァルツェンベルゲル』のファンクション
 // *==========================================================================*
 
+// イェールグをトグルする
 function toggleJoergSchwarzenberger() {
     let divJoergSchwarzenberger = document.getElementById("JoergSchwarzenberger");
     if (window.getComputedStyle(divJoergSchwarzenberger).display === "none") {
@@ -1087,6 +1146,7 @@ function toggleJoergSchwarzenberger() {
 // 『ティム・ヴェルゼル』のファンクション
 // *==========================================================================*
 
+// ティムをトグルする
 function toggleTimmWelser() {
     let divTimmWelser = document.getElementById("TimmWelser");
     if (window.getComputedStyle(divTimmWelser).display === "none") {
@@ -1105,6 +1165,7 @@ function toggleTimmWelser() {
 // 『ティア・ヴィッスマン』のファンクション
 // *==========================================================================*
 
+// ティアをトグルする
 function toggleTiaWissman() {
     let divTiaWissmann = document.getElementById("TiaWissmann");
     if (window.getComputedStyle(divTiaWissmann).display === "none") {
@@ -1123,6 +1184,7 @@ function toggleTiaWissman() {
 // toggle5 function
 // ****************************************************************************
 
+// トグルする事のファンクションを組み合す
 function _toggle5() {
     toggleNiedernraeschenVillage();
     toggleMadlenBaeumler();
@@ -1144,6 +1206,7 @@ function _toggle5() {
 // 『アムステルリヘム＝ミッデルヴェーン町』のファンクション
 // *==========================================================================*
 
+// アムステルリヘム＝ミッデルヴェーン町をトグルする
 function toggleAmstelrichemMiddelveenTown() {
     let divAmstelrichemMiddelveenTown = document.getElementById("AmstelrichemMiddelveenTown");
     if (window.getComputedStyle(divAmstelrichemMiddelveenTown).display === "none") {
@@ -1162,6 +1225,7 @@ function toggleAmstelrichemMiddelveenTown() {
 // toggle6 function
 // ****************************************************************************
 
+// トグルする事のファンクションを組み合す
 function _toggle6() {
     toggleAmstelrichemMiddelveenTown();
     return 0;
@@ -1173,6 +1237,7 @@ function _toggle6() {
 // 『ダシュガプ町』のファンクション
 // *==========================================================================*
 
+// ダシュガプ町をトグルする
 function toggleDasgapTown() {
     let divDasgapTown = document.getElementById("DasgapTown");
     if (window.getComputedStyle(divDasgapTown).display === "none") {
@@ -1191,6 +1256,7 @@ function toggleDasgapTown() {
 // toggle7 function
 // ****************************************************************************
 
+// トグルする事のファンクションを組み合す
 function _toggle7() {
     toggleDasgapTown();
     return 0;
@@ -1202,6 +1268,7 @@ function _toggle7() {
 // 『テュルケナバト町』のファンクション
 // *==========================================================================*
 
+// テュルケナバト町をトグルする
 function toggleTurkenabatTown() {
     let divTurkenabatTown = document.getElementById("TurkenabatTown");
     if (window.getComputedStyle(divTurkenabatTown).display === "none") {
@@ -1220,6 +1287,7 @@ function toggleTurkenabatTown() {
 // toggle8 function
 // ****************************************************************************
 
+// トグルする事のファンクションを組み合す
 function _toggle8() {
     toggleTurkenabatTown();
     return 0;
@@ -1231,6 +1299,7 @@ function _toggle8() {
 // 『サイゾブ町』のファンクション
 // *==========================================================================*
 
+// サイゾブ町をトグルする
 function toggleSayzowTown() {
     let divSayzowTown = document.getElementById("SayzowTown");
     if (window.getComputedStyle(divSayzowTown).display === "none") {
@@ -1249,6 +1318,7 @@ function toggleSayzowTown() {
 // toggle9 function
 // ****************************************************************************
 
+// トグルする事のファンクションを組み合す
 function _toggle9() {
     toggleSayzowTown();
     return 0;
@@ -1260,6 +1330,7 @@ function _toggle9() {
 // 『全ての為に』のファンクション
 // *==========================================================================*
 
+// 全てをトグルする
 function toggleAll() {
     _toggle0();
     _toggle1();
