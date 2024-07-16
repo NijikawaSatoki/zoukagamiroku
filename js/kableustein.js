@@ -23,11 +23,11 @@
 function toggleKableusteinTown() {
     let divKableusteinTown = document.getElementById("KableusteinTown");
     if (window.getComputedStyle(divKableusteinTown).display === "none") {
-        //  ＯＮにする 
+        // ＯＮにする
         divKableusteinTown.style.display = "block";
         return 0;
     } else {
-        //  ＯＦＦにする 
+        // ＯＦＦにする
         divKableusteinTown.style.display = "none";
         return 0;
     }
@@ -41,11 +41,11 @@ function toggleKableusteinTown() {
 function toggleViktorBodenstein() {
     let divViktorBodenstein = document.getElementById("ViktorBodenstein");
     if (window.getComputedStyle(divViktorBodenstein).display === "none") {
-        //  ＯＮにする 
+        // ＯＮにする
         divViktorBodenstein.style.display = "block";
         return 0;
     } else {
-        //  ＯＦＦにする 
+        // ＯＦＦにする
         divViktorBodenstein.style.display = "none";
         return 0;
     }
@@ -59,11 +59,11 @@ function toggleViktorBodenstein() {
 function toggleSieglindeEibenschuetz() {
     let divSieglindeEibenschuetz = document.getElementById("SieglindeEibenschuetz");
     if (window.getComputedStyle(divSieglindeEibenschuetz).display === "none") {
-        //  ＯＮにする 
+        // ＯＮにする
         divSieglindeEibenschuetz.style.display = "block";
         return 0;
     } else {
-        //  ＯＦＦにする 
+        // ＯＦＦにする
         divSieglindeEibenschuetz.style.display = "none";
         return 0;
     }
@@ -77,11 +77,11 @@ function toggleSieglindeEibenschuetz() {
 function toggleVolkhardtGollwitzer() {
     let divVolkhardtGollwitzer = document.getElementById("VolkhardtGollwitzer");
     if (window.getComputedStyle(divVolkhardtGollwitzer).display === "none") {
-        //  ＯＮにする 
+        // ＯＮにする
         divVolkhardtGollwitzer.style.display = "block";
         return 0;
     } else {
-        //  ＯＦＦにする 
+        // ＯＦＦにする
         divVolkhardtGollwitzer.style.display = "none";
         return 0;
     }
@@ -95,11 +95,11 @@ function toggleVolkhardtGollwitzer() {
 function toggleViktoriaGueldenstaedt() {
     let divViktoriaGueldenstaedt = document.getElementById("ViktoriaGueldenstaedt");
     if (window.getComputedStyle(divViktoriaGueldenstaedt).display === "none") {
-        //  ＯＮにする 
+        // ＯＮにする
         divViktoriaGueldenstaedt.style.display = "block";
         return 0;
     } else {
-        //  ＯＦＦにする 
+        // ＯＦＦにする
         divViktoriaGueldenstaedt.style.display = "none";
         return 0;
     }
@@ -113,11 +113,11 @@ function toggleViktoriaGueldenstaedt() {
 function toggleLeopoldVonHergenroether() {
     let divLeopoldVonHergenroether = document.getElementById("LeopoldVonHergenroether");
     if (window.getComputedStyle(divLeopoldVonHergenroether).display === "none") {
-        //  ＯＮにする 
+        // ＯＮにする
         divLeopoldVonHergenroether.style.display = "block";
         return 0;
     } else {
-        //  ＯＦＦにする 
+        // ＯＦＦにする
         divLeopoldVonHergenroether.style.display = "none";
         return 0;
     }
@@ -131,11 +131,11 @@ function toggleLeopoldVonHergenroether() {
 function toggleOskarKaestner() {
     let divOskarKaestner = document.getElementById("OskarKaestner");
     if (window.getComputedStyle(divOskarKaestner).display === "none") {
-        //  ＯＮにする 
+        // ＯＮにする
         divOskarKaestner.style.display = "block";
         return 0;
     } else {
-        //  ＯＦＦにする 
+        // ＯＦＦにする
         divOskarKaestner.style.display = "none";
         return 0;
     }
@@ -149,11 +149,11 @@ function toggleOskarKaestner() {
 function toggleSarahKirschweger() {
     let divSarahKirschweger = document.getElementById("SarahKirschweger");
     if (window.getComputedStyle(divSarahKirschweger).display === "none") {
-        //  ＯＮにする 
+        // ＯＮにする
         divSarahKirschweger.style.display = "block";
         return 0;
     } else {
-        //  ＯＦＦにする 
+        // ＯＦＦにする
         divSarahKirschweger.style.display = "none";
         return 0;
     }
@@ -167,11 +167,11 @@ function toggleSarahKirschweger() {
 function toggleIrisKlostermann() {
     let divIrisKlostermann = document.getElementById("IrisKlostermann");
     if (window.getComputedStyle(divIrisKlostermann).display === "none") {
-        //  ＯＮにする 
+        // ＯＮにする
         divIrisKlostermann.style.display = "block";
         return 0;
     } else {
-        //  ＯＦＦにする 
+        // ＯＦＦにする
         divIrisKlostermann.style.display = "none";
         return 0;
     }
@@ -185,11 +185,11 @@ function toggleIrisKlostermann() {
 function toggleAmaliaKuerschmann() {
     let divAmaliaKuerschmann = document.getElementById("AmaliaKuerschmann");
     if (window.getComputedStyle(divAmaliaKuerschmann).display === "none") {
-        //  ＯＮにする 
+        // ＯＮにする
         divAmaliaKuerschmann.style.display = "block";
         return 0;
     } else {
-        //  ＯＦＦにする 
+        // ＯＦＦにする
         divAmaliaKuerschmann.style.display = "none";
         return 0;
     }
@@ -203,11 +203,11 @@ function toggleAmaliaKuerschmann() {
 function toggleIlseKuerschmann() {
     let divIlseKuerschmann = document.getElementById("IlseKuerschmann");
     if (window.getComputedStyle(divIlseKuerschmann).display === "none") {
-        //  ＯＮにする 
+        // ＯＮにする
         divIlseKuerschmann.style.display = "block";
         return 0;
     } else {
-        //  ＯＦＦにする 
+        // ＯＦＦにする
         divIlseKuerschmann.style.display = "none";
         return 0;
     }
@@ -221,11 +221,11 @@ function toggleIlseKuerschmann() {
 function toggleAlfredMengelberg() {
     let divAlfredMengelberg = document.getElementById("AlfredMengelberg");
     if (window.getComputedStyle(divAlfredMengelberg).display === "none") {
-        //  ＯＮにする 
+        // ＯＮにする
         divAlfredMengelberg.style.display = "block";
         return 0;
     } else {
-        //  ＯＦＦにする 
+        // ＯＦＦにする
         divAlfredMengelberg.style.display = "none";
         return 0;
     }
@@ -239,11 +239,11 @@ function toggleAlfredMengelberg() {
 function toggleKasparMoehling() {
     let divKasparMoehling = document.getElementById("KasparMoehling");
     if (window.getComputedStyle(divKasparMoehling).display === "none") {
-        //  ＯＮにする 
+        // ＯＮにする
         divKasparMoehling.style.display = "block";
         return 0;
     } else {
-        //  ＯＦＦにする 
+        // ＯＦＦにする
         divKasparMoehling.style.display = "none";
         return 0;
     }
@@ -257,11 +257,11 @@ function toggleKasparMoehling() {
 function toggleTeresaNeuhaeusser() {
     let divTeresaNeuhaeusser = document.getElementById("TeresaNeuhaeusser");
     if (window.getComputedStyle(divTeresaNeuhaeusser).display === "none") {
-        //  ＯＮにする 
+        // ＯＮにする
         divTeresaNeuhaeusser.style.display = "block";
         return 0;
     } else {
-        //  ＯＦＦにする 
+        // ＯＦＦにする
         divTeresaNeuhaeusser.style.display = "none";
         return 0;
     }
@@ -275,11 +275,11 @@ function toggleTeresaNeuhaeusser() {
 function toggleLiliRosenberger() {
     let divLiliRosenberger = document.getElementById("LiliRosenberger");
     if (window.getComputedStyle(divLiliRosenberger).display === "none") {
-        //  ＯＮにする 
+        // ＯＮにする
         divLiliRosenberger.style.display = "block";
         return 0;
     } else {
-        //  ＯＦＦにする 
+        // ＯＦＦにする
         divLiliRosenberger.style.display = "none";
         return 0;
     }
@@ -293,11 +293,11 @@ function toggleLiliRosenberger() {
 function toggleSigmundSchoenberger() {
     let divSigmundSchoenberger = document.getElementById("SigmundSchoenberger");
     if (window.getComputedStyle(divSigmundSchoenberger).display === "none") {
-        //  ＯＮにする 
+        // ＯＮにする
         divSigmundSchoenberger.style.display = "block";
         return 0;
     } else {
-        //  ＯＦＦにする 
+        // ＯＦＦにする
         divSigmundSchoenberger.style.display = "none";
         return 0;
     }
@@ -311,11 +311,11 @@ function toggleSigmundSchoenberger() {
 function toggleRoswithaSimmel() {
     let divRoswithaSimmel = document.getElementById("RoswithaSimmel");
     if (window.getComputedStyle(divRoswithaSimmel).display === "none") {
-        //  ＯＮにする 
+        // ＯＮにする
         divRoswithaSimmel.style.display = "block";
         return 0;
     } else {
-        //  ＯＦＦにする 
+        // ＯＦＦにする
         divRoswithaSimmel.style.display = "none";
         return 0;
     }
@@ -329,11 +329,11 @@ function toggleRoswithaSimmel() {
 function toggleWilhelmSpeiss() {
     let divWilhelmSpeiss = document.getElementById("WilhelmSpeiss");
     if (window.getComputedStyle(divWilhelmSpeiss).display === "none") {
-        //  ＯＮにする 
+        // ＯＮにする
         divWilhelmSpeiss.style.display = "block";
         return 0;
     } else {
-        //  ＯＦＦにする 
+        // ＯＦＦにする
         divWilhelmSpeiss.style.display = "none";
         return 0;
     }
@@ -347,11 +347,11 @@ function toggleWilhelmSpeiss() {
 function toggleLudwigVonWeinberger() {
     let divLudwigVonWeinberger = document.getElementById("LudwigVonWeinberger");
     if (window.getComputedStyle(divLudwigVonWeinberger).display === "none") {
-        //  ＯＮにする 
+        // ＯＮにする
         divLudwigVonWeinberger.style.display = "block";
         return 0;
     } else {
-        //  ＯＦＦにする 
+        // ＯＦＦにする
         divLudwigVonWeinberger.style.display = "none";
         return 0;
     }
@@ -365,11 +365,11 @@ function toggleLudwigVonWeinberger() {
 function toggleKaiWoehler() {
     let divKaiWoehler = document.getElementById("KaiWoehler");
     if (window.getComputedStyle(divKaiWoehler).display === "none") {
-        //  ＯＮにする 
+        // ＯＮにする
         divKaiWoehler.style.display = "block";
         return 0;
     } else {
-        //  ＯＦＦにする 
+        // ＯＦＦにする
         divKaiWoehler.style.display = "none";
         return 0;
     }
@@ -383,11 +383,11 @@ function toggleKaiWoehler() {
 function toggleSerafinaWolfensohnMergenthaler() {
     let divSerafinaWolfensohnMergenthaler = document.getElementById("SerafinaWolfensohnMergenthaler");
     if (window.getComputedStyle(divSerafinaWolfensohnMergenthaler).display === "none") {
-        //  ＯＮにする 
+        // ＯＮにする
         divSerafinaWolfensohnMergenthaler.style.display = "block";
         return 0;
     } else {
-        //  ＯＦＦにする 
+        // ＯＦＦにする
         divSerafinaWolfensohnMergenthaler.style.display = "none";
         return 0;
     }
@@ -432,11 +432,11 @@ function _toggle0() {
 function toggleSteensingenCity() {
     let divSteensingenCity = document.getElementById("SteensingenCity");
     if (window.getComputedStyle(divSteensingenCity).display === "none") {
-        //  ＯＮにする 
+        // ＯＮにする
         divSteensingenCity.style.display = "block";
         return 0;
     } else {
-        //  ＯＦＦにする 
+        // ＯＦＦにする
         divSteensingenCity.style.display = "none";
         return 0;
     }
@@ -461,11 +461,11 @@ function _toggle1() {
 function toggleZwingenrodaTown() {
     let divZwingenrodaTown = document.getElementById("ZwingenrodaTown");
     if (window.getComputedStyle(divZwingenrodaTown).display === "none") {
-        //  ＯＮにする 
+        // ＯＮにする
         divZwingenrodaTown.style.display = "block";
         return 0;
     } else {
-        //  ＯＦＦにする 
+        // ＯＦＦにする
         divZwingenrodaTown.style.display = "none";
         return 0;
     }
@@ -479,11 +479,11 @@ function toggleZwingenrodaTown() {
 function toggleEllenorBoeckmann() {
     let divEllenorBoeckmann = document.getElementById("EllenorBoeckmann");
     if (window.getComputedStyle(divEllenorBoeckmann).display === "none") {
-        //  ＯＮにする 
+        // ＯＮにする
         divEllenorBoeckmann.style.display = "block";
         return 0;
     } else {
-        //  ＯＦＦにする 
+        // ＯＦＦにする
         divEllenorBoeckmann.style.display = "none";
         return 0;
     }
@@ -497,11 +497,11 @@ function toggleEllenorBoeckmann() {
 function toggleLeonhardHoefle() {
     let divLeonhardHoefle = document.getElementById("LeonhardHoefle");
     if (window.getComputedStyle(divLeonhardHoefle).display === "none") {
-        //  ＯＮにする 
+        // ＯＮにする
         divLeonhardHoefle.style.display = "block";
         return 0;
     } else {
-        //  ＯＦＦにする 
+        // ＯＦＦにする
         divLeonhardHoefle.style.display = "none";
         return 0;
     }
@@ -515,11 +515,11 @@ function toggleLeonhardHoefle() {
 function toggleChristofHanfstaengl() {
     let divChristofHanfstaengl = document.getElementById("ChristofHanfstaengl");
     if (window.getComputedStyle(divChristofHanfstaengl).display === "none") {
-        //  ＯＮにする 
+        // ＯＮにする
         divChristofHanfstaengl.style.display = "block";
         return 0;
     } else {
-        //  ＯＦＦにする 
+        // ＯＦＦにする
         divChristofHanfstaengl.style.display = "none";
         return 0;
     }
@@ -533,11 +533,11 @@ function toggleChristofHanfstaengl() {
 function toggleEvelynHaering() {
     let divEvelynHaering = document.getElementById("EvelynHaering");
     if (window.getComputedStyle(divEvelynHaering).display === "none") {
-        //  ＯＮにする 
+        // ＯＮにする
         divEvelynHaering.style.display = "block";
         return 0;
     } else {
-        //  ＯＦＦにする 
+        // ＯＦＦにする
         divEvelynHaering.style.display = "none";
         return 0;
     }
@@ -551,11 +551,11 @@ function toggleEvelynHaering() {
 function toggleLuziaKretschmer() {
     let divLuziaKretschmer = document.getElementById("LuziaKretschmer");
     if (window.getComputedStyle(divLuziaKretschmer).display === "none") {
-        //  ＯＮにする 
+        // ＯＮにする
         divLuziaKretschmer.style.display = "block";
         return 0;
     } else {
-        //  ＯＦＦにする 
+        // ＯＦＦにする
         divLuziaKretschmer.style.display = "none";
         return 0;
     }
@@ -569,11 +569,11 @@ function toggleLuziaKretschmer() {
 function toggleLucyOchs() {
     let divLucyOchs = document.getElementById("LucyOchs");
     if (window.getComputedStyle(divLucyOchs).display === "none") {
-        //  ＯＮにする 
+        // ＯＮにする
         divLucyOchs.style.display = "block";
         return 0;
     } else {
-        //  ＯＦＦにする 
+        // ＯＦＦにする
         divLucyOchs.style.display = "none";
         return 0;
     }
@@ -587,11 +587,11 @@ function toggleLucyOchs() {
 function togglePietProchnow() {
     let divPietProchnow = document.getElementById("PietProchnow");
     if (window.getComputedStyle(divPietProchnow).display === "none") {
-        //  ＯＮにする 
+        // ＯＮにする
         divPietProchnow.style.display = "block";
         return 0;
     } else {
-        //  ＯＦＦにする 
+        // ＯＦＦにする
         divPietProchnow.style.display = "none";
         return 0;
     }
@@ -605,11 +605,11 @@ function togglePietProchnow() {
 function toggleSinaRosenkranz() {
     let divSinaRosenkranz = document.getElementById("SinaRosenkranz");
     if (window.getComputedStyle(divSinaRosenkranz).display === "none") {
-        //  ＯＮにする 
+        // ＯＮにする
         divSinaRosenkranz.style.display = "block";
         return 0;
     } else {
-        //  ＯＦＦにする 
+        // ＯＦＦにする
         divSinaRosenkranz.style.display = "none";
         return 0;
     }
@@ -623,11 +623,11 @@ function toggleSinaRosenkranz() {
 function toggleEduardSchitt() {
     let divEduardSchitt = document.getElementById("EduardSchitt");
     if (window.getComputedStyle(divEduardSchitt).display === "none") {
-        //  ＯＮにする 
+        // ＯＮにする
         divEduardSchitt.style.display = "block";
         return 0;
     } else {
-        //  ＯＦＦにする 
+        // ＯＦＦにする
         divEduardSchitt.style.display = "none";
         return 0;
     }
@@ -641,11 +641,11 @@ function toggleEduardSchitt() {
 function toggleJohanTeichmueller() {
     let divJohanTeichmueller = document.getElementById("JohanTeichmueller");
     if (window.getComputedStyle(divJohanTeichmueller).display === "none") {
-        //  ＯＮにする 
+        // ＯＮにする
         divJohanTeichmueller.style.display = "block";
         return 0;
     } else {
-        //  ＯＦＦにする 
+        // ＯＦＦにする
         divJohanTeichmueller.style.display = "none";
         return 0;
     }
@@ -680,11 +680,11 @@ function _toggle2() {
 function toggleGrosswerterTown() {
     let divGrosswerterTown = document.getElementById("GrosswerterTown");
     if (window.getComputedStyle(divGrosswerterTown).display === "none") {
-        //  ＯＮにする 
+        // ＯＮにする
         divGrosswerterTown.style.display = "block";
         return 0;
     } else {
-        //  ＯＦＦにする 
+        // ＯＦＦにする
         divGrosswerterTown.style.display = "none";
         return 0;
     }
@@ -698,11 +698,11 @@ function toggleGrosswerterTown() {
 function toggleBrittaBaer() {
     let divBrittaBaer = document.getElementById("BrittaBaer");
     if (window.getComputedStyle(divBrittaBaer).display === "none") {
-        //  ＯＮにする 
+        // ＯＮにする
         divBrittaBaer.style.display = "block";
         return 0;
     } else {
-        //  ＯＦＦにする 
+        // ＯＦＦにする
         divBrittaBaer.style.display = "none";
         return 0;
     }
@@ -716,11 +716,11 @@ function toggleBrittaBaer() {
 function toggleFelizitasGlueck() {
     let divFelizitasGlueck = document.getElementById("FelizitasGlueck");
     if (window.getComputedStyle(divFelizitasGlueck).display === "none") {
-        //  ＯＮにする 
+        // ＯＮにする
         divFelizitasGlueck.style.display = "block";
         return 0;
     } else {
-        //  ＯＦＦにする 
+        // ＯＦＦにする
         divFelizitasGlueck.style.display = "none";
         return 0;
     }
@@ -734,11 +734,11 @@ function toggleFelizitasGlueck() {
 function toggleAnneHauffe() {
     let divAnneHauffe = document.getElementById("AnneHauffe");
     if (window.getComputedStyle(divAnneHauffe).display === "none") {
-        //  ＯＮにする 
+        // ＯＮにする
         divAnneHauffe.style.display = "block";
         return 0;
     } else {
-        //  ＯＦＦにする 
+        // ＯＦＦにする
         divAnneHauffe.style.display = "none";
         return 0;
     }
@@ -752,11 +752,11 @@ function toggleAnneHauffe() {
 function toggleGeorgHoenigmann() {
     let divGeorgHoenigmann = document.getElementById("GeorgHoenigmann");
     if (window.getComputedStyle(divGeorgHoenigmann).display === "none") {
-        //  ＯＮにする 
+        // ＯＮにする
         divGeorgHoenigmann.style.display = "block";
         return 0;
     } else {
-        //  ＯＦＦにする 
+        // ＯＦＦにする
         divGeorgHoenigmann.style.display = "none";
         return 0;
     }
@@ -770,11 +770,11 @@ function toggleGeorgHoenigmann() {
 function toggleJilHopf() {
     let divJilHopf = document.getElementById("JilHopf");
     if (window.getComputedStyle(divJilHopf).display === "none") {
-        //  ＯＮにする 
+        // ＯＮにする
         divJilHopf.style.display = "block";
         return 0;
     } else {
-        //  ＯＦＦにする 
+        // ＯＦＦにする
         divJilHopf.style.display = "none";
         return 0;
     }
@@ -788,11 +788,11 @@ function toggleJilHopf() {
 function toggleFinjaLuethi() {
     let divFinjaLuethi = document.getElementById("FinjaLuethi");
     if (window.getComputedStyle(divFinjaLuethi).display === "none") {
-        //  ＯＮにする 
+        // ＯＮにする
         divFinjaLuethi.style.display = "block";
         return 0;
     } else {
-        //  ＯＦＦにする 
+        // ＯＦＦにする
         divFinjaLuethi.style.display = "none";
         return 0;
     }
@@ -806,11 +806,11 @@ function toggleFinjaLuethi() {
 function toggleBenediktVonPoepel() {
     let divBenediktVonPoepel = document.getElementById("BenediktVonPoepel");
     if (window.getComputedStyle(divBenediktVonPoepel).display === "none") {
-        //  ＯＮにする 
+        // ＯＮにする
         divBenediktVonPoepel.style.display = "block";
         return 0;
     } else {
-        //  ＯＦＦにする 
+        // ＯＦＦにする
         divBenediktVonPoepel.style.display = "none";
         return 0;
     }
@@ -824,11 +824,11 @@ function toggleBenediktVonPoepel() {
 function toggleSvenSchellscheidt() {
     let divSvenSchellscheidt = document.getElementById("SvenSchellscheidt");
     if (window.getComputedStyle(divSvenSchellscheidt).display === "none") {
-        //  ＯＮにする 
+        // ＯＮにする
         divSvenSchellscheidt.style.display = "block";
         return 0;
     } else {
-        //  ＯＦＦにする 
+        // ＯＦＦにする
         divSvenSchellscheidt.style.display = "none";
         return 0;
     }
@@ -842,11 +842,11 @@ function toggleSvenSchellscheidt() {
 function toggleLeviVonSchutz() {
     let divLeviVonSchutz = document.getElementById("LeviVonSchutz");
     if (window.getComputedStyle(divLeviVonSchutz).display === "none") {
-        //  ＯＮにする 
+        // ＯＮにする
         divLeviVonSchutz.style.display = "block";
         return 0;
     } else {
-        //  ＯＦＦにする 
+        // ＯＦＦにする
         divLeviVonSchutz.style.display = "none";
         return 0;
     }
@@ -860,11 +860,11 @@ function toggleLeviVonSchutz() {
 function toggleJoachimSchweinitz() {
     let divJoachimSchweinitz = document.getElementById("JoachimSchweinitz");
     if (window.getComputedStyle(divJoachimSchweinitz).display === "none") {
-        //  ＯＮにする 
+        // ＯＮにする
         divJoachimSchweinitz.style.display = "block";
         return 0;
     } else {
-        //  ＯＦＦにする 
+        // ＯＦＦにする
         divJoachimSchweinitz.style.display = "none";
         return 0;
     }
@@ -899,11 +899,11 @@ function _toggle3() {
 function toggleAppingeschotenTown() {
     let divAppingeschotenTown = document.getElementById("AppingeschotenTown");
     if (window.getComputedStyle(divAppingeschotenTown).display === "none") {
-        //  ＯＮにする 
+        // ＯＮにする
         divAppingeschotenTown.style.display = "block";
         return 0;
     } else {
-        //  ＯＦＦにする 
+        // ＯＦＦにする
         divAppingeschotenTown.style.display = "none";
         return 0;
     }
@@ -928,11 +928,11 @@ function _toggle4() {
 function toggleNiedernraeschenVillage() {
     let divNiedernraeschenVillage = document.getElementById("NiedernraeschenVillage");
     if (window.getComputedStyle(divNiedernraeschenVillage).display === "none") {
-        //  ＯＮにする 
+        // ＯＮにする
         divNiedernraeschenVillage.style.display = "block";
         return 0;
     } else {
-        //  ＯＦＦにする 
+        // ＯＦＦにする
         divNiedernraeschenVillage.style.display = "none";
         return 0;
     }
@@ -946,11 +946,11 @@ function toggleNiedernraeschenVillage() {
 function toggleMadlenBaeumler() {
     let divMadlenBaeumler = document.getElementById("MadlenBaeumler");
     if (window.getComputedStyle(divMadlenBaeumler).display === "none") {
-        //  ＯＮにする 
+        // ＯＮにする
         divMadlenBaeumler.style.display = "block";
         return 0;
     } else {
-        //  ＯＦＦにする 
+        // ＯＦＦにする
         divMadlenBaeumler.style.display = "none";
         return 0;
     }
@@ -964,11 +964,11 @@ function toggleMadlenBaeumler() {
 function toggleAloisBluecher() {
     let divAloisBluecher = document.getElementById("AloisBluecher");
     if (window.getComputedStyle(divAloisBluecher).display === "none") {
-        //  ＯＮにする 
+        // ＯＮにする
         divAloisBluecher.style.display = "block";
         return 0;
     } else {
-        //  ＯＦＦにする 
+        // ＯＦＦにする
         divAloisBluecher.style.display = "none";
         return 0;
     }
@@ -982,11 +982,11 @@ function toggleAloisBluecher() {
 function toggleFischFuchs() {
     let divFischFuchs = document.getElementById("FischFuchs");
     if (window.getComputedStyle(divFischFuchs).display === "none") {
-        //  ＯＮにする 
+        // ＯＮにする
         divFischFuchs.style.display = "block";
         return 0;
     } else {
-        //  ＯＦＦにする 
+        // ＯＦＦにする
         divFischFuchs.style.display = "none";
         return 0;
     }
@@ -1000,11 +1000,11 @@ function toggleFischFuchs() {
 function toggleFalkoGoerder() {
     let divFalkoGoerder = document.getElementById("FalkoGoerder");
     if (window.getComputedStyle(divFalkoGoerder).display === "none") {
-        //  ＯＮにする 
+        // ＯＮにする
         divFalkoGoerder.style.display = "block";
         return 0;
     } else {
-        //  ＯＦＦにする 
+        // ＯＦＦにする
         divFalkoGoerder.style.display = "none";
         return 0;
     }
@@ -1018,11 +1018,11 @@ function toggleFalkoGoerder() {
 function toggleWiebkeKoehlerKoehne() {
     let divWiebkeKoehlerKoehne = document.getElementById("WiebkeKoehlerKoehne");
     if (window.getComputedStyle(divWiebkeKoehlerKoehne).display === "none") {
-        //  ＯＮにする 
+        // ＯＮにする
         divWiebkeKoehlerKoehne.style.display = "block";
         return 0;
     } else {
-        //  ＯＦＦにする 
+        // ＯＦＦにする
         divWiebkeKoehlerKoehne.style.display = "none";
         return 0;
     }
@@ -1036,11 +1036,11 @@ function toggleWiebkeKoehlerKoehne() {
 function toggleRikeNitzsch() {
     let divRikeNitzsch = document.getElementById("RikeNitzsch");
     if (window.getComputedStyle(divRikeNitzsch).display === "none") {
-        //  ＯＮにする 
+        // ＯＮにする
         divRikeNitzsch.style.display = "block";
         return 0;
     } else {
-        //  ＯＦＦにする 
+        // ＯＦＦにする
         divRikeNitzsch.style.display = "none";
         return 0;
     }
@@ -1054,11 +1054,11 @@ function toggleRikeNitzsch() {
 function toggleBjoernPreiss() {
     let divBjoernPreiss = document.getElementById("BjoernPreiss");
     if (window.getComputedStyle(divBjoernPreiss).display === "none") {
-        //  ＯＮにする 
+        // ＯＮにする
         divBjoernPreiss.style.display = "block";
         return 0;
     } else {
-        //  ＯＦＦにする 
+        // ＯＦＦにする
         divBjoernPreiss.style.display = "none";
         return 0;
     }
@@ -1072,11 +1072,11 @@ function toggleBjoernPreiss() {
 function toggleJoergSchwarzenberger() {
     let divJoergSchwarzenberger = document.getElementById("JoergSchwarzenberger");
     if (window.getComputedStyle(divJoergSchwarzenberger).display === "none") {
-        //  ＯＮにする 
+        // ＯＮにする
         divJoergSchwarzenberger.style.display = "block";
         return 0;
     } else {
-        //  ＯＦＦにする 
+        // ＯＦＦにする
         divJoergSchwarzenberger.style.display = "none";
         return 0;
     }
@@ -1090,11 +1090,11 @@ function toggleJoergSchwarzenberger() {
 function toggleTimmWelser() {
     let divTimmWelser = document.getElementById("TimmWelser");
     if (window.getComputedStyle(divTimmWelser).display === "none") {
-        //  ＯＮにする 
+        // ＯＮにする
         divTimmWelser.style.display = "block";
         return 0;
     } else {
-        //  ＯＦＦにする 
+        // ＯＦＦにする
         divTimmWelser.style.display = "none";
         return 0;
     }
@@ -1108,11 +1108,11 @@ function toggleTimmWelser() {
 function toggleTiaWissman() {
     let divTiaWissmann = document.getElementById("TiaWissmann");
     if (window.getComputedStyle(divTiaWissmann).display === "none") {
-        //  ＯＮにする 
+        // ＯＮにする
         divTiaWissmann.style.display = "block";
         return 0;
     } else {
-        //  ＯＦＦにする 
+        // ＯＦＦにする
         divTiaWissmann.style.display = "none";
         return 0;
     }
@@ -1147,11 +1147,11 @@ function _toggle5() {
 function toggleAmstelrichemMiddelveenTown() {
     let divAmstelrichemMiddelveenTown = document.getElementById("AmstelrichemMiddelveenTown");
     if (window.getComputedStyle(divAmstelrichemMiddelveenTown).display === "none") {
-        //  ＯＮにする 
+        // ＯＮにする
         divAmstelrichemMiddelveenTown.style.display = "block";
         return 0;
     } else {
-        //  ＯＦＦにする 
+        // ＯＦＦにする
         divAmstelrichemMiddelveenTown.style.display = "none";
         return 0;
     }
@@ -1176,11 +1176,11 @@ function _toggle6() {
 function toggleDasgapTown() {
     let divDasgapTown = document.getElementById("DasgapTown");
     if (window.getComputedStyle(divDasgapTown).display === "none") {
-        //  ＯＮにする 
+        // ＯＮにする
         divDasgapTown.style.display = "block";
         return 0;
     } else {
-        //  ＯＦＦにする 
+        // ＯＦＦにする
         divDasgapTown.style.display = "none";
         return 0;
     }
@@ -1205,11 +1205,11 @@ function _toggle7() {
 function toggleTurkenabatTown() {
     let divTurkenabatTown = document.getElementById("TurkenabatTown");
     if (window.getComputedStyle(divTurkenabatTown).display === "none") {
-        //  ＯＮにする 
+        // ＯＮにする
         divTurkenabatTown.style.display = "block";
         return 0;
     } else {
-        //  ＯＦＦにする 
+        // ＯＦＦにする
         divTurkenabatTown.style.display = "none";
         return 0;
     }
@@ -1234,11 +1234,11 @@ function _toggle8() {
 function toggleSayzowTown() {
     let divSayzowTown = document.getElementById("SayzowTown");
     if (window.getComputedStyle(divSayzowTown).display === "none") {
-        //  ＯＮにする 
+        // ＯＮにする
         divSayzowTown.style.display = "block";
         return 0;
     } else {
-        //  ＯＦＦにする 
+        // ＯＦＦにする
         divSayzowTown.style.display = "none";
         return 0;
     }
