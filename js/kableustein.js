@@ -394,6 +394,35 @@ function toggleSerafinaWolfensohnMergenthaler() {
     return 0;
 }
 
+// ****************************************************************************
+// toggle0 function
+// ****************************************************************************
+
+function _toggle0() {
+    toggleKableusteinTown();
+    toggleViktorBodenstein();
+    toggleSieglindeEibenschuetz();
+    toggleVolkhardtGollwitzer();
+    toggleViktoriaGueldenstaedt();
+    toggleLeopoldVonHergenroether();
+    toggleOskarKaestner();
+    toggleSarahKirschweger();
+    toggleIrisKlostermann();
+    toggleAmaliaKuerschmann();
+    toggleIlseKuerschmann();
+    toggleAlfredMengelberg();
+    toggleKasparMoehling();
+    toggleTeresaNeuhaeusser();
+    toggleLiliRosenberger();
+    toggleSigmundSchoenberger();
+    toggleRoswithaSimmel();
+    toggleWilhelmSpeiss();
+    toggleLudwigVonWeinberger();
+    toggleKaiWoehler();
+    toggleSerafinaWolfensohnMergenthaler();
+    return 0;
+}
+
 // *--------------------------------------------------------------------------*
 
 // *==========================================================================*
@@ -411,6 +440,15 @@ function toggleSteensingenCity() {
         divSteensingenCity.style.display = "none";
         return 0;
     }
+    return 0;
+}
+
+// ****************************************************************************
+// toggle1 function
+// ****************************************************************************
+
+function _toggle1() {
+    toggleSteensingenCity();
     return 0;
 }
 
@@ -614,6 +652,25 @@ function toggleJohanTeichmueller() {
     return 0;
 }
 
+// ****************************************************************************
+// toggle2 function
+// ****************************************************************************
+
+function _toggle2() {
+    toggleZwingenrodaTown();
+    toggleEllenorBoeckmann();
+    toggleLeonhardHoefle();
+    toggleChristofHanfstaengl();
+    toggleEvelynHaering();
+    toggleLuziaKretschmer();
+    toggleLucyOchs();
+    togglePietProchnow();
+    toggleSinaRosenkranz();
+    toggleEduardSchitt();
+    toggleJohanTeichmueller();
+    return 0;
+}
+
 // *--------------------------------------------------------------------------*
 
 // *==========================================================================*
@@ -814,6 +871,25 @@ function toggleJoachimSchweinitz() {
     return 0;
 }
 
+// ****************************************************************************
+// toggle3 function
+// ****************************************************************************
+
+function _toggle3() {
+    toggleGrosswerterTown();
+    toggleBrittaBaer();
+    toggleFelizitasGlueck();
+    toggleAnneHauffe();
+    toggleGeorgHoenigmann();
+    toggleJilHopf();
+    toggleFinjaLuethi();
+    toggleBenediktVonPoepel();
+    toggleSvenSchellscheidt();
+    toggleLeviVonSchutz();
+    toggleJoachimSchweinitz();
+    return 0;
+}
+
 // *--------------------------------------------------------------------------*
 
 // *==========================================================================*
@@ -831,6 +907,15 @@ function toggleAppingeschotenTown() {
         divAppingeschotenTown.style.display = "none";
         return 0;
     }
+    return 0;
+}
+
+// ****************************************************************************
+// toggle4 function
+// ****************************************************************************
+
+function _toggle4() {
+    toggleAppingeschotenTown();
     return 0;
 }
 
@@ -1034,6 +1119,25 @@ function toggleTiaWissman() {
     return 0;
 }
 
+// ****************************************************************************
+// toggle5 function
+// ****************************************************************************
+
+function _toggle5() {
+    toggleNiedernraeschenVillage();
+    toggleMadlenBaeumler();
+    toggleAloisBluecher();
+    toggleFischFuchs();
+    toggleFalkoGoerder();
+    toggleWiebkeKoehlerKoehne();
+    toggleRikeNitzsch();
+    toggleBjoernPreiss();
+    toggleJoergSchwarzenberger();
+    toggleTimmWelser();
+    toggleTiaWissman();
+    return 0;
+}
+
 // *--------------------------------------------------------------------------*
 
 // *==========================================================================*
@@ -1051,6 +1155,15 @@ function toggleAmstelrichemMiddelveenTown() {
         divAmstelrichemMiddelveenTown.style.display = "none";
         return 0;
     }
+    return 0;
+}
+
+// ****************************************************************************
+// toggle6 function
+// ****************************************************************************
+
+function _toggle6() {
+    toggleAmstelrichemMiddelveenTown();
     return 0;
 }
 
@@ -1074,6 +1187,15 @@ function toggleDasgapTown() {
     return 0;
 }
 
+// ****************************************************************************
+// toggle7 function
+// ****************************************************************************
+
+function _toggle7() {
+    toggleDasgapTown();
+    return 0;
+}
+
 // *--------------------------------------------------------------------------*
 
 // *==========================================================================*
@@ -1091,6 +1213,15 @@ function toggleTurkenabatTown() {
         divTurkenabatTown.style.display = "none";
         return 0;
     }
+    return 0;
+}
+
+// ****************************************************************************
+// toggle8 function
+// ****************************************************************************
+
+function _toggle8() {
+    toggleTurkenabatTown();
     return 0;
 }
 
@@ -1114,11 +1245,34 @@ function toggleSayzowTown() {
     return 0;
 }
 
+// ****************************************************************************
+// toggle9 function
+// ****************************************************************************
+
+function _toggle9() {
+    toggleSayzowTown();
+    return 0;
+}
+
 // *--------------------------------------------------------------------------*
 
 // *==========================================================================*
 // 『全ての為に』のファンクション
 // *==========================================================================*
+
+function toggleAll() {
+    _toggle0();
+    _toggle1();
+    _toggle2();
+    _toggle3();
+    _toggle4();
+    _toggle5();
+    _toggle6();
+    _toggle7();
+    _toggle8();
+    _toggle9();
+    return 0;
+}
 
 // *--------------------------------------------------------------------------*
 
