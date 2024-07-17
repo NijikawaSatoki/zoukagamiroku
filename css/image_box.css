@@ -1,0 +1,53 @@
+/* ============================================================================
+ * image_box.css "Image Boxes"
+ * ============================================================================
+ * 
+ * 制作者：虹川郷鬼
+ * 
+ */
+
+/* Image Containment Unit. Notify Site Command in the event of a breach of
+   containment! */
+.container {
+    position: relative;
+    width: 50%;
+}
+
+/* Change opacity of image whilst hovering over the containment unit */
+.container:hover .image {
+    opacity: 0.3;
+}
+
+/* Change opacity of the middle text box whilst hovering over the containment
+   unit */
+.container:hover .middle {
+    opacity: 1;
+}
+
+/* The base image */
+.image {
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+/* The middle text box */
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%); /* Needed by Internet Explorer (People still use that?!) */
+}
+
+/* The text inside the box */
+.text {
+  background-color: #4CAF50;
+  color: white;
+  font-family: 'ヒラギノ丸ゴ Pro W4', 'Noto Sans CJK JP', 'ＭＳ ゴシック', 'Noto Sans JP', sans-serif;
+  font-size: 1em;
+  padding: 16px 32px;
+}
