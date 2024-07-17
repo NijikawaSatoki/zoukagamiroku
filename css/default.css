@@ -439,8 +439,8 @@ span.text-mongolian {
     font-weight: normal;
     line-height: 1.1em;
     -webkit-writing-mode: vertical-lr; /* Needed by Safari */
-    /*-o-writing-mode: vertical-lr;*/ /* Only uncomment if truly needed!! */
-    /*-ms-writing-mode: tb-lr;*/ /* Only uncomment if truly needed!! */
+    -o-writing-mode: vertical-lr; /* Needed by Opera */
+    -ms-writing-mode: tb-lr; /* Needed by Internet Explorer (People still use that?!) */
     /*writing-mode: tb-lr;*/ /* Only uncomment if truly needed!! */
     writing-mode: vertical-lr;
     text-orientation: sideways;
