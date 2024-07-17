@@ -438,7 +438,7 @@ span.text-mongolian {
     display: inline-block;
     font-weight: normal;
     line-height: 1.1em;
-    /*-webkit-writing-mode: vertical-lr;*/ /* Only uncomment if truly needed!! */
+    -webkit-writing-mode: vertical-lr; /* Needed by Safari */
     /*-o-writing-mode: vertical-lr;*/ /* Only uncomment if truly needed!! */
     /*-ms-writing-mode: tb-lr;*/ /* Only uncomment if truly needed!! */
     /*writing-mode: tb-lr;*/ /* Only uncomment if truly needed!! */
