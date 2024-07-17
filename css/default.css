@@ -447,6 +447,16 @@ span.text-mongolian {
     vertical-align: top;
 }
 
+/* Oblique type */
+span.oblique {
+    font-style: oblique;
+}
+
+/* Italic type */
+span.italics {
+    font-style: italic;
+}
+
 /* /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\  *
  * <div> stylesheets
  * \/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/  */
