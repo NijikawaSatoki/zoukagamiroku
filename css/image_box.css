@@ -47,11 +47,11 @@
 
 /* The text inside the box */
 .text {
-  background-color: #4CAF50;
-  color: white;
-  font-family: 'ヒラギノ丸ゴ Pro W4', 'Noto Sans CJK JP', 'ＭＳ ゴシック', 'Noto Sans JP', sans-serif;
-  font-size: 1.2em;
-/*  padding: 2px;*/
-  border-style: ridge;
-  border-width: 2px;
+    background-color: #4CAF50;
+    color: white;
+    font-family: 'ヒラギノ丸ゴ Pro W4', 'Noto Sans CJK JP', 'ＭＳ ゴシック', 'Noto Sans JP', sans-serif;
+    font-size: 1.2em;
+    padding: 2px;
+    border-style: ridge;
+    border-width: 2px;
 }
