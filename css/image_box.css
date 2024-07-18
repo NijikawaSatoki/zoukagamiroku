@@ -10,18 +10,7 @@
    containment! */
 .container {
     position: relative;
-    width: 50%;
-}
-
-/* Change opacity of image whilst hovering over the containment unit */
-.container:hover .image {
-    opacity: 0.3;
-}
-
-/* Change opacity of the middle text box whilst hovering over the containment
-   unit */
-.container:hover .middle {
-    opacity: 1;
+    width: 100%;
 }
 
 /* The base image */
@@ -41,6 +30,19 @@
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%); /* Needed by Internet Explorer (People still use that?!) */
+    width: max-content;
+    text-align: center;
+}
+
+/* Change opacity of image whilst hovering over the containment unit */
+.container:hover .image {
+    opacity: 0.3;
+}
+
+/* Change opacity of the middle text box whilst hovering over the containment
+   unit */
+.container:hover .middle {
+    opacity: 1;
 }
 
 /* The text inside the box */
@@ -48,6 +50,8 @@
   background-color: #4CAF50;
   color: white;
   font-family: 'ヒラギノ丸ゴ Pro W4', 'Noto Sans CJK JP', 'ＭＳ ゴシック', 'Noto Sans JP', sans-serif;
-  font-size: 1em;
-  padding: 16px 32px;
+  font-size: 1.2em;
+/*  padding: 2px;*/
+  border-style: ridge;
+  border-width: 2px;
 }
