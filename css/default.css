@@ -501,6 +501,12 @@ div.art-chara {
     background-color: #666666;
 }
 
+/* "Float Containment Unit"
+   Inform site command in the event of a breach. */
+div.containment-unit {
+    display: flow-root;
+}
+
 /* Pride :3 */
 div.pride {
     float: right;
