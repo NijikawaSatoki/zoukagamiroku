@@ -36,7 +36,7 @@
 
 /* Change opacity of image whilst hovering over the containment unit */
 .container:hover .image {
-    opacity: 0.3;
+    opacity: 0.75;
 }
 
 /* Change opacity of the middle text box whilst hovering over the containment
