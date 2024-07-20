@@ -346,87 +346,114 @@ main.credits {
  * <span> stylesheets
  * \/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/  */
 
+/* ------------------------------------------------------------------------- *
+ * Per-language fonts
+ * ------------------------------------------------------------------------- */
+
 /* Burmese script */
-span.font-myanmar {
+span.burmese-font {
     font-family: 'Pyidaungsu', 'Noto Sans Myanmar UI', 'Myanmar Text', 'Noto Sans Myanmar', sans-serif;
     font-size: 130%;
 }
 
 /* Cyrillic alphabet */
-span.font-cyrillic {
+span.cyrillic-font {
     font-family: 'Arimo', 'Linux Biolinum', 'Arial', 'Noto Sans', sans-serif;
 }
 
 /* Simplified Chinese */
-span.font-simphanzi {
+span.simplified-hanzi-font {
     font-family: 'Noto Sans CJK SC', 'KaiTi', 'Noto Sans SC', sans-serif;
 }
 
 /* Traditional Chinese */
-span.font-tradhanzi {
+span.traditional-hanzi-font {
     font-family: 'Noto Sans CJK TC', 'DFKai-SB', 'Noto Sans TC', sans-serif;
 }
 
 /* Devanagari */
-span.font-devanagari {
+span.devanagari-font {
     font-family: 'Chandas', 'Sanskrit Text', 'Mangal', 'Noto Serif Devanagari', serif;
     font-size: 130%;
 }
 
 /* Georgian script */
-span.font-georgian {
+span.georgian-font {
     font-family: 'Sylfaen', 'Noto Sans Georgian', serif;
 }
 
 /* Greek alphabet */
-span.font-greek {
+span.greek-font {
     font-family: 'Arimo', 'Linux Biolinum', 'Arial', 'Noto Sans', sans-serif;
 }
 
 /* Korean - Hangul */
-span.font-hangul {
+span.hangul-font {
     font-family: 'Noto Sans CJK KR', 'Gulim', 'Noto Sans KR', sans-serif;
 }
 
 /* Korean - Hanja */
-span.font-hanja {
+span.hanja-font {
     font-family: 'Noto Sans CJK KR', 'Gulim', 'Noto Sans KR', sans-serif;
 }
 
 /* Latin alphabet */
-span.font-latin {
+span.latin-font {
     font-family: 'Arimo', 'Linux Biolinum', 'Arial', 'Noto Sans', sans-serif;
 }
 
 /* Malayalam script */
-span.font-malayalam {
+span.malayalam-font {
     font-family: 'Gayathri', 'Noto Sans Malayalam', sans-serif;
     font-size: 125%;
 }
 
 /* Mongolian script */
-span.font-mongolian {
+span.mongolian-font {
     font-family: 'Menk Hawang Tig', 'Menk Qagan Tig', 'Menk Garqag Tig', 'Menk Har_a Tig', 'Menk Scnin Tig', 'Oyun Gurban Ulus Tig', 'Oyun Qagan Tig', 'Oyun Garqag Tig', 'Oyun Har_a Tig', 'Oyun Scnin Tig', 'Oyun Agula Tig', 'Mongolian Baiti', 'Mongolian Universal White', 'Mongol Usug', 'Mongolian White', 'MongolianScript', 'Code2000', 'Menksoft Qagan', 'Noto Sans Mongolian', serif;
     font-size: 130%;
 }
 
 /* Perso-Arabic script - Naskh */
-span.font-naskh {
+span.naskh-font {
     font-family: 'Noto Naskh Arabic UI', 'Arabic Typesetting', 'Dubai', 'Noto Naskh Arabic', serif;
     font-size: 130%;
 }
 
 /* Perso-Arabic script - Nastaliq */
-span.font-nastaliq {
+span.nastaliq-font {
     font-family: 'Urdu Typesetting', 'Noto Nastaliq Urdu', serif;
     font-size: 130%;
 }
 
 /* Tibetan script */
-span.font-tibetan {
+span.tibetan-font {
     font-family: 'Tibetan Machine Uni', 'BabelStone Tibetan Slim', 'BabelStone Tibetan', 'Noto Serif Tibetan', serif;
     font-size: 130%;
 }
+
+/* ------------------------------------------------------------------------- *
+ * Classes for oblique and italic type
+ * ------------------------------------------------------------------------- *
+ * 
+ * For when the usage of <em> is not appropriate, i.e. Latinised text for re-
+ * presenting text from languages that don't use the Latin alphabet, etc.
+ * 
+ */
+
+/* Oblique type */
+span.oblique {
+    font-style: oblique;
+}
+
+/* Italic type */
+span.italics {
+    font-style: italic;
+}
+
+/* ------------------------------------------------------------------------- *
+ * Textual setup and other <span> classes
+ * ------------------------------------------------------------------------- */
 
 /* Old or obsolete writing system notes */
 span.old-text {
@@ -434,7 +461,7 @@ span.old-text {
 }
 
 /* Textual setup for Mongolian script */
-span.text-mongolian {
+span.mongolian-text {
     display: inline-block;
     font-weight: normal;
     line-height: 1.1em;
@@ -447,14 +474,8 @@ span.text-mongolian {
     vertical-align: top;
 }
 
-/* Oblique type */
-span.oblique {
-    font-style: oblique;
-}
-
-/* Italic type */
-span.italics {
-    font-style: italic;
+/* Neopronoun and xenopronoun demonstration */
+span.neopronoun-demo {
 }
 
 /* ------------------------------------------------------------------------- *

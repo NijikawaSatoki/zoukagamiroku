@@ -1,13 +1,46 @@
-/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- * nizi.css ""
- * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/* ============================================================================
+ * 虹の造化者のスタイルシート
+ * ============================================================================
  * 
  * 制作者：虹川郷鬼
  * 
- * This just exists to set the default state of the togglable <div> elements to 
- * "none".
+ */
+
+/* /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\  *
+ * Colour classes
+ * \/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/  *
+ * 
+ * Primarily for Hap's observed colour changes.
  * 
  */
+
+/* #77C8D1 */
+span.colour-77c8d1, span.sad-hap-is-light-blue {
+    background-color: #77c8d1;
+    color: #241f31;
+}
+
+/* #E9934E */
+span.colour-e9934e, span.angry-hap-is-orange {
+    background-color: #e9934e;
+    color: #241f31;
+}
+
+/* #F995B9 */
+span.colour-f995b9, span.happy-hap-is-pink {
+    background-color: #f995b9;
+    color: #241f31;
+}
+
+/* #FBD569 */
+span.colour-fbd569, span.normal-hap-is-golden-yellow {
+    background-color: #fbd569;
+    color: #241f31;
+}
+
+/* /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\  *
+ * Default state for the <div>'s that are JavaScript hooks
+ * \/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/  */
 
 /* Our System */
 div#OurSystem {
