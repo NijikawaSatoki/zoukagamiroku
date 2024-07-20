@@ -457,6 +457,30 @@ span.italics {
     font-style: italic;
 }
 
+/* ------------------------------------------------------------------------- *
+ * Semantic class names for fictional languages
+ * ------------------------------------------------------------------------- */
+
+/* Frualbuqash */
+span.frualbuqash-language {
+}
+
+/* Ilbåsk (for both Spålméaakeln and Elesüükeln) */
+span.ilbask-language {
+}
+
+/* Neph */
+span.neph-language {
+}
+
+/* Praanbabi */
+span.praanbabi-language {
+}
+
+/* Uuptari */
+span.uuptari-language {
+}
+
 /* /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\  *
  * <div> stylesheets
  * \/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/  */
