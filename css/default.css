@@ -74,7 +74,7 @@ body {
 
 /* _default */
 p {
-    font-family: 'ヒラギノ丸ゴ Pro W4', 'Noto Sans CJK JP', 'ＭＳ ゴシック', 'Noto Sans JP', sans-serif;
+    font-family: 'ヒラギノ丸ゴ Pro W4', 'Hiragino Maru Gothic Pro W4', 'Noto Sans CJK JP', 'ＭＳ ゴシック', 'MS Gothic', 'Noto Sans JP', sans-serif;
     color: #e5e5e5;
     font-size: 1.25em;
 }
@@ -90,14 +90,14 @@ p.caption {
 p.coming-soon {
     text-align: center;
     font-size: 10.67em;
-    font-family: 'HGTakahashiReishotai', 'ヒラギノ明朝 Pro W6', 'Noto Serif CJK JP', 'Noto Serif JP', serif;
+    font-family: 'HGTakahashiReishotai', 'ヒラギノ明朝 Pro W6', 'Hiragino Mincho Pro W6:, 'Noto Serif CJK JP', 'ＭＳ 明朝', 'MS Mincho', 'Noto Serif JP', serif;
 }
 
 /* Pride heading */
 p.pride-head {
     text-align: center;
     font-size: 1.7em;
-    font-family: 'ヒラギノ角ゴ Std W8', 'Noto Sans CJK JP Black', 'ＭＳ ゴシック', 'Noto Sans JP', sans-serif;
+    font-family: 'ヒラギノ角ゴ Std W8', 'Hiragino Kaku Gothic Std W8', 'Noto Sans CJK JP Black', 'ＭＳ ゴシック', 'MS Gothic', 'Noto Sans JP', sans-serif;
     color: #000000;
 }
 
@@ -105,7 +105,7 @@ p.pride-head {
 p.pronouns {
     padding-left: 2px;
     font-size: 1.4em;
-    font-family: 'ヒラギノ丸ゴ Pro W4', 'Noto Sans CJK JP', 'ＭＳ ゴシック', 'Noto Sans JP', sans-serif;
+    font-family: 'ヒラギノ丸ゴ Pro W4', 'Hiragino Maru Gothic Pro W4', 'Noto Sans CJK JP', 'ＭＳ ゴシック', 'MS Gothic', 'Noto Sans JP', sans-serif;
     color: #000000;
 }
 
@@ -131,7 +131,7 @@ a:link {
 /* _default (Heading 1 / #) */
 h1 {
     font-size: 2.63em;
-    font-family: 'HGTakahashiReishotai', 'ヒラギノ明朝 Pro W6', 'Noto Serif CJK JP', 'Noto Serif JP', serif;
+    font-family: 'HGTakahashiReishotai', 'ヒラギノ明朝 Pro W6', 'Hiragino Mincho Pro W6', 'Noto Serif CJK JP', 'ＭＳ 明朝', 'MS Mincho', 'Noto Serif JP', serif;
     color: #e5e5e5;
     line-height: 1em;
     margin-bottom: auto;
@@ -140,14 +140,14 @@ h1 {
 
 /* Header text */
 h1.header-text {
-    font-family: 'HGTakahashiReishotai', 'ヒラギノ角ゴ Std W8', 'Noto Sans CJK JP Black', 'ＭＳ ゴシック', 'Noto Sans JP', sans-serif;
+    font-family: 'HGTakahashiReishotai', 'ヒラギノ角ゴ Std W8', 'Hiragino Kaku Gothic Std W8', 'Noto Sans CJK JP Black', 'ＭＳ ゴシック', 'MS Gothic', 'Noto Sans JP', sans-serif;
     font-size: 2.25em;
 }
 
 /* _default (Heading 2 / ##) */
 h2 {
     font-size: 2.31em;
-    font-family: 'HGTakahashiReishotai', 'ヒラギノ明朝 Pro W6', 'Noto Serif CJK JP', 'Noto Serif JP', serif;
+    font-family: 'HGTakahashiReishotai', 'ヒラギノ明朝 Pro W6', 'Hiragino Mincho Pro W6', 'Noto Serif CJK JP', 'ＭＳ 明朝', 'MS Mincho', 'Noto Serif JP', serif;
     color: #e5e5e5;
     line-height: 1em;
     margin-bottom: auto;
@@ -162,7 +162,7 @@ h2.art-heading {
 /* _default (Heading 3 / ###) */
 h3 {
     font-size: 2em;
-    font-family: 'HGTakahashiReishotai', 'ヒラギノ明朝 Pro W6', 'Noto Serif CJK JP', 'Noto Serif JP', serif;
+    font-family: 'HGTakahashiReishotai', 'ヒラギノ明朝 Pro W6', 'Hiragino Mincho Pro W6', 'Noto Serif CJK JP', 'ＭＳ 明朝', 'MS Mincho', 'Noto Serif JP', serif;
     color: #e5e5e5;
     line-height: 1em;
     margin-bottom: auto;
@@ -172,7 +172,7 @@ h3 {
 /* _default (Heading 4 / ####) */
 h4 {
     font-size: 1.5em;
-    font-family: 'ヒラギノ角ゴ Pro W6', 'Noto Sans CJK JP', 'Noto Sans JP', sans-serif;
+    font-family: 'ヒラギノ角ゴ Pro W6', 'Hiragini Kaku Gothic Pro W6', 'Noto Sans CJK JP', 'ＭＳ ゴシック', 'MS Gothic', 'Noto Sans JP', sans-serif;
     color: #e5e5e5;
     line-height: 1em;
     margin-bottom: auto;
@@ -181,13 +181,13 @@ h4 {
 
 /* For the section headings on the staff credits page */
 h4.credits-head {
-    font-family: 'HGTakahashiReishotai', 'ヒラギノ明朝 Pro W6', 'Noto Serif CJK JP', 'Noto Serif JP', serif;
+    font-family: 'HGTakahashiReishotai', 'ヒラギノ明朝 Pro W6', 'Hiragino Mincho Pro W6', 'Noto Serif CJK JP', 'ＭＳ 明朝', 'MS Mincho', 'Noto Serif JP', serif;
 }
 
 /* _default (Heading 5 / #####) */
 h5 {
     font-size: 1.31em;
-    font-family: 'ヒラギノ角ゴ Pro W6', 'Noto Sans CJK JP', 'Noto Sans JP', sans-serif;
+    font-family: 'ヒラギノ角ゴ Pro W6', 'Hiragino Kaku Gothic Pro W6', 'Noto Sans CJK JP', 'ＭＳ ゴシック', 'MS Gothic', 'Noto Sans JP', sans-serif;
     color: #e5e5e5;
     line-height: 1em;
     margin-bottom: auto;
@@ -253,7 +253,7 @@ footer {
     padding: 8px;
     text-align: center;
     color: #ffffff;
-    font-family: 'ヒラギノ角ゴ Pro W3', 'Noto Sans CJK JP', 'ＭＳ ゴシック', 'Noto Sans JP', sans-serif;
+    font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro W3', 'Noto Sans CJK JP', 'ＭＳ ゴシック', 'MS Gothic', 'Noto Sans JP', sans-serif;
 }
 
 /* ------------------------------------------------------------------------- *
@@ -262,7 +262,7 @@ footer {
 
 /* _default */
 button {
-    font-family: 'ヒラギノ丸ゴ Pro W4', 'Noto Sans CJK JP', 'ＭＳ ゴシック', 'Noto Sans JP', sans-serif;
+    font-family: 'ヒラギノ丸ゴ Pro W4', 'Hiragino Maru Gothic Pro W4', 'Noto Sans CJK JP', 'ＭＳ ゴシック', 'MS Gothic', 'Noto Sans JP', sans-serif;
     font-size: 1em;
 }
 
