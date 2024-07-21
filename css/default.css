@@ -475,7 +475,10 @@ span.mongolian-text {
 }
 
 /* Neopronoun and xenopronoun demonstration */
-span.neopronoun-demo {
+span.neopronoun-demo, span.subjective-pronoun, span.objective-pronoun,
+span.possessive-determiner-pronoun, span.possessive-pronoun,
+span.reflexive-pronoun {
+    font-family: 'Arimo', 'Linux Biolinum', 'Arial', 'Noto Sans', sans-serif;
 }
 
 /* ------------------------------------------------------------------------- *
