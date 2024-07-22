@@ -13,3 +13,13 @@
 div.nsfw {
     display: none;
 }
+
+/* No NSFW */
+div#NoNsfw {
+    display: none;
+}
+
+/* YOU SICK FUCK!! */
+div#YouSickFuck {
+    display: none;
+}

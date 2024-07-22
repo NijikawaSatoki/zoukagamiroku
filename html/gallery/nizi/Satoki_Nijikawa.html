@@ -29,7 +29,7 @@
     <link rel="stylesheet" href="../../../css/default.css">
     <link rel="stylesheet" href="../../../css/bizyutukan.css">
     <!-- Scripts -->
-    <script src="../../../js/bizyutukan.js"></script>
+    <!--<script src="../../../js/bizyutukan.js"></script>-->
   </head>
   <body>
     <header id="top">
@@ -54,7 +54,7 @@
       <!-- 美術品（All Art） -->
       <section class="gallery" id="美術品">
         <h2 class="art-heading">美術品</h2><hr>
-        <button type="button" onclick="toggleNSFW()">ＮＳＦＷをトグル</button>
+        <button id="NsfwControl" type="button" onclick="toggleDisplayByClass('NsfwControl','nsfw')">ＮＳＦＷをトグル</button>
         <div class="flex-gallery" id="Flexbox 【美術品】">
           <div class="art-gallery" id="虹川郷鬼（PC-98版）">
             <img class="gallery-art" src="../../../img/gallery/Satoki_Nijikawa/虹川郷鬼（PC-98版）.png" alt="虹川郷鬼（PC-98版）">
@@ -72,9 +72,11 @@
             <img class="gallery-art" src="../../../img/gallery/Satoki_Nijikawa/Satoki Sprite.png" alt="郷鬼のスプライト">
             <p class="caption">郷鬼のスプライト</p>
           </div>
-          <div class="art-gallery nsfw" id="郷鬼のスプライト・ブラジャーとオムツ">
-            <img class="gallery-art" src="../../../img/gallery/Satoki_Nijikawa/Satoki Sprite - Bra & Diaper.png" alt="郷鬼のスプライト・ブラジャーとオムツ">
-            <p class="caption">郷鬼のスプライト・ブラジャーとオムツ</p>
+          <div class="nsfw">
+            <div class="art-gallery" id="郷鬼のスプライト・ブラジャーとオムツ">
+              <img class="gallery-art" src="../../../img/gallery/Satoki_Nijikawa/Satoki Sprite - Bra & Diaper.png" alt="郷鬼のスプライト・ブラジャーとオムツ">
+              <p class="caption">郷鬼のスプライト・ブラジャーとオムツ</p>
+            </div>
           </div>
           <div class="art-gallery" id="トランスゲンダーの旗を持つ郷鬼">
             <img class="gallery-art" src="../../../img/gallery/Satoki_Nijikawa/hold your pride flag!.png" alt="トランスゲンダーの旗を持つ郷鬼">
@@ -92,9 +94,11 @@
             <img class="gallery-art" src="../../../img/gallery/Satoki_Nijikawa/Pride 2024.png" alt="プライド・２０２４年">
             <p class="caption">プライド・２０２４年</p>
           </div>
-          <div class="art-gallery nsfw" id="A Smol Oni ｷﾓﾁｲｲ">
-            <img class="gallery-art" src="../../../img/gallery/Satoki_Nijikawa/A Smol Oni ｷﾓﾁｲｲ.png" alt="A Smol Oni ｷﾓﾁｲｲ">
-            <p class="caption">A Smol Oni ｷﾓﾁｲｲ</p>
+          <div class="nsfw">
+            <div class="art-gallery" id="A Smol Oni ｷﾓﾁｲｲ">
+              <img class="gallery-art" src="../../../img/gallery/Satoki_Nijikawa/A Smol Oni ｷﾓﾁｲｲ.png" alt="A Smol Oni ｷﾓﾁｲｲ">
+              <p class="caption">A Smol Oni ｷﾓﾁｲｲ</p>
+            </div>
           </div>
         </div>
       </section>
@@ -113,5 +117,7 @@
     <footer>
       <p>© 2024 虹川郷鬼</p>
     </footer>
+    <!-- Alternate scripts -->
+    <script src="../../../js/bizyutukan.js"></script>
   </body>
 </html>
