@@ -1,3 +1,5 @@
+//@ts-check
+
 /* ============================================================================
  * kableustein.js "キャブロイシュタイン王国"
  * ============================================================================
@@ -32,7 +34,6 @@ function toggleKableusteinTown() {
         divKableusteinTown.style.display = "none";
         return 0;
     }
-    return 0;
 }
 
 // *==========================================================================*
@@ -51,7 +52,6 @@ function toggleViktorBodenstein() {
         divViktorBodenstein.style.display = "none";
         return 0;
     }
-    return 0;
 }
 
 // *==========================================================================*
@@ -70,7 +70,6 @@ function toggleSieglindeEibenschuetz() {
         divSieglindeEibenschuetz.style.display = "none";
         return 0;
     }
-    return 0;
 }
 
 // *==========================================================================*
@@ -89,7 +88,6 @@ function toggleVolkhardtGollwitzer() {
         divVolkhardtGollwitzer.style.display = "none";
         return 0;
     }
-    return 0;
 }
 
 // *==========================================================================*
@@ -108,7 +106,6 @@ function toggleViktoriaGueldenstaedt() {
         divViktoriaGueldenstaedt.style.display = "none";
         return 0;
     }
-    return 0;
 }
 
 // *==========================================================================*
@@ -127,7 +124,6 @@ function toggleLeopoldVonHergenroether() {
         divLeopoldVonHergenroether.style.display = "none";
         return 0;
     }
-    return 0;
 }
 
 // *==========================================================================*
@@ -146,7 +142,6 @@ function toggleOskarKaestner() {
         divOskarKaestner.style.display = "none";
         return 0;
     }
-    return 0;
 }
 
 // *==========================================================================*
@@ -165,7 +160,6 @@ function toggleSarahKirschweger() {
         divSarahKirschweger.style.display = "none";
         return 0;
     }
-    return 0;
 }
 
 // *==========================================================================*
@@ -184,7 +178,6 @@ function toggleIrisKlostermann() {
         divIrisKlostermann.style.display = "none";
         return 0;
     }
-    return 0;
 }
 
 // *==========================================================================*
@@ -203,7 +196,6 @@ function toggleAmaliaKuerschmann() {
         divAmaliaKuerschmann.style.display = "none";
         return 0;
     }
-    return 0;
 }
 
 // *==========================================================================*
@@ -222,7 +214,6 @@ function toggleIlseKuerschmann() {
         divIlseKuerschmann.style.display = "none";
         return 0;
     }
-    return 0;
 }
 
 // *==========================================================================*
@@ -241,7 +232,6 @@ function toggleAlfredMengelberg() {
         divAlfredMengelberg.style.display = "none";
         return 0;
     }
-    return 0;
 }
 
 // *==========================================================================*
@@ -260,7 +250,6 @@ function toggleKasparMoehling() {
         divKasparMoehling.style.display = "none";
         return 0;
     }
-    return 0;
 }
 
 // *==========================================================================*
@@ -279,7 +268,6 @@ function toggleTeresaNeuhaeusser() {
         divTeresaNeuhaeusser.style.display = "none";
         return 0;
     }
-    return 0;
 }
 
 // *==========================================================================*
@@ -298,7 +286,6 @@ function toggleLiliRosenberger() {
         divLiliRosenberger.style.display = "none";
         return 0;
     }
-    return 0;
 }
 
 // *==========================================================================*
@@ -317,7 +304,6 @@ function toggleSigmundSchoenberger() {
         divSigmundSchoenberger.style.display = "none";
         return 0;
     }
-    return 0;
 }
 
 // *==========================================================================*
@@ -336,7 +322,6 @@ function toggleRoswithaSimmel() {
         divRoswithaSimmel.style.display = "none";
         return 0;
     }
-    return 0;
 }
 
 // *==========================================================================*
@@ -355,7 +340,6 @@ function toggleWilhelmSpeiss() {
         divWilhelmSpeiss.style.display = "none";
         return 0;
     }
-    return 0;
 }
 
 // *==========================================================================*
@@ -374,7 +358,6 @@ function toggleLudwigVonWeinberger() {
         divLudwigVonWeinberger.style.display = "none";
         return 0;
     }
-    return 0;
 }
 
 // *==========================================================================*
@@ -393,7 +376,6 @@ function toggleKaiWoehler() {
         divKaiWoehler.style.display = "none";
         return 0;
     }
-    return 0;
 }
 
 // *==========================================================================*
@@ -412,7 +394,6 @@ function toggleSerafinaWolfensohnMergenthaler() {
         divSerafinaWolfensohnMergenthaler.style.display = "none";
         return 0;
     }
-    return 0;
 }
 
 // ****************************************************************************
@@ -463,7 +444,6 @@ function toggleSteensingenCity() {
         divSteensingenCity.style.display = "none";
         return 0;
     }
-    return 0;
 }
 
 // ****************************************************************************
@@ -494,7 +474,6 @@ function toggleZwingenrodaTown() {
         divZwingenrodaTown.style.display = "none";
         return 0;
     }
-    return 0;
 }
 
 // *==========================================================================*
@@ -513,7 +492,6 @@ function toggleEllenorBoeckmann() {
         divEllenorBoeckmann.style.display = "none";
         return 0;
     }
-    return 0;
 }
 
 // *==========================================================================*
@@ -532,7 +510,6 @@ function toggleLeonhardHoefle() {
         divLeonhardHoefle.style.display = "none";
         return 0;
     }
-    return 0;
 }
 
 // *==========================================================================*
@@ -551,7 +528,6 @@ function toggleChristofHanfstaengl() {
         divChristofHanfstaengl.style.display = "none";
         return 0;
     }
-    return 0;
 }
 
 // *==========================================================================*
@@ -570,7 +546,6 @@ function toggleEvelynHaering() {
         divEvelynHaering.style.display = "none";
         return 0;
     }
-    return 0;
 }
 
 // *==========================================================================*
@@ -589,7 +564,6 @@ function toggleLuziaKretschmer() {
         divLuziaKretschmer.style.display = "none";
         return 0;
     }
-    return 0;
 }
 
 // *==========================================================================*
@@ -608,7 +582,6 @@ function toggleLucyOchs() {
         divLucyOchs.style.display = "none";
         return 0;
     }
-    return 0;
 }
 
 // *==========================================================================*
@@ -627,7 +600,6 @@ function togglePietProchnow() {
         divPietProchnow.style.display = "none";
         return 0;
     }
-    return 0;
 }
 
 // *==========================================================================*
@@ -646,7 +618,6 @@ function toggleSinaRosenkranz() {
         divSinaRosenkranz.style.display = "none";
         return 0;
     }
-    return 0;
 }
 
 // *==========================================================================*
@@ -665,7 +636,6 @@ function toggleEduardSchitt() {
         divEduardSchitt.style.display = "none";
         return 0;
     }
-    return 0;
 }
 
 // *==========================================================================*
@@ -684,7 +654,6 @@ function toggleJohanTeichmueller() {
         divJohanTeichmueller.style.display = "none";
         return 0;
     }
-    return 0;
 }
 
 // ****************************************************************************
@@ -725,7 +694,6 @@ function toggleGrosswerterTown() {
         divGrosswerterTown.style.display = "none";
         return 0;
     }
-    return 0;
 }
 
 // *==========================================================================*
@@ -744,7 +712,6 @@ function toggleBrittaBaer() {
         divBrittaBaer.style.display = "none";
         return 0;
     }
-    return 0;
 }
 
 // *==========================================================================*
@@ -763,7 +730,6 @@ function toggleFelizitasGlueck() {
         divFelizitasGlueck.style.display = "none";
         return 0;
     }
-    return 0;
 }
 
 // *==========================================================================*
@@ -782,7 +748,6 @@ function toggleAnneHauffe() {
         divAnneHauffe.style.display = "none";
         return 0;
     }
-    return 0;
 }
 
 // *==========================================================================*
@@ -801,7 +766,6 @@ function toggleGeorgHoenigmann() {
         divGeorgHoenigmann.style.display = "none";
         return 0;
     }
-    return 0;
 }
 
 // *==========================================================================*
@@ -820,7 +784,6 @@ function toggleJilHopf() {
         divJilHopf.style.display = "none";
         return 0;
     }
-    return 0;
 }
 
 // *==========================================================================*
@@ -839,7 +802,6 @@ function toggleFinjaLuethi() {
         divFinjaLuethi.style.display = "none";
         return 0;
     }
-    return 0;
 }
 
 // *==========================================================================*
@@ -858,7 +820,6 @@ function toggleBenediktVonPoepel() {
         divBenediktVonPoepel.style.display = "none";
         return 0;
     }
-    return 0;
 }
 
 // *==========================================================================*
@@ -877,7 +838,6 @@ function toggleSvenSchellscheidt() {
         divSvenSchellscheidt.style.display = "none";
         return 0;
     }
-    return 0;
 }
 
 // *==========================================================================*
@@ -896,7 +856,6 @@ function toggleLeviVonSchutz() {
         divLeviVonSchutz.style.display = "none";
         return 0;
     }
-    return 0;
 }
 
 // *==========================================================================*
@@ -915,7 +874,6 @@ function toggleJoachimSchweinitz() {
         divJoachimSchweinitz.style.display = "none";
         return 0;
     }
-    return 0;
 }
 
 // ****************************************************************************
@@ -956,7 +914,6 @@ function toggleAppingeschotenTown() {
         divAppingeschotenTown.style.display = "none";
         return 0;
     }
-    return 0;
 }
 
 // ****************************************************************************
@@ -987,7 +944,6 @@ function toggleNiedernraeschenVillage() {
         divNiedernraeschenVillage.style.display = "none";
         return 0;
     }
-    return 0;
 }
 
 // *==========================================================================*
@@ -1006,7 +962,6 @@ function toggleMadlenBaeumler() {
         divMadlenBaeumler.style.display = "none";
         return 0;
     }
-    return 0;
 }
 
 // *==========================================================================*
@@ -1025,7 +980,6 @@ function toggleAloisBluecher() {
         divAloisBluecher.style.display = "none";
         return 0;
     }
-    return 0;
 }
 
 // *==========================================================================*
@@ -1044,7 +998,6 @@ function toggleFischFuchs() {
         divFischFuchs.style.display = "none";
         return 0;
     }
-    return 0;
 }
 
 // *==========================================================================*
@@ -1063,7 +1016,6 @@ function toggleFalkoGoerder() {
         divFalkoGoerder.style.display = "none";
         return 0;
     }
-    return 0;
 }
 
 // *==========================================================================*
@@ -1082,7 +1034,6 @@ function toggleWiebkeKoehlerKoehne() {
         divWiebkeKoehlerKoehne.style.display = "none";
         return 0;
     }
-    return 0;
 }
 
 // *==========================================================================*
@@ -1101,7 +1052,6 @@ function toggleRikeNitzsch() {
         divRikeNitzsch.style.display = "none";
         return 0;
     }
-    return 0;
 }
 
 // *==========================================================================*
@@ -1120,7 +1070,6 @@ function toggleBjoernPreiss() {
         divBjoernPreiss.style.display = "none";
         return 0;
     }
-    return 0;
 }
 
 // *==========================================================================*
@@ -1139,7 +1088,6 @@ function toggleJoergSchwarzenberger() {
         divJoergSchwarzenberger.style.display = "none";
         return 0;
     }
-    return 0;
 }
 
 // *==========================================================================*
@@ -1158,7 +1106,6 @@ function toggleTimmWelser() {
         divTimmWelser.style.display = "none";
         return 0;
     }
-    return 0;
 }
 
 // *==========================================================================*
@@ -1177,7 +1124,6 @@ function toggleTiaWissman() {
         divTiaWissmann.style.display = "none";
         return 0;
     }
-    return 0;
 }
 
 // ****************************************************************************
@@ -1218,7 +1164,6 @@ function toggleAmstelrichemMiddelveenTown() {
         divAmstelrichemMiddelveenTown.style.display = "none";
         return 0;
     }
-    return 0;
 }
 
 // ****************************************************************************
@@ -1249,7 +1194,6 @@ function toggleDasgapTown() {
         divDasgapTown.style.display = "none";
         return 0;
     }
-    return 0;
 }
 
 // ****************************************************************************
@@ -1280,7 +1224,6 @@ function toggleTurkenabatTown() {
         divTurkenabatTown.style.display = "none";
         return 0;
     }
-    return 0;
 }
 
 // ****************************************************************************
@@ -1311,7 +1254,6 @@ function toggleSayzowTown() {
         divSayzowTown.style.display = "none";
         return 0;
     }
-    return 0;
 }
 
 // ****************************************************************************

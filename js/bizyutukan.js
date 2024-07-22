@@ -1,3 +1,5 @@
+//@ts-check
+
 /* ============================================================================
  * bizyutukan.js "美術館"
  * ============================================================================
@@ -18,7 +20,7 @@
 
 // ＮＳＦＷをトグルするファンクション
 function toggleNSFW() {
-    let divNSFW = getElementsByClassName("nsfw");
+    let divNSFW = document.getElementsByClassName("nsfw");
     if (window.getComputedStyle(divNSFW).display === "none") {
         // ＯＮにする
         divNSFW.style.display = "block";
@@ -28,7 +30,6 @@ function toggleNSFW() {
         divNSFW.style.display = "none";
         return 0;
     }
-    return 0;
 }
 
 ///// ファイルの終わりです \\\\\
