@@ -144,6 +144,11 @@ h1.header-text {
     font-size: 2.25em;
 }
 
+/* Alternate font */
+h1.alternate-font {
+    font-family: 'LiSu', 'HGTakahashiReishotai', 'ヒラギノ明朝 Pro W6', 'Hiragino Mincho Pro', 'Noto Serif CJK JP', 'ＭＳ 明朝', 'MS Mincho', 'Noto Serif JP', serif;
+}
+
 /* _default (Heading 2 / ##) */
 h2 {
     font-size: 2.31em;
@@ -159,6 +164,11 @@ h2.art-heading {
     text-align: left;
 }
 
+/* Alternate font */
+h2.alternate-font {
+     font-family: 'LiSu', 'HGTakahashiReishotai', 'ヒラギノ明朝 Pro W6', 'Hiragino Mincho Pro', 'Noto Serif CJK JP', 'ＭＳ 明朝', 'MS Mincho', 'Noto Serif JP', serif;
+}
+
 /* _default (Heading 3 / ###) */
 h3 {
     font-size: 2em;
@@ -167,6 +177,11 @@ h3 {
     line-height: 1em;
     margin-bottom: auto;
     text-align: center;
+}
+
+/* Alternate font */
+h3.alternate-font {
+    font-family: 'LiSu', 'HGTakahashiReishotai', 'ヒラギノ明朝 Pro W6', 'Hiragino Mincho Pro', 'Noto Serif CJK JP', 'ＭＳ 明朝', 'MS Mincho', 'Noto Serif JP', serif;
 }
 
 /* _default (Heading 4 / ####) */
