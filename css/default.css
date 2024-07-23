@@ -169,6 +169,11 @@ h2.alternate-font {
      font-family: 'LiSu', 'HGTakahashiReishotai', 'ヒラギノ明朝 Pro W6', 'Hiragino Mincho Pro', 'Noto Serif CJK JP', 'ＭＳ 明朝', 'MS Mincho', 'Noto Serif JP', serif;
 }
 
+/* For the section headings on the staff credits page */
+h2.credits-head {
+    font-family: 'HGTakahashiReishotai', 'ヒラギノ明朝 Pro W6', 'Hiragino Mincho Pro', 'Noto Serif CJK JP', 'ＭＳ 明朝', 'MS Mincho', 'Noto Serif JP', serif;
+}
+
 /* _default (Heading 3 / ###) */
 h3 {
     font-size: 2em;
