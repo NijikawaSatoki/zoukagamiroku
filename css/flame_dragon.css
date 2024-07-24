@@ -1,0 +1,18 @@
+/* ============================================================================
+ * flame_dragon.css "炎龍帝國"
+ * ============================================================================
+ * 
+ * 制作者：虹川郷鬼
+ * 
+ */
+
+/* /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\  *
+ * <div> stylesheets
+ * \/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/  */
+
+div#Peoples_of_Mt_Nyima, div#Peoples_of_Mt_Zlaba, div#Peoples_of_Mt_Enma,
+div#Peoples_of_Mt_Me, div#Peoples_of_Mt_Chu, div#Peoples_of_Mt_Shing,
+div#Peoples_of_Mt_Lcagsrigs, div#Peoples_of_Mt_Sa {
+    padding: 4px;
+    margin: 4px;
+}
