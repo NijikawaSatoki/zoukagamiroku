@@ -11,6 +11,8 @@
 .container {
     position: relative;
     width: 100%;
+    margin-top: 6px;
+    margin-bottom: 6px;
 }
 
 /* The base image */
@@ -36,7 +38,7 @@
 
 /* Change opacity of image whilst hovering over the containment unit */
 .container:hover .image {
-    opacity: 0.75;
+    opacity: 1;
 }
 
 /* Change opacity of the middle text box whilst hovering over the containment
