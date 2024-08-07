@@ -299,6 +299,8 @@ figcaption.caption {
     padding: 0px;
     margin: 2px;
     color: #ffffff;
+    font-family: 'ヒラギノ丸ゴ Pro W4', 'Hiragino Maru Gothic Pro', 'Noto Sans CJK JP', 'ＭＳ ゴシック', 'MS Gothic', 'Noto Sans JP', sans-serif;
+    font-size: 1.25em;
 }
 
 /* ------------------------------------------------------------------------- *
