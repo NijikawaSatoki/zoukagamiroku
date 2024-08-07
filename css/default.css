@@ -276,6 +276,31 @@ footer {
     font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'Noto Sans CJK JP', 'ＭＳ ゴシック', 'MS Gothic', 'Noto Sans JP', sans-serif;
 }
 
+/* ------------------------------------------------------------------------- *\
+ * Stylesheet for figures and figure captions                                *
+\* ------------------------------------------------------------------------- */
+
+/* _default */
+figure, figcaption {}
+
+/* Character art */
+figure.art-chara {
+    float: right;
+    box-sizing: border-box;
+    border-style: ridge;
+    border-width: 5px;
+    border-color: #666666;
+    padding: 1px;
+    margin: 4px;
+    background-color: #666666;
+}
+
+figcaption.caption {
+    padding: 0px;
+    margin: 2px;
+    color: #ffffff;
+}
+
 /* ------------------------------------------------------------------------- *
  * Stylesheet for buttons
  * ------------------------------------------------------------------------- */
