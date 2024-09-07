@@ -295,6 +295,19 @@ figure.art-chara {
     background-color: #666666;
 }
 
+/* Gallery art */
+figure.art-gallery {
+    float: left;
+    box-sizing: border-box;
+    border-style: ridge;
+    border-width: 5px;
+    border-color: #666666;
+    padding: 1px;
+    margin: 8px;
+    background-color: #666666;
+    width: 272px;
+}
+
 figcaption.caption {
     padding: 0px;
     margin: 2px;
