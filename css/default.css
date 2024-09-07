@@ -239,7 +239,8 @@ rt.top-head-furigana {
 
 /* _default */
 header {
-    background-color: #7f7f7f;
+    background-color: #1f1f1f;
+    color: #ffffff;
     padding: 4px;
     text-align: center;
 }
