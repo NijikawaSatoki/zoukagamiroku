@@ -1,35 +1,52 @@
 <!DOCTYPE html>
-<html lang="ja-JP">
+<html lang="en-US">
   <head>
-    <!--
-    　　　　〓
-    　　　　〓　　　〓〓〓〓〓〓〓
-    　　　　〓　　　　　　〓
-    　〓〓〓〓〓〓〓　　　〓
-    　〓　　〓　　〓　　　〓
-    　〓　　〓　　〓　　　〓
-    　〓　　〓　　〓　　　〓
-    　〓　　〓　　〓　　　〓
-    　〓〓〓〓〓〓〓　　　〓
-    　　　　〓　　　　　　〓
-    　　　　〓　　　　　　〓
-    　　　　〓　〓　　　　〓
-    　　　　〓　〓　　　　〓
-    　　　　〓〓〓〓　　　〓
-    　〓〓〓〓　　〓　　　〓
-    　　　　　　　　〓〓〓〓〓〓〓〓
-    -->
+    <!-- Metadata -->
     <meta charset="UTF-8">
-    <!-- The title of the page shown in the browser tab. -->
-    <title>造化神録</title>
-    <!-- The CSS stylesheet. -->
-    <link rel="stylesheet" href="./css/default.css">
+    <meta name="author" content="Niji System">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Page Title -->
+    <title>Creation God Record / 造化神録</title>
+    <!-- The CSS stylesheet -->
+    <link rel="stylesheet" href="./css/index.css">
   </head>
-  <frameset cols="*,80%" frameborder="0">
-    <frame src="./html/menu.html" title="目次" name="menuframe" noresize>
-    <frame src="./html/top.html" title="概要など" name="topframe" noresize>
-  </frameset>
-  <noframe>
-    <a href="./html/top.html">フレーム未対応</a>
-  </noframe>
+  <body>
+    <header>
+      <h1 id="Head">
+        Ten'en Kansekiri ~ Brilliance of Heaven Pleasure<br>
+        Creation God Record<br>
+        Welcome
+      </h1>
+    </header>
+    <main>
+      <button type="button" onclick="index_HelloWorld()">Hello world :3</button>
+      <p>Hello, and welcome!</p>
+      <p>This is the HTML version of the Creation God Record.</p>
+      <p>Below you will find the links to the different localisations.</p>
+      <p>
+        Currently, there are only two, English and Japanese, which are being worked on simultaneously.
+        Maybe I'll add more later.
+        But not now.
+      </p>
+      <nav>
+        <a id="GotoEnUs" href="#">English</a>
+        <br>
+        <a id="GotoJaJp" href="#"><span lang="ja-JP" class="japanese">日本語</span> / Japanese</a>
+      </nav>
+      <p>
+        Click below to go back to the top.<br>
+        This will be present at the bottom of every page. 
+        This is for your convenience.
+      </p>
+      <a id="ReturnToTop" href="#Head">Return to the top</a>
+    </main>
+    <footer>
+      <p>
+        © 2024 Satoki Nijikawa<br>
+        No rights reserved.
+      </p>
+    </footer>
+    <!-- JavaScript -->
+    <script src="./js/index.js"></script>
+  </body>
 </html>

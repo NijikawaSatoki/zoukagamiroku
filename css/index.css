@@ -1,0 +1,704 @@
+/* =============================================================================
+ * Import web fonts
+ * =============================================================================
+ */
+
+/* Noto Naskh Arabic */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic');
+/* Noto Nastaliq Urdu */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu');
+/* Noto Sans */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans');
+/* Noto Sans Armenian */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Armenian');
+/* Noto Sans Bengali */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali');
+/* Noto Sans Cuneiform */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Cuneiform');
+/* Noto Sans Devanagari */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari');
+/* Noto Sans Ethiopic */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Ethiopic');
+/* Noto Sans Georgian */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian');
+/* Noto Sans Gujarati */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Gujarati');
+/* Noto Sans Hebrew */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Hebrew');
+/* Noto Sans Japanese */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP');
+/* Noto Sans Kaithi */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Kaithi');
+/* Noto Sans Kannada */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Kannada');
+/* Noto Sans Khmer */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Khmer');
+/* Noto Sans Korean */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR');
+/* Noto Sans Lao Looped */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Lao+Looped');
+/* Noto Sans Malayalam */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Malayalam');
+/* Noto Sans Meetei Mayek */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Meetei+Mayek');
+/* Noto Sans Mongolian */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mongolian');
+/* Noto Sans Myanmar */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Myanmar');
+/* Noto Sans Oriya */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Oriya');
+/* Noto Sans Simplified Chinese */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC');
+/* Noto Sans Sinhala */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Sinhala');
+/* Noto Sans Tamil */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Tamil');
+/* Noto Sans Telugu */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Telugu');
+/* Noto Sans Thai Looped */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai+Looped');
+/* Noto Sans Traditional Chinese */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC');
+/* Noto Serif Tibetan */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Tibetan');
+
+
+/* =============================================================================
+ * Document body
+ * =============================================================================
+ */
+
+body {
+    background-color: #121212;
+    color: #e5e5e5;
+    padding-right: 2px;
+    padding-left: 2px;
+}
+
+/* =============================================================================
+ * Header
+ * =============================================================================
+ */
+
+header {
+    background-color: #1f1f1f;
+    color: #e5e5e5;
+    padding: 4px;
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+    text-align: center;
+}
+
+/* =============================================================================
+ * Main content
+ * =============================================================================
+ */
+
+main {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+/* =============================================================================
+ * Footer
+ * =============================================================================
+ */
+
+footer {
+    background-color: #1f1f1f;
+    color: #e5e5e5;
+    padding: 4px;
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+    text-align: center;
+}
+
+/* =============================================================================
+ * Headings
+ * =============================================================================
+ */
+
+h1 {
+    font-size: 2.63em;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+/* As used in the header */
+h1#Head {
+    font-size: 2.25em;
+}
+h2 {
+    font-size: 2.31em;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+h3 {
+    font-size: 2em;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+h4 {
+    font-size: 1.63em;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+h5 {
+    font-size: 1.31em;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+h6 {
+    font-size: 1.27em;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+/* =============================================================================
+ * Paragraphs
+ * =============================================================================
+ */
+
+/* _default */
+p {
+    font-size: 1.25em;
+}
+
+/* =============================================================================
+ * Anchor links
+ * =============================================================================
+ */
+
+a {
+    font-size: 1.25em;
+}
+/* Unvisited links */
+a:link {
+    color: #99c3ff;
+}
+
+/* =============================================================================
+ * Buttons
+ * =============================================================================
+ */
+
+button {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+    font-size: 1em;
+}
+
+/* =============================================================================
+ * <span> hooks
+ * =============================================================================
+ */
+
+/* default styling */
+span {}
+
+/* *************************** Natural languages **************************** */
+
+/* -----------------------------------------------------------------------------
+ * English
+ * -----------------------------------------------------------------------------
+ */
+
+span.english {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+}
+
+/* -----------------------------------------------------------------------------
+ * IPA /aɪ̯ pʰiː eɪ̯/
+ * -----------------------------------------------------------------------------
+ */
+
+span.internation-phonetic-alphabet {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+}
+
+/* -----------------------------------------------------------------------------
+ * Abaza / абаза бызшва / abaza byzshwa
+ * -----------------------------------------------------------------------------
+ */
+
+/* абаза бызшва (Cyrillic alphabet) */
+span.abaza {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+}
+/* abaza byzshwa (romanisation) */
+span.abaza-romanization {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+}
+
+/* -----------------------------------------------------------------------------
+ * Abkhaz / Аҧсуа бызшәа / Apsua byzshwa
+ * -----------------------------------------------------------------------------
+ */
+
+/* Аҧсуа бызшәа (Cyrillic alphabet) */
+span.abkhaz {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+}
+/* Apsua byzshwa (romanisation) */
+span.abkhaz-romanization {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+}
+
+/* -----------------------------------------------------------------------------
+ * Adyghe / Адыгабзэ / Adygabzə
+ * -----------------------------------------------------------------------------
+ */
+
+/* Адыгабзэ (Cyrillic alphabet) */
+span.adyghe {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+}
+/* Adygabzə (romanisation) */
+span.adyghe-romanization {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+}
+
+/* -----------------------------------------------------------------------------
+ * Afar / Qafaraf
+ * -----------------------------------------------------------------------------
+ */
+
+/* Qafaraf (Latin alphabet) */
+span.afar {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+}
+
+/* -----------------------------------------------------------------------------
+ * Afrikaans
+ * -----------------------------------------------------------------------------
+ */
+
+/* Afrikaans (Latin alphabet) */
+span.afrikaans {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+}
+
+/* -----------------------------------------------------------------------------
+ * Aghul / агъул чӀал / ağul ҫ̇al
+ * -----------------------------------------------------------------------------
+ */
+
+/* агъул чӀал (Cyrillic alphabet) */
+span.aghul {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+}
+/* ağul ҫ̇al (romanisation) */
+span.aghul-romanization {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+}
+
+/* -----------------------------------------------------------------------------
+ * Akkadian / 𒌵 / Akkadû
+ * -----------------------------------------------------------------------------
+ */
+
+/* 𒌵 (Cuneiform) */
+span.akkadian {
+    font-family: 'SantakkuM', 'Santakku', 'Kurinto Sans Aux', 'Segoe UI Historic', 'Noto Sans Cuneiform', sans-serif;
+}
+/* Akkadû (transcription) */
+span.akkadian-transcription {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+}
+
+/* -----------------------------------------------------------------------------
+ * Aklan / Binisaya nga Akeanon
+ * -----------------------------------------------------------------------------
+ */
+
+/* Binisaya nga Akeanon (Latin alphabet) */
+span.aklan {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+}
+
+/* -----------------------------------------------------------------------------
+ * Albanian / gjuha shqipe
+ * -----------------------------------------------------------------------------
+ */
+
+/* gjuha shqipe (Latin alphabet) */
+span.albanian {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+}
+
+/* -----------------------------------------------------------------------------
+ * Altai / Алтай тил / Altay til
+ * -----------------------------------------------------------------------------
+ */
+
+/* Алтай тил (Cyrillic alphabet) */
+span.altai {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+}
+/* Altay til (romanisation) */
+span.altai-romanization {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+}
+
+/* -----------------------------------------------------------------------------
+ * Amharic / አማርኛ / Amarəñña
+ * -----------------------------------------------------------------------------
+ */
+
+/* አማርኛ (Ge'ez script) */
+span.amharic {
+    font-family: 'Ethiopia Jiret', 'Kurinto Sans', 'Noto Sans Ethiopic', sans-serif;
+}
+/* Amarəñña (romanisation) */
+span.amharic-romanization {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+}
+
+/* -----------------------------------------------------------------------------
+ * Arabic / ‎اَلعَرَبِيَّةُ ٱلْفُصْحَىٰ / al-ʿArabiyyatu l-Fuṣḥā
+ * -----------------------------------------------------------------------------
+ */
+
+/* ‎اَلعَرَبِيَّةُ ٱلْفُصْحَىٰ (Perso-Arabic script, Naskh style) */
+span.arabic {
+    font-family: 'Noto Naskh Arabic UI', 'Amiri', 'Arabic Typesetting', 'Noto Naskh Arabic', sans-serif;
+}
+/* al-ʿArabiyyatu l-Fuṣḥā (ISO 233-2) */
+span.arabic-iso-romanization {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+}
+
+/* -----------------------------------------------------------------------------
+ * Armenian / հայերեն / hayeren
+ * -----------------------------------------------------------------------------
+ */
+
+/* հայերեն (Armenian alphabet) */
+span.armenian {
+    font-family: 'GHEA Grapalat', 'Kurinto Sans', 'Noto Sans Armenian', sans-serif;
+}
+/* hayeren (romanisation) */
+span.armenian-romanization {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+}
+
+/* -----------------------------------------------------------------------------
+ * Burmese / မြန်မာဘာသာ / mranma bhasa
+ * -----------------------------------------------------------------------------
+ */
+
+/* မြန်မာဘာသာ (Burmese script) */
+span.burmese {
+    font-family: 'Pyidaungsu', 'Noto Sans Myanmar UI', 'Kurinto Sans KM', 'Myanmar Text', 'Noto Sans Myanmar', sans-serif;
+}
+/* mranma bhasa (MLCTS) */
+span.mlcts {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+}
+
+/* -----------------------------------------------------------------------------
+ * Chinese / 汉语 / 漢語
+ * -----------------------------------------------------------------------------
+ */
+
+/* 汉语 (Simplified Chinese) */
+span.simplified-chinese {
+    font-family: 'Noto Sans CJK SC', 'Kurinto Sans SC', 'KaiTi', 'Noto Sans SC', sans-serif;
+}
+/* 漢語 (Traditional Chinese) */
+span.traditional-chinese {
+    font-family: 'Noto Sans CJK TC', 'Kurinto Sans TC', 'DFKai-SB', 'Noto Sans TC', sans-serif;
+}
+
+/* -----------------------------------------------------------------------------
+ * Mandarin Chinese / Hànyǔ / ㄏㄢˋㄩˇ / Hànyǔ / Han4-yü3 / Hàn-yǔ / Hannyeu /
+ * Ханьюй / Xanʹjuj
+ * -----------------------------------------------------------------------------
+ */
+
+/* Hànyǔ (Pinyin) */
+span.hanyu-pinyin {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+}
+/* ㄏㄢˋㄩˇ (Bopomofo) */
+span.bopomofo {
+    font-family: 'Noto Sans CJK TC', 'Kurinto Sans TC', 'DFKai-SB', 'Noto Sans TC', sans-serif;
+}
+/* Hànyǔ (Tongyong Pinyin) */
+span.tongyong-pinyin {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+}
+/* Han4-yü3 (Wade-Giles) */
+span.wade-giles {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+}
+/* Hàn-yǔ (Yale) */
+span.yale-mandarin {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+}
+/* Hannyeu (Gwoyeu Romatzyh) */
+span.gwoyeu-romatzyh {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+}
+/* Ханьюй (Palladius, Cyrillic) */
+span.palladius-cyrillic {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+}
+/* Xanʹjuj (Palladius, Latin) */
+span.palladius-latin {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+}
+
+/* -----------------------------------------------------------------------------
+ * Cantonese / Hon3jyu5 / Honyúh / Hon3jy5 / Hon3yu5
+ * -----------------------------------------------------------------------------
+ */
+
+/* Hon3jyu5 (Jyutping) */
+span.jyutping {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+}
+/* Honyúh (Yale) */
+span.yale-cantonese {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+}
+/* Hon3jy5 (Cantonese Pinyin) */
+span.cantonese-pinyin {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+}
+/* Hon3yu5 (Guangdong Romanization) */
+span.guangdong-romanization {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+}
+
+/* -----------------------------------------------------------------------------
+ * Hakka Chinese / Hon-ngî / Honngi´ / Hon4ngi1
+ * -----------------------------------------------------------------------------
+ */
+
+/* Hon-ngî (Pha̍k-fa-sṳ)) */
+span.phak-fa-su {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+}
+/* Honngi´ (Hakka Romanization System) */
+span.hakka-romanization-system {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+}
+/* Hon4ngi1 (Hagfa Pinyim) */
+span.hagfa-pinyim {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+}
+
+/* -----------------------------------------------------------------------------
+ * Min Bei Chinese / Hu̿ing-ngṳ̌
+ * -----------------------------------------------------------------------------
+ */
+
+/* Hu̿ing-ngṳ̌ (Kienning Colloquial Romanized) */
+span.kienning-colloquial-romanized {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+}
+
+/* -----------------------------------------------------------------------------
+ * Min Dong Chinese / Háng-ngṳ̄
+ * -----------------------------------------------------------------------------
+ */
+
+/* Háng-ngṳ̄ (Bàng-uâ-cê) */
+span.bang-ua-ce {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+}
+
+/* -----------------------------------------------------------------------------
+ * Taiwanese Hokkien / Hàn-gí / Hàn-gí / Harn'gie
+ * -----------------------------------------------------------------------------
+ */
+
+/* Hàn-gí (Pe̍h-ōe-jī) */
+span.peh-oe-ji {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+}
+/* Hàn-gí (Tâi-lô) */
+span.tai-lo {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+}
+/* Harn'gie (Phofsit Daibuun) */
+span.phofsit-daibuun {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+}
+
+/* -----------------------------------------------------------------------------
+ * Teochew Chinese / Hang3ghe2 / Hàng-gṳ́
+ * -----------------------------------------------------------------------------
+ */
+
+/* Hang3ghe2 (Peng'im) */
+span.peng-im {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+}
+/* Hàng-gṳ́ (Pe̍h-ōe-jī-like) */
+span.peh-oe-ji-like {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+}
+
+/* -----------------------------------------------------------------------------
+ * Georgian / ქართული ენა / kartuli ena
+ * -----------------------------------------------------------------------------
+ */
+
+/* ქართული ენა (Georgian script) */
+span.georgian {
+    font-family: 'Kurinto Sans', 'Sylfaen', 'Noto Sans Georgian', sans-serif;
+}
+/* kartuli ena (romanisation) */
+span.georgian-romanization {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+}
+
+/* -----------------------------------------------------------------------------
+ * Monotonic Greek / Ελληνική γλώσσα / Ellēnikḗ glṓssa
+ * -----------------------------------------------------------------------------
+ */
+
+/* Ελληνική γλώσσα (Greek alphabet) */
+span.monotonic-greek {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+}
+/* Ellēnikḗ glṓssa (romanisation) */
+span.monotonic-greek-romanization {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+}
+
+/* -----------------------------------------------------------------------------
+ * Polytonic Greek / Ἑλληνική / Hellēnikḗ
+ * -----------------------------------------------------------------------------
+ */
+
+/* Ἑλληνική (Greek alphabet) */
+span.polytonic-greek {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+}
+/* Hellēnikḗ (romanisation) */
+span.polytonic-greek-romanization {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+}
+
+/* -----------------------------------------------------------------------------
+ * Hittite / 𒌷𒉌𒅆𒇷 / nešili
+ * -----------------------------------------------------------------------------
+ */
+
+/* 𒌷𒉌𒅆𒇷 (Cuneiform) */
+span.hittite {
+    font-family: 'UllikummiC', 'UllikummiB', 'UllikummiA', 'Kurinto Sans Aux', 'Segoe UI Historic', 'Noto Sans Cuneiform', sans-serif;
+}
+/* nešili (transcription) */
+span.hittite-transcription {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+}
+
+/* -----------------------------------------------------------------------------
+ * Japanese / 日本語 / Nihongo
+ * -----------------------------------------------------------------------------
+ */
+
+/* 日本語 (Kana and kanji) */
+span.japanese {
+    font-family: 'ヒラギノ丸ゴ Pro W4', 'Hiragino Maru Gothic Pro', 'Noto Sans CJK JP', 'Kurinto Sans JP', 'ＭＳ ゴシック', 'MS Gothic', 'Noto Sans JP', sans-serif;
+}
+/* Nihongo (Rōmaji) */
+span.romaji {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+}
+
+/* -----------------------------------------------------------------------------
+ * Korean / 한국어 / 韓國語 / Han'guk-eo / han'gugŏ / hānkwuk.e
+ * -----------------------------------------------------------------------------
+ */
+
+/* 한국어 (Hangul) */
+span.hangul {
+    font-family: 'Noto Sans CJK KR', 'Kurinto Sans KR', 'Gulim', 'Noto Sans KR', sans-serif;
+}
+/* 韓國語 (Hanja) */
+span.hanja {
+    font-family: 'Noto Sans CJK KR', 'Kurinto Sans KR', 'Gulim', 'Noto Sans KR', sans-serif;
+}
+/* Han'guk-eo (Revised Romanization) */
+span.revised-romanization {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+}
+/* han'gugŏ (McCune-Reischauer) */
+span.mccune-reischauer {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+}
+/* hānkwuk.e (Yale) */
+span.yale-korean {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+}
+
+/* -----------------------------------------------------------------------------
+ * Russian / русский язык / русскій языкъ / russkiy yazyk
+ * -----------------------------------------------------------------------------
+ */
+
+/* русский язык (Cyrillic alphabet) */
+span.russian {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+}
+/* русскій языкъ (Old orthography) */
+span.russian-old-orthography {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+}
+/* russkiy yazyk (Latin alphabet) */
+span.russian-romanization {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+}
+
+/* ******************** Constructed languages (conlangs) ******************** */
+
+/* -----------------------------------------------------------------------------
+ * Bhonmesh / भसअ़ः भॉंमॅश्शः / Bhasa'aḥ Bhôṁmêśśaḥ
+ * -----------------------------------------------------------------------------
+ */
+
+/* भसअ़ः भॉंमॅश्शः (Bhon script) */
+span.bhonmesh-bhon-script {
+    font-family: 'Chandas', 'Sanskrit Text', 'Kurinto Sans', 'Mangal', 'Noto Sans Devanagari', sans-serif;
+}
+/* Bhasa'aḥ Bhôṁmêśśaḥ (Romanisation) */
+span.bhonmesh-romanization {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+}
+
+/* -----------------------------------------------------------------------------
+ * Frualbuqash / Фрѭалбуқащ ѩзйкъ / Früalbuqaš′ yäzyįk′
+ * -----------------------------------------------------------------------------
+ */
+
+/* Фрѭалбуқащ ѩзйкъ (Frual alphabet) */
+span.frualbuqash-frual-alphabet {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+}
+/* Früalbuqaš′ yäzyįk′ (romanisation) */
+span.frualbuqash-romanization {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+}
+
+/* =============================================================================
+ * <div> hooks
+ * =============================================================================
+ */
+
+/* default styling */
+div {}
+
