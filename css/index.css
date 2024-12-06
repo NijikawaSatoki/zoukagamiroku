@@ -371,6 +371,18 @@ span.assamese-romanization {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
 }
 
+/* ------ Avar / Магӏарул мацӏ / Maǥarul macʼ ------ */
+
+/* Магӏарул мацӏ (Cyrillic alphabet) */
+span.avar {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+}
+
+/* Maǥarul macʼ (Latin alphabet) */
+span.avar-romanization {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+}
+
 /* ------ Burmese / မြန်မာဘာသာ / mranma bhasa ------ */
 
 /* မြန်မာဘာသာ (Burmese script) */
