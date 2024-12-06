@@ -383,6 +383,13 @@ span.avar-romanization {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
 }
 
+/* ------ Aymara / Aymar aru ------ */
+
+/* Aymar aru (Latin alphabet) */
+span.aymara {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+}
+
 /* ------ Burmese / မြန်မာဘာသာ / mranma bhasa ------ */
 
 /* မြန်မာဘာသာ (Burmese script) */
