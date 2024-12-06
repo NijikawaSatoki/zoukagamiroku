@@ -390,6 +390,23 @@ span.aymara {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
 }
 
+/* ------ Azerbaijani / Azərbaycan dili / ‎آذربایجان دیلی / Азәрбајҹан дили ------ */
+
+/* Azərbaycan dili (Latin alphabet) */
+span.azerbaijani {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+}
+
+/* ‎آذربایجان دیلی (Perso-Arabic script) */
+span.azerbaijani-arabic {
+    font-family: 'Noto Naskh Arabic UI', 'Amiri', 'Arabic Typesetting', 'Noto Naskh Arabic', sans-serif;
+}
+
+/* Азәрбајҹан дили (Cyrillic alphabet, no longer used for writing the language) */
+span.azerbaijani-cyrillic {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+}
+
 /* ------ Burmese / မြန်မာဘာသာ / mranma bhasa ------ */
 
 /* မြန်မာဘာသာ (Burmese script) */
