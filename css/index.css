@@ -116,8 +116,8 @@ header {
 
 main {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
-    padding-top: 1em;
-    padding-bottom: 1em;
+    padding-top: 16px;
+    padding-bottom: 16px;
 }
 
 /* ====== Footer styles ====== */
@@ -134,7 +134,7 @@ footer {
 
 /* # Heading 1 */
 h1 {
-    font-size: 2.25em;
+    font-size: 40px;
     margin-top: 0px;
     margin-right: 0px;
     margin-bottom: 0px;
@@ -143,7 +143,7 @@ h1 {
 
 /* ## Heading 2 */
 h2 {
-    font-size: 2.31em;
+    font-size: 36px;
     margin-top: 0px;
     margin-right: 0px;
     margin-bottom: 0px;
@@ -152,7 +152,7 @@ h2 {
 
 /* ### Heading 3 */
 h3 {
-    font-size: 2em;
+    font-size: 32px;
     margin-top: 0px;
     margin-right: 0px;
     margin-bottom: 0px;
@@ -161,7 +161,7 @@ h3 {
 
 /* #### Heading 4 */
 h4 {
-    font-size: 1.63em;
+    font-size: 27px;
     margin-top: 0px;
     margin-right: 0px;
     margin-bottom: 0px;
@@ -170,7 +170,7 @@ h4 {
 
 /* ##### Heading 5 */
 h5 {
-    font-size: 1.31em;
+    font-size: 24px;
     margin-top: 0px;
     margin-right: 0px;
     margin-bottom: 0px;
@@ -179,7 +179,7 @@ h5 {
 
 /* ###### Heading 6 */
 h6 {
-    font-size: 1.27em;
+    font-size: 21px;
     margin-top: 0px;
     margin-right: 0px;
     margin-bottom: 0px;
@@ -189,13 +189,13 @@ h6 {
 /* ====== Paragraph styles ====== */
 
 p {
-    font-size: 1.25em;
+    font-size: 20px;
 }
 
 /* ====== Anchor link styles ====== */
 
 a {
-    font-size: 1.25em;
+    font-size: 20px;
 }
 
 /* Unvisited links */
@@ -207,7 +207,7 @@ a:link {
 
 button {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
-    font-size: 1em;
+    font-size: 16px;
 }
 
 /* ====== <span> styles ====== */
