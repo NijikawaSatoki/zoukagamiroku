@@ -1,3 +1,9 @@
+/* ====== Header ====== */
+header {
+    text-align: left;
+    font-family: 'Tinos', 'Times New Roman', 'Noto Serif Display', serif;
+}
+
 /* ====== Main body ====== */
 main {
     contain: content;
