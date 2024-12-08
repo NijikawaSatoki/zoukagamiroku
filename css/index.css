@@ -239,6 +239,7 @@ span.abaza {
 /* abaza byzshwa (romanisation) */
 span.abaza-romanization {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+    font-style: oblique;
 }
 
 /* ------ Abkhaz / Аҧсуа бызшәа / Apsua byzshwa ------ */
@@ -251,6 +252,7 @@ span.abkhaz {
 /* Apsua byzshwa (romanisation) */
 span.abkhaz-romanization {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+    font-style: oblique;
 }
 
 /* ------ Adyghe / Адыгабзэ / Adygabzə ------ */
@@ -263,6 +265,7 @@ span.adyghe {
 /* Adygabzə (romanisation) */
 span.adyghe-romanization {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+    font-style: oblique;
 }
 
 /* ------ Afar / Qafaraf ------ */
@@ -289,6 +292,7 @@ span.aghul {
 /* ağul ҫ̇al (romanisation) */
 span.aghul-romanization {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+    font-style: oblique;
 }
 
 /* ------ Akkadian / 𒌵 / Akkadû ------ */
@@ -301,6 +305,7 @@ span.akkadian {
 /* Akkadû (transcription) */
 span.akkadian-transcription {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+    font-style: oblique;
 }
 
 /* ------ Aklan / Binisaya nga Akeanon ------ */
@@ -327,6 +332,7 @@ span.altai {
 /* Altay til (romanisation) */
 span.altai-romanization {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+    font-style: oblique;
 }
 
 /* ------ Amharic / አማርኛ / Amarəñña ------ */
@@ -339,6 +345,7 @@ span.amharic {
 /* Amarəñña (romanisation) */
 span.amharic-romanization {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+    font-style: oblique;
 }
 
 /* ------ Arabic / ‎اَلعَرَبِيَّةُ ٱلْفُصْحَىٰ / al-ʿArabiyyatu l-Fuṣḥā ------ */
@@ -351,6 +358,7 @@ span.arabic {
 /* al-ʿArabiyyatu l-Fuṣḥā (ISO 233-2) */
 span.arabic-iso-romanization {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+    font-style: oblique;
 }
 
 /* ------ Armenian / հայերեն / hayeren ------ */
@@ -363,6 +371,7 @@ span.armenian {
 /* hayeren (romanisation) */
 span.armenian-romanization {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+    font-style: oblique;
 }
 
 /* ------ Assamese / অসমীয়া / Asamiya ------ */
@@ -375,6 +384,7 @@ span.assamese {
 /* Asamiya (romanisation) */
 span.assamese-romanization {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+    font-style: oblique;
 }
 
 /* ------ Avar / Магӏарул мацӏ / Maǥarul macʼ ------ */
@@ -387,6 +397,7 @@ span.avar {
 /* Maǥarul macʼ (Latin alphabet) */
 span.avar-romanization {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+    font-style: oblique;
 }
 
 /* ------ Aymara / Aymar aru ------ */
@@ -423,6 +434,7 @@ span.burmese {
 /* mranma bhasa (MLCTS) */
 span.mlcts {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+    font-style: oblique;
 }
 
 /* ------ Chinese / 汉语 / 漢語 ------ */
@@ -442,6 +454,7 @@ span.traditional-chinese {
 /* Hànyǔ (Pinyin) */
 span.hanyu-pinyin {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+    font-style: oblique;
 }
 
 /* ㄏㄢˋㄩˇ (Bopomofo) */
@@ -452,21 +465,25 @@ span.bopomofo {
 /* Hànyǔ (Tongyong Pinyin) */
 span.tongyong-pinyin {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+    font-style: oblique;
 }
 
 /* Han4-yü3 (Wade-Giles) */
 span.wade-giles {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+    font-style: oblique;
 }
 
 /* Hàn-yǔ (Yale) */
 span.yale-mandarin {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+    font-style: oblique;
 }
 
 /* Hannyeu (Gwoyeu Romatzyh) */
 span.gwoyeu-romatzyh {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+    font-style: oblique;
 }
 
 /* Ханьюй (Palladius, Cyrillic) */
@@ -477,6 +494,7 @@ span.palladius-cyrillic {
 /* Xanʹjuj (Palladius, Latin) */
 span.palladius-latin {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+    font-style: oblique;
 }
 
 /* ------ Cantonese / Hon3jyu5 / Honyúh / Hon3jy5 / Hon3yu5 ------ */
@@ -484,21 +502,25 @@ span.palladius-latin {
 /* Hon3jyu5 (Jyutping) */
 span.jyutping {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+    font-style: oblique;
 }
 
 /* Honyúh (Yale) */
 span.yale-cantonese {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+    font-style: oblique;
 }
 
 /* Hon3jy5 (Cantonese Pinyin) */
 span.cantonese-pinyin {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+    font-style: oblique;
 }
 
 /* Hon3yu5 (Guangdong Romanization) */
 span.guangdong-romanization {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+    font-style: oblique;
 }
 
 /* ------ Hakka Chinese / Hon-ngî / Honngi´ / Hon4ngi1 ------ */
@@ -506,16 +528,19 @@ span.guangdong-romanization {
 /* Hon-ngî (Pha̍k-fa-sṳ)) */
 span.phak-fa-su {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+    font-style: oblique;
 }
 
 /* Honngi´ (Hakka Romanization System) */
 span.hakka-romanization-system {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+    font-style: oblique;
 }
 
 /* Hon4ngi1 (Hagfa Pinyim) */
 span.hagfa-pinyim {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+    font-style: oblique;
 }
 
 /* ------ Min Bei Chinese / Hu̿ing-ngṳ̌ ------ */
@@ -523,6 +548,7 @@ span.hagfa-pinyim {
 /* Hu̿ing-ngṳ̌ (Kienning Colloquial Romanized) */
 span.kienning-colloquial-romanized {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+    font-style: oblique;
 }
 
 /* ------ Min Dong Chinese / Háng-ngṳ̄ ------ */
@@ -530,6 +556,7 @@ span.kienning-colloquial-romanized {
 /* Háng-ngṳ̄ (Bàng-uâ-cê) */
 span.bang-ua-ce {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+    font-style: oblique;
 }
 
 /* ------ Taiwanese Hokkien / Hàn-gí / Hàn-gí / Harn'gie ------ */
@@ -537,16 +564,19 @@ span.bang-ua-ce {
 /* Hàn-gí (Pe̍h-ōe-jī) */
 span.peh-oe-ji {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+    font-style: oblique;
 }
 
 /* Hàn-gí (Tâi-lô) */
 span.tai-lo {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+    font-style: oblique;
 }
 
 /* Harn'gie (Phofsit Daibuun) */
 span.phofsit-daibuun {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+    font-style: oblique;
 }
 
 /* ------ Teochew Chinese / Hang3ghe2 / Hàng-gṳ́ ------ */
@@ -554,11 +584,13 @@ span.phofsit-daibuun {
 /* Hang3ghe2 (Peng'im) */
 span.peng-im {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+    font-style: oblique;
 }
 
 /* Hàng-gṳ́ (Pe̍h-ōe-jī-like) */
 span.peh-oe-ji-like {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+    font-style: oblique;
 }
 
 /* ------ Georgian / ქართული ენა / kartuli ena ------ */
@@ -571,6 +603,7 @@ span.georgian {
 /* kartuli ena (romanisation) */
 span.georgian-romanization {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+    font-style: oblique;
 }
 
 /* ------ Monotonic Greek / Ελληνική γλώσσα / Ellēnikḗ glṓssa ------ */
@@ -583,6 +616,7 @@ span.monotonic-greek {
 /* Ellēnikḗ glṓssa (romanisation) */
 span.monotonic-greek-romanization {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+    font-style: oblique;
 }
 
 /* ------ Polytonic Greek / Ἑλληνική / Hellēnikḗ ------ */
@@ -595,6 +629,7 @@ span.polytonic-greek {
 /* Hellēnikḗ (romanisation) */
 span.polytonic-greek-romanization {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+    font-style: oblique;
 }
 
 /* ------ Hittite / 𒌷𒉌𒅆𒇷 / nešili ------ */
@@ -607,6 +642,7 @@ span.hittite {
 /* nešili (transcription) */
 span.hittite-transcription {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+    font-style: oblique;
 }
 
 /* ------ Japanese / 日本語 / Nihongo ------ */
@@ -618,6 +654,7 @@ span.japanese {
 /* Nihongo (Rōmaji) */
 span.romaji {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+    font-style: oblique;
 }
 
 /* ------ Korean / 한국어 / 韓國語 / Han'guk-eo / han'gugŏ / hānkwuk.e ------ */
@@ -633,14 +670,17 @@ span.hanja {
 /* Han'guk-eo (Revised Romanization) */
 span.revised-romanization {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+    font-style: oblique;
 }
 /* han'gugŏ (McCune-Reischauer) */
 span.mccune-reischauer {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+    font-style: oblique;
 }
 /* hānkwuk.e (Yale) */
 span.yale-korean {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+    font-style: oblique;
 }
 
 /* ------ Russian / русский язык / русскій языкъ / russkiy yazyk ------ */
@@ -656,6 +696,7 @@ span.russian-old-orthography {
 /* russkiy yazyk (Latin alphabet) */
 span.russian-romanization {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+    font-style: oblique;
 }
 
 /* ****** Constructed languages (conlangs) ****** */
@@ -670,6 +711,7 @@ span.bhonmesh-bhon-script {
 /* Bhasa'aḥ Bhôṁmêśśaḥ (Romanisation) */
 span.bhonmesh-romanization {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+    font-style: oblique;
 }
 
 /* ------ Frualbuqash / Фрѭалбуқащ ѩзйкъ / Früalbuqaš′ yäzyįk′ ------ */
@@ -682,6 +724,7 @@ span.frualbuqash-frual-alphabet {
 /* Früalbuqaš′ yäzyįk′ (romanisation) */
 span.frualbuqash-romanization {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+    font-style: oblique;
 }
 
 /* ====== <div> styles ====== */
