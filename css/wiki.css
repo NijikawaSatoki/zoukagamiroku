@@ -43,3 +43,21 @@ p#JapaneseNameTitle {
 }
 
 p#Japanese {}
+
+/* ====== Contents ====== */
+
+nav#Contents {
+    float: left;
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+    font-size: 1.15em;
+    max-width: 300px;
+    margin-right: 16px;
+}
+
+summary#ContentsDropdown {
+    font-weight: bold;
+}
+
+a.contents-item {
+    font-size: 1.15em;
+}
