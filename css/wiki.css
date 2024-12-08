@@ -8,3 +8,38 @@ header {
 main {
     contain: content;
 }
+
+/* ====== Infobox ====== */
+
+div#Infobox {
+    float: right;
+    border-style: groove;
+    width: 280px;
+}
+
+/* ------ Title ------ */
+
+div#InfoboxTitle {
+    text-align: center;
+}
+
+/* ------ Image ------ */
+
+div#InfoboxImage {}
+
+img#MainImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 256px;
+}
+
+/* ------ Japanese name ------ */
+
+div#JapaneseName {}
+
+p#JapaneseNameTitle {
+    font-weight: bold;
+}
+
+p#Japanese {}
