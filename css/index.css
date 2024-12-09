@@ -461,6 +461,19 @@ span.bambara-romanization {
     font-style: oblique;
 }
 
+/* ------ Bangla / বাংলা / Bangla ------ */
+
+/* বাংলা (Bengali script) */
+span.bengali {
+    font-family: 'Kalpurush', 'Noto Sans Bengali', sans-serif;
+}
+
+/* Bangla (Latin alphabet) */
+span.bengali-romanization {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+    font-style: oblique;
+}
+
 /* ------ Burmese / မြန်မာဘာသာ / mranma bhasa ------ */
 
 /* မြန်မာဘာသာ (Burmese script) */
