@@ -1,3 +1,0 @@
-This directory will contain the alt text for all images.
-These are stored as `${imagename}.alttxt`.
-This is from a practice that I (Niji System) have been doing with my art.
