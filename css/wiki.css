@@ -74,6 +74,16 @@ span#SpeciesTitle {
     font-weight: bold;
 }
 
+/* ------ Infobox abilities ------ */
+
+div#Abilities {
+    margin: 2px;
+}
+
+span#AbilitiesTitle {
+    font-weight: bold;
+}
+
 /* ====== Contents ====== */
 
 nav#Contents {
