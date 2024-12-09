@@ -1,0 +1,7 @@
+function ToggleInfobox() {
+    
+}
+
+function ToggleTheme() {
+    
+}
