@@ -1,8 +1,5 @@
-This is where the images go.
-Whether PNG, JPG, GIF, whatever, they all go here.
-No HTML.
-No CSS.
-No JavaScript.
-Not even the `alttxt` files containing the alt text.
-(Those go in `/alttxt/`)
-This `about.txt` file is the only exception.
+This is where the page for the art gallery goes.
+This should be self-contained (minus the images and alt text).
+That is, the CSS and JavaScript for the art gallery should also be placed in here.
+Or put them in `/css/` and `/js/`, respectively.
+Understandable if you do that.
