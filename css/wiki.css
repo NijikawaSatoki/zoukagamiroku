@@ -84,6 +84,16 @@ span#AbilitiesTitle {
     font-weight: bold;
 }
 
+/* ------ Sex assigned at birth ------ */
+
+div#SexAssignedAtBirth {
+    margin: 2px;
+}
+
+span#SexAssignedAtBirthTitle {
+    font-weight: bold;
+}
+
 /* ====== Contents ====== */
 
 nav#Contents {
