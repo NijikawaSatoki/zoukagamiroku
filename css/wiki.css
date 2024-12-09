@@ -54,6 +54,16 @@ span#OtherNameTitle {
     font-weight: bold;
 }
 
+/* ------ Infobox name pronunciation ------ */
+
+div#NamePronunciation {
+    margin: 2px;
+}
+
+span#NamePronunciationTitle {
+    font-weight: bold;
+}
+
 /* ====== Contents ====== */
 
 nav#Contents {
