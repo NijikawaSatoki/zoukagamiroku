@@ -71,3 +71,8 @@ h2.section-title {
     text-align: left;
     font-family: 'Tinos', 'Times New Roman', 'Noto Serif', serif;
 }
+
+/* ====== Section styles ====== */
+section#Lead {
+    contain: content;
+}
