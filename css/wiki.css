@@ -1,15 +1,9 @@
 /* ====== Page controls ====== */
 
 /* Infobox toggle */
-button#InfoboxToggle {
-    float: right;
-    width: 128px;
-    height: 32px;
-    margin: 2px;
-}
-
-/* Theme toggle */
-button#DarkLightMode {
+button#InfoboxToggle,
+button#DarkMode,
+button#LightMode {
     float: right;
     width: 128px;
     height: 32px;

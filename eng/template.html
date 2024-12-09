@@ -12,16 +12,17 @@
     <link rel="stylesheet" href="../css/wiki.css" />
     <link rel="stylesheet" href="../css/dialog.css" />
   </head>
-  <body>
+  <body id="DocumentBody">
     <!-- Some page controls -->
     <button id="InfoboxToggle" type="button" onclick="ToggleInfobox()">Toggle Infobox</button>
-    <button id="DarkLightMode" type="button" onclick="ToggleTheme()">Toggle theme</button>
+    <button id="DarkMode" type="button" onclick="DarkTheme()">Dark theme</button>
+    <button id="LightMode" type="button" onclick="LightTheme()">Light theme</button>
     <!-- This header would be the "title" of the page -->
-    <header>
+    <header id="PageHead">
       <h1 id="Head">Page Template</h1>
     </header>
     <!-- The main meat of the page is, of course, here -->
-    <main>
+    <main id="PageBody">
       <!-- Infobox -->
       <div id="Infobox">
         <!-- Title of the infobox -->
@@ -418,15 +419,15 @@
     <!-- Return to top (these pages are intended to be kinda long, so this link is a must for user comfort) -->
     <a id="ReturnToTop" href="#Head">Return to the top</a>
     <!-- This footer should only contain the copyright info -->
-    <footer>
+    <footer id="PageFoot">
       <p id="CopyrightInfo">
         © 2024 Niji System<br />
         No rights reserved.
       </p>
     </footer>
     <!-- JavaScript -->
-    <script src="../js/index.js"></script>
-    <script src="../js/dialog.js"></script>
     <script src="../js/pageControl.js"></script>
+    <script src="../js/dialog.js"></script>
+    <script src="../js/index.js"></script>
   </body>
 </html>
