@@ -1,0 +1,5 @@
+This directory is for the wiki pages that are written in the English language.
+These are to only contain the `${pagename}.html` pages.
+No CSS.
+No JavaScript.
+This `about.txt` file is the only exception, obviously.
