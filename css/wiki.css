@@ -36,15 +36,12 @@ img#MainImage {
     width: 256px;
 }
 
-/* ------ Japanese name ------ */
+/* ------ Infobox section names ------ */
 
-div#JapaneseName {}
-
-p#JapaneseNameTitle {
+span#JapaneseNameTitle,
+span#OtherNameTitle {
     font-weight: bold;
 }
-
-p#Japanese {}
 
 /* ====== Contents ====== */
 
