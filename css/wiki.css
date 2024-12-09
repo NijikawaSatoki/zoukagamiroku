@@ -1,3 +1,21 @@
+/* ====== Page controls ====== */
+
+/* Infobox toggle */
+button#InfoboxToggle {
+    float: right;
+    width: 128px;
+    height: 32px;
+    margin: 2px;
+}
+
+/* Theme toggle */
+button#DarkLightMode {
+    float: right;
+    width: 128px;
+    height: 32px;
+    margin: 2px;
+}
+
 /* ====== Header ====== */
 header {
     text-align: left;
