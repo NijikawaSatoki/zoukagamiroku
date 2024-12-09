@@ -26,11 +26,14 @@ div#Infobox {
 div#InfoboxTitle {
     text-align: center;
     font-weight: bold;
+    margin: 4px;
 }
 
 /* ------ Image ------ */
 
-div#InfoboxImage {}
+div#InfoboxImage {
+    margin: 2px;
+}
 
 img#MainImage {
     display: block;
@@ -40,6 +43,11 @@ img#MainImage {
 }
 
 /* ------ Infobox section names ------ */
+
+div#JapaneseName,
+div#OtherName {
+    margin: 2px;
+}
 
 span#JapaneseNameTitle,
 span#OtherNameTitle {
