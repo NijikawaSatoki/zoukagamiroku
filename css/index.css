@@ -474,6 +474,13 @@ span.bengali-romanization {
     font-style: oblique;
 }
 
+/* ------ Barwe / Chibarwe ------ */
+
+/* Chibarwe (Latin alphabet) */
+span.barwe {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+}
+
 /* ------ Burmese / မြန်မာဘာသာ / mranma bhasa ------ */
 
 /* မြန်မာဘာသာ (Burmese script) */
