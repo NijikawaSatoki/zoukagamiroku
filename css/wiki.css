@@ -106,6 +106,16 @@ span#SexAssignedAtBirthTitle {
     font-weight: bold;
 }
 
+/* ------ Gender ------ */
+
+div#Gender {
+    margin: 2px;
+}
+
+span#GenderTitle {
+    font-weight: bold;
+}
+
 /* ====== Contents ====== */
 
 nav#Contents {
