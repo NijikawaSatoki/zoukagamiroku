@@ -443,6 +443,24 @@ span.balinese-romanization {
     font-style: oblique;
 }
 
+/* ------ Bambara / ߓߡߊߣߊ߲ߞߊ߲‏‎ / بامبارا‎ / Bámánánkán ------ */
+
+/* ߓߡߊߣߊ߲ߞߊ߲‏‎ (N'Ko script) */
+span.bambara-nko {
+    font-family: 'Noto Sans NKo', sans-serif;
+}
+
+/* بامبارا‎ (Perso-Arabic script) */
+span.bambara-arabic {
+    font-family: 'Noto Naskh Arabic UI', 'Amiri', 'Arabic Typesetting', 'Noto Naskh Arabic', sans-serif;
+}
+
+/* Bámánánkán (Latin alphabet) */
+span.bambara-romanization {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+    font-style: oblique;
+}
+
 /* ------ Burmese / မြန်မာဘာသာ / mranma bhasa ------ */
 
 /* မြန်မာဘာသာ (Burmese script) */
