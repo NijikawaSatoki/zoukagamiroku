@@ -1,0 +1,8 @@
+This is where the images go.
+Whether PNG, JPG, GIF, whatever, they all go here.
+No HTML.
+No CSS.
+No JavaScript.
+Not even the `alttxt` files containing the alt text.
+(Those go in `/alttxt/`)
+This `about.txt` file is the only exception.
