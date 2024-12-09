@@ -64,6 +64,16 @@ span#NamePronunciationTitle {
     font-weight: bold;
 }
 
+/* ------ Infobox species ------ */
+
+div#Species {
+    margin: 2px;
+}
+
+span#SpeciesTitle {
+    font-weight: bold;
+}
+
 /* ====== Contents ====== */
 
 nav#Contents {
