@@ -23,6 +23,7 @@ div#Infobox {
 
 div#InfoboxTitle {
     text-align: center;
+    font-weight: bold;
 }
 
 /* ------ Image ------ */
@@ -72,4 +73,10 @@ h2.section-title {
 /* ====== Section styles ====== */
 section#Lead {
     contain: content;
+}
+
+/* ====== Return to top ====== */
+a#ReturnToTop {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+    font-size: 20px;
 }
