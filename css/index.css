@@ -427,6 +427,19 @@ span.azerbaijani-cyrillic {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
 }
 
+/* ------ Balinese / ᬪᬵᬱᬩᬮᬶ / Basa Bali ------ */
+
+/* ᬪᬵᬱᬩᬮᬶ (Balinese script) */
+span.balinese {
+    font-family: 'Noto Serif Balinese', serif;
+}
+
+/* Basa Bali (Latin alphabet) */
+span.balinese-romanization {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+    font-style: oblique;
+}
+
 /* ------ Burmese / မြန်မာဘာသာ / mranma bhasa ------ */
 
 /* မြန်မာဘာသာ (Burmese script) */
