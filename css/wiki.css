@@ -51,7 +51,7 @@ nav#Contents {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
     font-size: 19px;
     max-width: 300px;
-    margin-right: 16px;
+    margin: 16px;
 }
 
 summary#ContentsDropdown {
