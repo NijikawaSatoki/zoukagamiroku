@@ -64,3 +64,10 @@ summary#ContentsDropdown {
 a.contents-item {
     font-size: 19px;
 }
+
+/* ====== Section title ====== */
+
+h2.section-title {
+    text-align: left;
+    font-family: 'Tinos', 'Times New Roman', 'Noto Serif', serif;
+}
