@@ -1,5 +1,0 @@
-This is where all the CSS stylesheet files are to be placed.
-Should only contain the `${stylesheet}.css` files.
-No HTML.
-No JavaScript.
-This `about.txt` file is the only exception.
