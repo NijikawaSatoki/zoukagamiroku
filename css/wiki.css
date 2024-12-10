@@ -101,6 +101,10 @@ div#SexAssignedAtBirth {
     margin: 2px;
 }
 
+p#Sex {
+    margin-bottom: 1px;
+}
+
 span#SexAssignedAtBirthTitle {
     font-weight: bold;
 }
@@ -109,6 +113,10 @@ span#SexAssignedAtBirthTitle {
 
 div#Gender {
     margin: 2px;
+}
+
+p#LeGender {
+    margin-bottom: 1px;
 }
 
 span#GenderTitle {
