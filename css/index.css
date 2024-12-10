@@ -481,6 +481,19 @@ span.barwe {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
 }
 
+/* ------ Bashkir / Башҡорт теле / Başqort tele ------ */
+
+/* Башҡорт теле (Cyrillic alphabet) ------ */
+span.bashkir {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+}
+
+/* Başqort tele (Latin alphabet) ------ */
+span.bashkir-romanization {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+    font-style: oblique;
+}
+
 /* ------ Burmese / မြန်မာဘာသာ / mranma bhasa ------ */
 
 /* မြန်မာဘာသာ (Burmese script) */
