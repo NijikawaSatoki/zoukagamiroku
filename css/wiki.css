@@ -65,6 +65,12 @@ div#OtherName {
     margin: 2px;
 }
 
+p#NameInJapan,
+p#OtherNames {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
 span#JapaneseNameTitle,
 span#OtherNameTitle {
     font-weight: bold;
