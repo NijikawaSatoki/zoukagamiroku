@@ -40,6 +40,11 @@ div#InfoboxTitle {
     margin: 4px;
 }
 
+p#InfoboxName {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
 /* ------ Image ------ */
 
 div#InfoboxImage {
