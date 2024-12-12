@@ -161,6 +161,24 @@ span.reflexive-pronoun {
     color: hotpink;
 }
 
+/* ------ Sexuality ------ */
+
+div#Sexuality {
+    margin: 2px;
+}
+
+p#Sexualities {
+    margin-bottom: 1px;
+}
+
+span#SexualityTitle {
+    font-weight: bold;
+}
+
+span.sexuality {
+    color: hotpink;
+}
+
 /* ====== Contents ====== */
 
 nav#Contents {
