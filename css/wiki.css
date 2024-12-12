@@ -86,6 +86,11 @@ div#Species {
     margin: 2px;
 }
 
+p#Race {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
 span#SpeciesTitle {
     font-weight: bold;
 }
