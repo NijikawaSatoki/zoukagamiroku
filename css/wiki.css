@@ -96,6 +96,11 @@ div#Abilities {
     margin: 2px;
 }
 
+p#Ability {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
 span#AbilitiesTitle {
     font-weight: bold;
 }
