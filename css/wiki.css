@@ -123,6 +123,44 @@ span#GenderTitle {
     font-weight: bold;
 }
 
+/* ------ Pronouns ------ */
+
+div#Pronoun {
+    margin: 2px;
+}
+
+p#Pronouns {
+    margin-bottom: 1px;
+}
+
+span#PronounTitle {
+    font-weight: bold;
+}
+
+p.pronoun-set {
+    font-weight: bold;
+}
+
+span.subjective-pronoun {
+    color: hotpink;
+}
+
+span.objective-pronoun {
+    color: hotpink;
+}
+
+span.possessive-determiner-pronoun {
+    color: hotpink;
+}
+
+span.possessive-pronoun {
+    color: hotpink;
+}
+
+span.reflexive-pronoun {
+    color: hotpink;
+}
+
 /* ====== Contents ====== */
 
 nav#Contents {
