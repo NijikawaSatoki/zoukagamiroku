@@ -76,6 +76,11 @@ div#NamePronunciation {
     margin: 2px;
 }
 
+p#Pronunciation {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
 span#NamePronunciationTitle {
     font-weight: bold;
 }
