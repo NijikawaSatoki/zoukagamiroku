@@ -14,9 +14,11 @@
   </head>
   <body id="DocumentBody">
     <!-- Some page controls -->
-    <button id="InfoboxToggle" type="button" onclick="ToggleInfobox()">Toggle Infobox</button>
-    <button id="DarkMode" type="button" onclick="DarkTheme()">Dark theme</button>
-    <button id="LightMode" type="button" onclick="LightTheme()">Light theme</button>
+    <div id="PageControls">
+      <button id="InfoboxToggle" type="button" onclick="ToggleInfobox()">Infobox</button>
+      <button id="DarkMode" type="button" onclick="DarkTheme()">Dark theme</button>
+      <button id="LightMode" type="button" onclick="LightTheme()">Light theme</button>
+    </div>
     <!-- This header would be the "title" of the page -->
     <header id="PageHead">
       <h1 id="Head">Page Template</h1>
@@ -27,7 +29,7 @@
       <div id="Infobox">
         <!-- Title of the infobox -->
         <div id="InfoboxTitle">
-          <p id="InfoboxName">Example</p>
+          <h2 id="InfoboxName">Example</p>
         </div>
         <!-- Picture of the subject (if available) -->
         <div id="InfoboxImage">

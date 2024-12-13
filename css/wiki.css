@@ -1,257 +1,803 @@
-/* ====== Page controls ====== */
+/* ====== Responsive breakpoints ====== */
 
-button#InfoboxToggle,
-button#DarkMode,
-button#LightMode {
-    float: right;
-    width: 128px;
-    height: 32px;
-    margin: 2px;
+/* ------ Screen width is less than 600px (So, most mobile devices) ------ */
+
+@media only screen and (max-width: 600px) {
+    
+    /* >>>>>> Page controls <<<<<< */
+    
+    div#PageControls {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        column-gap: 2px;
+    }
+    
+    button#InfoboxToggle {
+        height: 32px;
+    }
+    
+    button#DarkMode {
+        height: 32px;
+    }
+    
+    button#LightMode {
+        height: 32px;
+    }
+    
+    /* >>>>>> Header <<<<<< */
+    
+    header {
+        text-align: left;
+        font-family: 'Tinos', 'Times New Roman', 'Noto Serif Display', serif;
+    }
+    
+    /* >>>>>> Main body <<<<<< */
+    
+    main {
+        contain: content;
+    }
+    
+    /* >>>>>> Infobox <<<<<< */
+    
+    div#Infobox {
+        float: none;
+        border-style: groove;
+        border-color: #efefef;
+        border-width: 6px;
+        max-width: 300px;
+        margin: 8px;
+        padding: 2px;
+    }
+    
+    /* ~~~~~~ Title ~~~~~~ */
+    
+    div#InfoboxTitle {
+        text-align: center;
+        font-weight: bold;
+        margin: 4px;
+    }
+    
+    h2#InfoboxName {
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+    
+    /* ~~~~~~ Image ~~~~~~ */
+    
+    div#InfoboxImage {
+        margin: 2px;
+    }
+    
+    img#MainImage {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 256px;
+    }
+    
+    /* ~~~~~~ Section names ~~~~~~ */
+    
+    div#JapaneseName,
+    div#OtherName {
+        margin: 2px;
+    }
+    
+    p#NameInJapan,
+    p#OtherNames {
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+    
+    span#JapaneseNameTitle,
+    span#OtherNameTitle {
+        font-weight: bold;
+    }
+    
+    /* ~~~~~~ Name pronunciation ~~~~~~ */
+    
+    div#NamePronunciation {
+        margin: 2px;
+    }
+    
+    p#Pronunciation {
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+    
+    span#NamePronunciationTitle {
+        font-weight: bold;
+    }
+    
+    /* ~~~~~~ Species ~~~~~~ */
+    
+    div#Species {
+        margin: 2px;
+    }
+    
+    p#Race {
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+    
+    span#SpeciesTitle {
+        font-weight: bold;
+    }
+    
+    /* ~~~~~~ Abilities ~~~~~~ */
+    
+    div#Abilities {
+        margin: 2px;
+    }
+    
+    p#Ability {
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+    
+    span#AbilitiesTitle {
+        font-weight: bold;
+    }
+    
+    /* ~~~~~~ Sex assigned at birth ~~~~~~ */
+    
+    div#SexAssignedAtBirth {
+        margin: 2px;
+    }
+    
+    p#Sex {
+        margin-top: 8px;
+        margin-bottom: 1px;
+    }
+    
+    span#SexAssignedAtBirthTitle {
+        font-weight: bold;
+    }
+    
+    /* ~~~~~~ Gender ~~~~~~ */
+    
+    div#Gender {
+        margin: 2px;
+    }
+    
+    p#LeGender {
+        margin-top: 8px;
+        margin-bottom: 1px;
+    }
+    
+    span#GenderTitle {
+        font-weight: bold;
+    }
+    
+    /* ~~~~~~ Pronouns ~~~~~~ */
+    
+    div#Pronoun {
+        margin: 2px;
+    }
+    
+    p#Pronouns {
+        margin-top: 8px;
+        margin-bottom: 1px;
+    }
+    
+    span#PronounTitle {
+        font-weight: bold;
+    }
+    
+    p.pronoun-set {
+        font-weight: bold;
+    }
+    
+    span.subjective-pronoun {
+        color: hotpink;
+    }
+    
+    span.objective-pronoun {
+        color: hotpink;
+    }
+    
+    span.possessive-determiner-pronoun {
+        color: hotpink;
+    }
+    
+    span.possessive-pronoun {
+        color: hotpink;
+    }
+    
+    span.reflexive-pronoun {
+        color: hotpink;
+    }
+    
+    /* ~~~~~~ Sexuality ~~~~~~ */
+    
+    div#Sexuality {
+        margin: 2px;
+    }
+    
+    p#Sexualities {
+        margin-top: 8px;
+        margin-bottom: 1px;
+    }
+    
+    span#SexualityTitle {
+        font-weight: bold;
+    }
+    
+    span.sexuality {
+        color: hotpink;
+    }
+    
+    /* >>>>>> Contents <<<<<< */
+    
+    nav#Contents {
+        font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+        font-size: 1.15rem;
+        max-width: 300px;
+        margin: 8px;
+        padding: 2px;
+        border-style: inset;
+        border-color: #efefef;
+        border-width: 4px;
+    }
+    
+    summary#ContentsDropdown {
+        font-weight: bold;
+    }
+    
+    a.contents-item {
+        font-size: 1.1rem;
+    }
+    
+    /* >>>>>> Section title <<<<<< */
+    
+    h2.section-title {
+        text-align: left;
+        font-family: 'Tinos', 'Times New Roman', 'Noto Serif', serif;
+    }
+    
+    /* >>>>>> Section styles <<<<<< */
+    
+    /*section#Lead {
+        contain: content;
+    }*/
+    
+    /* >>>>>> Justify paragraphs <<<<<< */
+    
+    p.cleanly-defined-edges {
+        text-align: justify;
+        text-justify: inter-word;
+    }
+    
+    /* >>>>>> Return to top <<<<<< */
+    a#ReturnToTop {
+        font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+        font-size: 1.1rem;
+    }
 }
 
-/* ====== Header ====== */
-header {
-    text-align: left;
-    font-family: 'Tinos', 'Times New Roman', 'Noto Serif Display', serif;
+/* ------ Screen width is greater than 600px, but less than 992px (Bloody iPads >.>) ------ */
+@media only screen and (min-width: 600.2px) {
+    @media only screen and (max-width: 991.8px) {
+        /* >>>>>> Page controls <<<<<< */
+        
+        button#InfoboxToggle,
+        button#DarkMode,
+        button#LightMode {
+            width: 128px;
+            height: 32px;
+            margin: 2px;
+        }
+        
+        /* >>>>>> Header <<<<<< */
+        
+        header {
+            text-align: left;
+            font-family: 'Tinos', 'Times New Roman', 'Noto Serif Display', serif;
+        }
+        
+        /* >>>>>> Main body <<<<<< */
+        
+        main {
+            contain: content;
+        }
+        
+        /* >>>>>> Infobox <<<<<< */
+        
+        div#Infobox {
+            float: right;
+            border-style: groove;
+            border-color: #efefef;
+            border-width: 8px;
+            width: 280px;
+            margin: 16px;
+            padding: 4px;
+        }
+        
+        /* ~~~~~~ Title ~~~~~~ */
+        
+        div#InfoboxTitle {
+            text-align: center;
+            font-weight: bold;
+            margin: 4px;
+        }
+        
+        h2#InfoboxName {
+            margin-top: 8px;
+            margin-bottom: 8px;
+        }
+        
+        /* ~~~~~~ Image ~~~~~~ */
+        
+        div#InfoboxImage {
+            margin: 2px;
+        }
+        
+        img#MainImage {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 256px;
+        }
+        
+        /* ~~~~~~ Section names ~~~~~~ */
+        
+        div#JapaneseName,
+        div#OtherName {
+            margin: 2px;
+        }
+        
+        p#NameInJapan,
+        p#OtherNames {
+            margin-top: 8px;
+            margin-bottom: 8px;
+        }
+        
+        span#JapaneseNameTitle,
+        span#OtherNameTitle {
+            font-weight: bold;
+        }
+        
+        /* ~~~~~~ Name pronunciation ~~~~~~ */
+        
+        div#NamePronunciation {
+            margin: 2px;
+        }
+        
+        p#Pronunciation {
+            margin-top: 8px;
+            margin-bottom: 8px;
+        }
+        
+        span#NamePronunciationTitle {
+            font-weight: bold;
+        }
+        
+        /* ~~~~~~ Species ~~~~~~ */
+        
+        div#Species {
+            margin: 2px;
+        }
+        
+        p#Race {
+            margin-top: 8px;
+            margin-bottom: 8px;
+        }
+        
+        span#SpeciesTitle {
+            font-weight: bold;
+        }
+        
+        /* ~~~~~~ Abilities ~~~~~~ */
+        
+        div#Abilities {
+            margin: 2px;
+        }
+        
+        p#Ability {
+            margin-top: 8px;
+            margin-bottom: 8px;
+        }
+        
+        span#AbilitiesTitle {
+            font-weight: bold;
+        }
+        
+        /* ~~~~~~ Sex assigned at birth ~~~~~~ */
+        
+        div#SexAssignedAtBirth {
+            margin: 2px;
+        }
+        
+        p#Sex {
+            margin-top: 8px;
+            margin-bottom: 1px;
+        }
+        
+        span#SexAssignedAtBirthTitle {
+            font-weight: bold;
+        }
+        
+        /* ~~~~~~ Gender ~~~~~~ */
+        
+        div#Gender {
+            margin: 2px;
+        }
+        
+        p#LeGender {
+            margin-top: 8px;
+            margin-bottom: 1px;
+        }
+        
+        span#GenderTitle {
+            font-weight: bold;
+        }
+        
+        /* ~~~~~~ Pronouns ~~~~~~ */
+        
+        div#Pronoun {
+            margin: 2px;
+        }
+        
+        p#Pronouns {
+            margin-top: 8px;
+            margin-bottom: 1px;
+        }
+        
+        span#PronounTitle {
+            font-weight: bold;
+        }
+        
+        p.pronoun-set {
+            font-weight: bold;
+        }
+        
+        span.subjective-pronoun {
+            color: hotpink;
+        }
+        
+        span.objective-pronoun {
+            color: hotpink;
+        }
+        
+        span.possessive-determiner-pronoun {
+            color: hotpink;
+        }
+        
+        span.possessive-pronoun {
+            color: hotpink;
+        }
+        
+        span.reflexive-pronoun {
+            color: hotpink;
+        }
+        
+        /* ~~~~~~ Sexuality ~~~~~~ */
+        
+        div#Sexuality {
+            margin: 2px;
+        }
+        
+        p#Sexualities {
+            margin-top: 8px;
+            margin-bottom: 1px;
+        }
+        
+        span#SexualityTitle {
+            font-weight: bold;
+        }
+        
+        span.sexuality {
+            color: hotpink;
+        }
+        
+        /* >>>>>> Contents <<<<<< */
+        
+        nav#Contents {
+            float: left;
+            font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+            font-size: 19px;
+            max-width: 300px;
+            margin: 16px;
+            padding: 4px;
+            border-style: inset;
+            border-color: #efefef;
+            border-width: 4px;
+        }
+        
+        summary#ContentsDropdown {
+            font-weight: bold;
+        }
+        
+        a.contents-item {
+            font-size: 1.1rem;
+        }
+        
+        /* >>>>>> Section title <<<<<< */
+        
+        h2.section-title {
+            text-align: left;
+            font-family: 'Tinos', 'Times New Roman', 'Noto Serif', serif;
+        }
+        
+        /* >>>>>> Section styles <<<<<< */
+        
+        section#Lead {
+            contain: content;
+        }
+        
+        /* >>>>>> Justify paragraphs <<<<<< */
+        
+        p.cleanly-defined-edges {
+            text-align: justify;
+            text-justify: inter-word;
+        }
+        
+        /* >>>>>> Return to top <<<<<< */
+        
+        a#ReturnToTop {
+            font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+            font-size: 1.1rem;
+        }
+    }
 }
 
-/* ====== Main body ====== */
-main {
-    contain: content;
-}
+/* ------ Screen width is greater than 992px (So, most PC's) ------ */
 
-/* ====== Infobox ====== */
-
-div#Infobox {
-    float: right;
-    border-style: groove;
-    border-color: #efefef;
-    border-width: 8px;
-    width: 280px;
-    margin: 16px;
-    padding: 4px;
-}
-
-/* ------ Title ------ */
-
-div#InfoboxTitle {
-    text-align: center;
-    font-weight: bold;
-    margin: 4px;
-}
-
-p#InfoboxName {
-    margin-top: 8px;
-    margin-bottom: 8px;
-}
-
-/* ------ Image ------ */
-
-div#InfoboxImage {
-    margin: 2px;
-}
-
-img#MainImage {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 256px;
-}
-
-/* ------ Infobox section names ------ */
-
-div#JapaneseName,
-div#OtherName {
-    margin: 2px;
-}
-
-p#NameInJapan,
-p#OtherNames {
-    margin-top: 8px;
-    margin-bottom: 8px;
-}
-
-span#JapaneseNameTitle,
-span#OtherNameTitle {
-    font-weight: bold;
-}
-
-/* ------ Infobox name pronunciation ------ */
-
-div#NamePronunciation {
-    margin: 2px;
-}
-
-p#Pronunciation {
-    margin-top: 8px;
-    margin-bottom: 8px;
-}
-
-span#NamePronunciationTitle {
-    font-weight: bold;
-}
-
-/* ------ Infobox species ------ */
-
-div#Species {
-    margin: 2px;
-}
-
-p#Race {
-    margin-top: 8px;
-    margin-bottom: 8px;
-}
-
-span#SpeciesTitle {
-    font-weight: bold;
-}
-
-/* ------ Infobox abilities ------ */
-
-div#Abilities {
-    margin: 2px;
-}
-
-p#Ability {
-    margin-top: 8px;
-    margin-bottom: 8px;
-}
-
-span#AbilitiesTitle {
-    font-weight: bold;
-}
-
-/* ------ Sex assigned at birth ------ */
-
-div#SexAssignedAtBirth {
-    margin: 2px;
-}
-
-p#Sex {
-    margin-top: 8px;
-    margin-bottom: 1px;
-}
-
-span#SexAssignedAtBirthTitle {
-    font-weight: bold;
-}
-
-/* ------ Gender ------ */
-
-div#Gender {
-    margin: 2px;
-}
-
-p#LeGender {
-    margin-top: 8px;
-    margin-bottom: 1px;
-}
-
-span#GenderTitle {
-    font-weight: bold;
-}
-
-/* ------ Pronouns ------ */
-
-div#Pronoun {
-    margin: 2px;
-}
-
-p#Pronouns {
-    margin-top: 8px;
-    margin-bottom: 1px;
-}
-
-span#PronounTitle {
-    font-weight: bold;
-}
-
-p.pronoun-set {
-    font-weight: bold;
-}
-
-span.subjective-pronoun {
-    color: hotpink;
-}
-
-span.objective-pronoun {
-    color: hotpink;
-}
-
-span.possessive-determiner-pronoun {
-    color: hotpink;
-}
-
-span.possessive-pronoun {
-    color: hotpink;
-}
-
-span.reflexive-pronoun {
-    color: hotpink;
-}
-
-/* ------ Sexuality ------ */
-
-div#Sexuality {
-    margin: 2px;
-}
-
-p#Sexualities {
-    margin-top: 8px;
-    margin-bottom: 1px;
-}
-
-span#SexualityTitle {
-    font-weight: bold;
-}
-
-span.sexuality {
-    color: hotpink;
-}
-
-/* ====== Contents ====== */
-
-nav#Contents {
-    float: left;
-    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
-    font-size: 19px;
-    max-width: 300px;
-    margin: 16px;
-    padding: 4px;
-    border-style: inset;
-    border-color: #efefef;
-    border-width: 4px;
-}
-
-summary#ContentsDropdown {
-    font-weight: bold;
-}
-
-a.contents-item {
-    font-size: 19px;
-}
-
-/* ====== Section title ====== */
-
-h2.section-title {
-    text-align: left;
-    font-family: 'Tinos', 'Times New Roman', 'Noto Serif', serif;
-}
-
-/* ====== Section styles ====== */
-section#Lead {
-    contain: content;
-}
-
-/* ====== Justify paragraphs ====== */
-
-p.cleanly-defined-edges {
-    text-align: justify;
-    text-justify: inter-word;
-}
-
-/* ====== Return to top ====== */
-a#ReturnToTop {
-    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
-    font-size: 20px;
+@media only screen and (min-width: 992px) {
+    
+    /* >>>>>> Page controls <<<<<< */
+    
+    button#InfoboxToggle,
+    button#DarkMode,
+    button#LightMode {
+        width: 128px;
+        height: 32px;
+        margin: 2px;
+    }
+    
+    /* >>>>>> Header <<<<<< */
+    header {
+        text-align: left;
+        font-family: 'Tinos', 'Times New Roman', 'Noto Serif Display', serif;
+    }
+    
+    /* >>>>>> Main body <<<<<< */
+    main {
+        contain: content;
+    }
+    
+    /* >>>>>> Infobox <<<<<< */
+    
+    div#Infobox {
+        float: right;
+        border-style: groove;
+        border-color: #efefef;
+        border-width: 8px;
+        width: 280px;
+        margin: 16px;
+        padding: 4px;
+    }
+    
+    /* ~~~~~~ Title ~~~~~~ */
+    
+    div#InfoboxTitle {
+        text-align: center;
+        font-weight: bold;
+        margin: 4px;
+    }
+    
+    h2#InfoboxName {
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+    
+    /* ~~~~~~ Image ~~~~~~ */
+    
+    div#InfoboxImage {
+        margin: 2px;
+    }
+    
+    img#MainImage {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 256px;
+    }
+    
+    /* ~~~~~~ Section names ~~~~~~ */
+    
+    div#JapaneseName,
+    div#OtherName {
+        margin: 2px;
+    }
+    
+    p#NameInJapan,
+    p#OtherNames {
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+    
+    span#JapaneseNameTitle,
+    span#OtherNameTitle {
+        font-weight: bold;
+    }
+    
+    /* ~~~~~~ Name pronunciation ~~~~~~ */
+    
+    div#NamePronunciation {
+        margin: 2px;
+    }
+    
+    p#Pronunciation {
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+    
+    span#NamePronunciationTitle {
+        font-weight: bold;
+    }
+    
+    /* ~~~~~~ Species ~~~~~~ */
+    
+    div#Species {
+        margin: 2px;
+    }
+    
+    p#Race {
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+    
+    span#SpeciesTitle {
+        font-weight: bold;
+    }
+    
+    /* ~~~~~~ Abilities ~~~~~~ */
+    
+    div#Abilities {
+        margin: 2px;
+    }
+    
+    p#Ability {
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+    
+    span#AbilitiesTitle {
+        font-weight: bold;
+    }
+    
+    /* ~~~~~~ Sex assigned at birth ~~~~~~ */
+    
+    div#SexAssignedAtBirth {
+        margin: 2px;
+    }
+    
+    p#Sex {
+        margin-top: 8px;
+        margin-bottom: 1px;
+    }
+    
+    span#SexAssignedAtBirthTitle {
+        font-weight: bold;
+    }
+    
+    /* ~~~~~~ Gender ~~~~~~ */
+    
+    div#Gender {
+        margin: 2px;
+    }
+    
+    p#LeGender {
+        margin-top: 8px;
+        margin-bottom: 1px;
+    }
+    
+    span#GenderTitle {
+        font-weight: bold;
+    }
+    
+    /* ~~~~~~ Pronouns ~~~~~~ */
+    
+    div#Pronoun {
+        margin: 2px;
+    }
+    
+    p#Pronouns {
+        margin-top: 8px;
+        margin-bottom: 1px;
+    }
+    
+    span#PronounTitle {
+        font-weight: bold;
+    }
+    
+    p.pronoun-set {
+        font-weight: bold;
+    }
+    
+    span.subjective-pronoun {
+        color: hotpink;
+    }
+    
+    span.objective-pronoun {
+        color: hotpink;
+    }
+    
+    span.possessive-determiner-pronoun {
+        color: hotpink;
+    }
+    
+    span.possessive-pronoun {
+        color: hotpink;
+    }
+    
+    span.reflexive-pronoun {
+        color: hotpink;
+    }
+    
+    /* ~~~~~~ Sexuality ~~~~~~ */
+    
+    div#Sexuality {
+        margin: 2px;
+    }
+    
+    p#Sexualities {
+        margin-top: 8px;
+        margin-bottom: 1px;
+    }
+    
+    span#SexualityTitle {
+        font-weight: bold;
+    }
+    
+    span.sexuality {
+        color: hotpink;
+    }
+    
+    /* >>>>>> Contents <<<<<< */
+    
+    nav#Contents {
+        float: left;
+        font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+        font-size: 19px;
+        max-width: 300px;
+        margin: 16px;
+        padding: 4px;
+        border-style: inset;
+        border-color: #efefef;
+        border-width: 4px;
+    }
+    
+    summary#ContentsDropdown {
+        font-weight: bold;
+    }
+    
+    a.contents-item {
+        font-size: 1.1rem;
+    }
+    
+    /* >>>>>> Section title <<<<<< */
+    
+    h2.section-title {
+        text-align: left;
+        font-family: 'Tinos', 'Times New Roman', 'Noto Serif', serif;
+    }
+    
+    /* >>>>>> Section styles <<<<<< */
+    section#Lead {
+        contain: content;
+    }
+    
+    /* >>>>>> Justify paragraphs <<<<<< */
+    
+    p.cleanly-defined-edges {
+        text-align: justify;
+        text-justify: inter-word;
+    }
+    
+    /* >>>>>> Return to top <<<<<< */
+    a#ReturnToTop {
+        font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+        font-size: 1.1rem;
+    }
 }

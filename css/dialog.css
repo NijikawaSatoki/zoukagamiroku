@@ -4,8 +4,37 @@
     opacity: 0.75;
 }
 
-dialog {
-    background-color: #1f1f1f;
-    color: #e5e5e5;
-    max-width: 800px;
+
+/* ====== Responsive breakpoints ====== */
+
+/* ------ Screen width is less than 600px (So, most mobile devices) ------ */
+
+@media only screen and (max-width: 600px) {
+    dialog {
+        background-color: #1f1f1f;
+        color: #e5e5e5;
+        max-width: 300px;
+    }
+}
+
+/* ------ Screen width is greater than 600px, but less than 992px (Bloody iPads >.>) ------ */
+
+@media only screen and (min-width: 600.2px) {
+    @media only screen and (max-width: 991.8px) {
+        dialog {
+            background-color: #1f1f1f;
+            color: #e5e5e5;
+            max-width: 800px;
+        }
+    }
+}
+
+/* ------ Screen width is greater than 992px (So, most PC's) ------ */
+
+@media only screen and (min-width: 992px) {
+    dialog {
+        background-color: #1f1f1f;
+        color: #e5e5e5;
+        max-width: 800px;
+    }
 }
