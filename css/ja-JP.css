@@ -1,0 +1,61 @@
+/* ====== ヘッダー ====== */
+
+header {
+    font-family: 'ヒラギノ丸ゴ Pro W4', 'Hiragino Maru Gothic Pro', 'Noto Sans CJK JP', 'Kurinto Sans JP', 'ＭＳ ゴシック', 'MS Gothic', 'Noto Sans JP', sans-serif;
+}
+
+/* ====== 見出し ====== */
+
+h1 {
+    font-family: 'ヒラギノ丸ゴ Pro W4', 'Hiragino Maru Gothic Pro', 'Noto Sans CJK JP', 'Kurinto Sans JP', 'ＭＳ ゴシック', 'MS Gothic', 'Noto Sans JP', sans-serif;
+}
+
+h2 {
+    font-family: 'ヒラギノ丸ゴ Pro W4', 'Hiragino Maru Gothic Pro', 'Noto Sans CJK JP', 'Kurinto Sans JP', 'ＭＳ ゴシック', 'MS Gothic', 'Noto Sans JP', sans-serif;
+}
+
+h3 {
+    font-family: 'ヒラギノ丸ゴ Pro W4', 'Hiragino Maru Gothic Pro', 'Noto Sans CJK JP', 'Kurinto Sans JP', 'ＭＳ ゴシック', 'MS Gothic', 'Noto Sans JP', sans-serif;
+}
+
+h4 {
+    font-family: 'ヒラギノ丸ゴ Pro W4', 'Hiragino Maru Gothic Pro', 'Noto Sans CJK JP', 'Kurinto Sans JP', 'ＭＳ ゴシック', 'MS Gothic', 'Noto Sans JP', sans-serif;
+}
+
+h5 {
+    font-family: 'ヒラギノ丸ゴ Pro W4', 'Hiragino Maru Gothic Pro', 'Noto Sans CJK JP', 'Kurinto Sans JP', 'ＭＳ ゴシック', 'MS Gothic', 'Noto Sans JP', sans-serif;
+}
+
+h6 {
+    font-family: 'ヒラギノ丸ゴ Pro W4', 'Hiragino Maru Gothic Pro', 'Noto Sans CJK JP', 'Kurinto Sans JP', 'ＭＳ ゴシック', 'MS Gothic', 'Noto Sans JP', sans-serif;
+}
+
+/* ====== 段落 ====== */
+
+p {
+    font-family: 'ヒラギノ丸ゴ Pro W4', 'Hiragino Maru Gothic Pro', 'Noto Sans CJK JP', 'Kurinto Sans JP', 'ＭＳ ゴシック', 'MS Gothic', 'Noto Sans JP', sans-serif;
+}
+
+/* ====== リンク ====== */
+
+a {
+    font-family: 'ヒラギノ丸ゴ Pro W4', 'Hiragino Maru Gothic Pro', 'Noto Sans CJK JP', 'Kurinto Sans JP', 'ＭＳ ゴシック', 'MS Gothic', 'Noto Sans JP', sans-serif;
+}
+
+/* ====== ボタン ====== */
+
+button {
+    font-family: 'ヒラギノ丸ゴ Pro W4', 'Hiragino Maru Gothic Pro', 'Noto Sans CJK JP', 'Kurinto Sans JP', 'ＭＳ ゴシック', 'MS Gothic', 'Noto Sans JP', sans-serif;
+}
+
+/* ====== メインボディ ====== */
+
+main {
+    font-family: 'ヒラギノ丸ゴ Pro W4', 'Hiragino Maru Gothic Pro', 'Noto Sans CJK JP', 'Kurinto Sans JP', 'ＭＳ ゴシック', 'MS Gothic', 'Noto Sans JP', sans-serif;
+}
+
+/* ====== フッター ====== */
+
+footer {
+    font-family: 'ヒラギノ丸ゴ Pro W4', 'Hiragino Maru Gothic Pro', 'Noto Sans CJK JP', 'Kurinto Sans JP', 'ＭＳ ゴシック', 'MS Gothic', 'Noto Sans JP', sans-serif;
+}
