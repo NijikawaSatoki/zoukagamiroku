@@ -138,6 +138,21 @@
         font-weight: bold;
     }
     
+    /* ~~~~~~ Occupation ~~~~~~ */
+    
+    div#Occupation {
+	    margin: 2px;
+    }
+    
+    p#Job {
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+    
+    span#OccupationTitle {
+        font-weight: bold;
+    }
+    
     /* ~~~~~~ Sex assigned at birth ~~~~~~ */
     
     div#SexAssignedAtBirth {
