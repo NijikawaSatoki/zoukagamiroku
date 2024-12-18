@@ -192,15 +192,69 @@ Guillermo Tejero y Fusté y Pérez
 
 ### ★ Kableustein Town
 
+Viktor Bodenstein •
+Sieglinde Eibenschütz •
+Volkhardt Gollwitzer •
+Viktoria Güldenstädt •
+Leopold von Hergenröther •
+Oskar Kästner •
+Sarah Kirschweger •
+Iris Klostermann •
+Amalia Kürschmann •
+Ilse Kürschmann •
+Alfred Mengelberg •
+Serafina Wolfensohn Mergenthaler
+Kaspar Möhling •
+Teresa Neuhäußer •
+Lili Rosenberger •
+Sigmund Schönberger •
+Roswitha Simmel •
+Wilhelm Speiß •
+Ludwig von Weinberger •
+Kai Wöhler
+
 ### Steensingen City
 
 ### Zwingenroda Town
 
+Ellenor Boeckmann •
+Leonhard Höfle •
+Christof Hanfstaengl •
+Evelyn Haering •
+Luzia Kretschmer •
+Lucy Ochs •
+Piet Prochnow •
+Sina Rosenkranz •
+Eduard Schitt •
+Johan Teichmüller
+
 ### Großwerter Town
+
+Britta Bär •
+Felizitas Glück •
+Anne Hauffe •
+Georg Hönigmann •
+Jil Hopf •
+Finja Lüthi •
+Benedikt von Pöpel •
+Sven Schellsheidt •
+Levi von Schutz •
+Joachim Schweinitz
 
 ### Appingeschoten Town
 
 ### Niedernräschen Village
+
+Madlen Bäumler •
+Alois Blücher •
+Fisch Fuchs •
+Falko Görder •
+Wiebke Koehler-Koehne •
+Rike Nitzsch •
+Björn Preiss •
+Jörg Schwarzenberger •
+Timm Welser •
+Tia Wissmann
 
 ### Amstelrichem-Middelveen Town
 
