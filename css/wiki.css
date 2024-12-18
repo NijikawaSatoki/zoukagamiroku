@@ -271,6 +271,21 @@
         font-weight: bold;
     }
     
+    /* ~~~~~~ Height ~~~~~~ */
+    
+    div#Height {
+        margin: 2px;
+    }
+    
+    p#PersonsHeight {
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+    
+    span#HeightTitle {
+        font-weight: bold;
+    }
+    
     /* >>>>>> Contents <<<<<< */
     
     nav#Contents {
