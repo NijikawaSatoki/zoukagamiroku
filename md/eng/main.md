@@ -272,6 +272,28 @@ Tia Wissmann
 
 ### ★ Rabbit Village
 
+Ala •
+Ghaalibah al-Quadri •
+Dhaafir al-'Abed •
+Hikma al-Arshad •
+Shafeeqa al-Baluch •
+Mas'ooda ed-Darwish •
+Tamanna il-Ghaffari •
+Muaaid el-Hanif •
+Saabiqa al-Hussain •
+Shafaa'a el-Islam •
+Ilham Jabbarah •
+Rif'a al-Jamail •
+Qamra al-Khalaf •
+Abdus Salam al-Moghaddam •
+Abdur Ibrahim ir-Rasul •
+Ishaaq as-Saad •
+Fat'hiyaa es-Salahuddin •
+Taajuddeen as-Sarah •
+Ya'qoob as-Soltani •
+Wadee'ala at-Tabatabai •
+Shukriyya il-Uthman
+
 ### New Wind Town
 
 ### Tyadøi Town
