@@ -241,6 +241,21 @@
         color: hotpink;
     }
     
+    /* ~~~~~~ Age ~~~~~~ */
+    
+    div#Age {
+        margin: 2px;
+    }
+    
+    p#PersonsAge {
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+    
+    span#AgeTitle {
+        font-weight: bold;
+    }
+    
     /* >>>>>> Contents <<<<<< */
     
     nav#Contents {
