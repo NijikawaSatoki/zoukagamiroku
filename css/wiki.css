@@ -256,6 +256,21 @@
         font-weight: bold;
     }
     
+    /* ~~~~~~ Birthday ~~~~~~ */
+    
+    div#Birthday {
+        margin: 2px;
+    }
+    
+    p#DateofBirth {
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+    
+    span#BirthdayTitle {
+        font-weight: bold;
+    }
+    
     /* >>>>>> Contents <<<<<< */
     
     nav#Contents {
